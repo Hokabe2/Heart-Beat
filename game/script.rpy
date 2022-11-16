@@ -4,9 +4,13 @@
 # name of the character.
 
 
-define Ren = Character("Ren", what_slow_cps=20, what_slow_abortable=False)
+define Ren = Character("Ren")
+define Raul = Character("Raul")
+define Johnny = Character("Johnny")
+define Priscila = Character("Priscila")
+define Alexandra = Character("Alexandra")
+
 define Astolfo = Character("Astolfo")
-define Alexandra = Character("Alexandra", color="#D0D3D4")
 # The game starts here.
 
 label start:
@@ -14,9 +18,9 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    "{cps=40}{sc=4}BZZZZ!
+    "BZZZZ!
     BZZZZ!
-    BZZZZ!{/sc}{/cps}"
+    BZZZZ!"
 
     Ren "{cps=40}Quem será a essa hora?!{/cps}"
 
@@ -77,7 +81,102 @@ label Cena_Introducao_personagens:
             jump Cena_Introducao_Johnny
 
 label Cena_Introducao_Raul:
-    "TESTE"
+    Ren "Decidi ir para a biblioteca."
+
+    Ren "Havia três prateleiras com diversos gibis, livros infantis e infantojuvenis."
+
+    Ren "Fui vendo e folheando alguns dos catálogos. Eu costumava ler muitos gibis quando eu era criança. Sempre tinha um desses quando ia ao consultório médico fazer um daqueles exames que demoram uma hora para chegar a sua vez para uns 15 minutos de exame de verdade."
+
+    Ren "Acho que quem lê muito é uma pessoa culta."
+
+    Ren "Não que eu esteja me gabando… Ok, estou me gabando."
+
+    Ren "Foi aí que ouvi alguém do outro lado da biblioteca."
+
+    "(???)"  "Lembre de devolver antes de ir para casa."
+
+    "(Criança aleatória)"  "Tá bom, Raul."
+
+    Ren "Uma menina passou correndo por mim."
+
+    Raul "Olá… Está interessado em um gibi?"
+
+    Ren "Ele tem a mesma altura que eu, provavelmente era um dos jovens do centro, mas tinha cara de ser mais velho por causa da barba."
+
+    Raul  "Espera, você é o tal do Ren, o sobrinho do Astolfo? Sou o Raul, geralmente tô por aqui cuidando do vai e vem da biblioteca."
+
+    Ren  "Sim, sou eu mesmo. Como soube?"
+
+    Raul  "Matemática básica, cara! É só somar dois mais dois. Não tem muitos jovens da nossa idade por aqui, a maioria acaba saindo por causa de trabalho ou por estudos, e, além disso, o tio Astolfo nos avisou antecipadamente da sua chegada."
+
+    Ren  "Ah! Sério? Ele costuma falar bastante de mim para outras pessoas."
+
+    Ren "Digo isso um pouco envergonhado, porque às vezes ele costuma exagerar demais nas minhas poucas qualidades."
+
+    Ren  "O que ele disse?"
+
+    Raul  "Bem… Foram muitas… Deixe eu ver: que você está estudando jornalismo e vai ajudar no nosso projeto, que você quase se afogou numa piscina quando tinha uns 5 anos e que curte tudo quanto é tipo de música."
+
+    Ren  "Minha playlist é bem caótica, na verdade não tenho nenhum gosto específico. Às vezes tenho fases diferentes que eu fico obcecado com um gênero e depois mudo para outro."
+
+    Raul  "Queria ser mais bicho solto, tô precisando variar no meu repertório."
+
+    "Ele fala de maneira relaxada e descontraída, já senti que ia me dar bem com ele. Talvez devesse começar a minha pesquisa de campo por ele, ou só deixar a conversa fluir."
+
+    jump Escolha_1
+
+    #Escolha 1
+label Escolha_1:
+    menu:
+        "Você frequenta o centro comunitário há quanto tempo?":
+            jump Raul_positiva_1_a
+        "Eu acabei entrando no projeto por causa de um trabalho da faculdade":
+            jump Raul_positiva_1_b
+
+label Raul_positiva_1_a:
+    Raul  "Mais ou menos uns dez anos e pouco."
+
+    Raul  "Mas tem gente que tá aqui desde que se lembram como ser humano."
+
+    Ren  "Aqui deve ser um lugar bem especial para vocês."
+
+    Raul  "Alguns ficam no contraturno escolar porque não tem como almoçar em casa ou porque os pais estão no trabalho."
+
+    Raul  "Aqui pelo menos servem refeições e salas com tudo quanto é tipo de coisa."
+
+    Ren "Ele sorri como se estivesse orgulhoso de fazer parte daquele lugar. Faz sentido, e respeito muito, não tinha ideia de como aquele lugar era importante para as pessoas do bairro."
+
+label Raul_positiva_1_b:
+    Raul "Faz sentido. Vi numa reportagem que as faculdades pedem horas complementares de trabalho voluntário pros alunos de alguns cursos."
+
+    Ren "Não é nada disso, é um trabalho que pediram."
+
+    Raul  "É o seu TCC?"
+
+    Ren "Não, é só um trabalho semestral."
+
+    Raul "Então você deve tá fazendo com um grupo esse trabalho! Seus colegas também vão estar por aqui?"
+
+    Ren "…"
+
+    Raul "Não… é?"
+
+    Ren "Sou só eu."
+
+    Ren "Meu único amigo foi para outro grupo"
+
+    Raul "Oh…"
+
+    Ren "Ficou um silêncio constrangedor entre nós dois."
+
+    Raul "Tenso isso daí. Entendo que formar amizades pode ser complicado, mas aqui você vai conhecer uma galera muito foda. "
+
+    label Escolha_1_continuacao: 
+
+    Raul "Temos um grupo no Whatsapp dos Jovens do Centro, por enquanto não pensamos num nome melhor para o grupo, se quiser já adiciono agora o seu contato."
+
+    Ren "Passei o meu contato para ele e sorrimos juntos, definitivamente gostei da vibe desse cara."
+
 
 label Cena_Introducao_Priscila:
 
