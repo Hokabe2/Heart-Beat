@@ -6,6 +6,7 @@
 
 define Ren = Character("Ren", what_slow_cps=20, what_slow_abortable=False)
 define Astolfo = Character("Astolfo")
+define Alexandra = Character("Alexandra", color="#D0D3D4")
 # The game starts here.
 
 label start:
@@ -13,9 +14,9 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    "{cps=40}BZZZZ!
+    "{cps=40}{sc=4}BZZZZ!
     BZZZZ!
-    BZZZZ!{/cps}"
+    BZZZZ!{/sc}{/cps}"
 
     Ren "{cps=40}Quem será a essa hora?!{/cps}"
 
