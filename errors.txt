@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 131: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-            "Você frequenta o centro comunitário há quanto tempo?”:
+File "game/script.rpy", line 24: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    yalign 1.0
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Nov 16 08:59:27 2022
+Thu Nov 17 09:37:59 2022

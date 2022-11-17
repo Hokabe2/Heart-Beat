@@ -5,9 +5,9 @@
 
 define Ren = Character("Ren")
 define Raul = Character("Raul")
-define Johnny = Character("Johnny")
-define Priscila = Character("Priscila")
-define Alexandra = Character("Alexandra")
+define Joh = Character("Johnny")
+define Pris = Character("Priscila")
+define Ale = Character("Alexandra")
 
 define Astolfo = Character("Astolfo")
 # The game starts here.
@@ -17,9 +17,16 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    "BZZZZ!
-    BZZZZ!
-    BZZZZ!"
+    python:
+        ShowText("","{sc=4}BZZZZ! BZZZZ! BZZZZ!{/sc}")
+
+    show alexandra happy at center:
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.8
+        linear 0.15 yalign 1.0
+
 
     Ren "Quem será a essa hora?!"
 
@@ -185,6 +192,7 @@ label Raul_positiva_1_b:
 label Cena_Introducao_Priscila:
 
 label Cena_Introducao_Alexandra:
+
 
 label Cena_Introducao_Johnny:
 
