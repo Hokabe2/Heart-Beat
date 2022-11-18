@@ -17,18 +17,14 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
+    play sound "audio/phone_vibration.mp3"
+
     python:
         ShowText("","{sc=4}BZZZZ! BZZZZ! BZZZZ!{/sc}")
 
-    show alexandra happy at center:
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.8
-        linear 0.15 yalign 1.0
-
-
     Ren "Quem será a essa hora?!"
+
+    stop sound fadeout 3.0
 
     "Vejo na tela do meu celular um email."
     "Assunto: Centro Comunitário prestes a ser fechado! Urgente"
