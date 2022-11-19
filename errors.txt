@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 27: expected end of line
-    stop sound "audio/phone_vibration.mp3"
-               ^
+File "game/scripts/Introducao.rpy", line 37: expected statement.
+    ??? "TIIIIIIIIIIOOOOOOOOOOOOOOO AAASSSSSSSSSSSSSSSSTOOOOOOOOOLLLLLLLLFFFFFFFFOOOOOOOOOO A CAMIIIIIIIINHOOOOOOOOOOOOOOOOOOO"
+    ^
+
+File "game/scripts/Introducao.rpy", line 40: expected statement.
+    Tio Astolfo chega correndo e saltando em direção a Ren, ao pousar, ele mostra um jóinha
+                                                          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Nov 18 10:37:09 2022
+Fri Nov 18 17:59:11 2022
