@@ -13,7 +13,7 @@ While running game code:
     who(what, interact=interact, *args, **kwargs)
   File "game/scripts/kinetic_text_tags.rpy", line 229, in render
     child_render = renpy.render(self.child, width, height, st, at)
-Exception: Could not find font 'LibreFranklin Black.ttf'.
+Exception: Could not find font 'fonts/LibreFranklin-Black.ttf'.
 
 -- Full Traceback ------------------------------------------------------------
 
@@ -96,9 +96,9 @@ Full traceback:
     face = load_face(fn)
   File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\text\font.py", line 658, in load_face
     raise Exception("Could not find font {0!r}.".format(orig_fn))
-Exception: Could not find font 'LibreFranklin Black.ttf'.
+Exception: Could not find font 'fonts/LibreFranklin-Black.ttf'.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Heart Beat 1.0
-Fri Nov 18 21:14:18 2022
+Sat Nov 19 11:39:51 2022
