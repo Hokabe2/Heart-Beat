@@ -134,7 +134,7 @@ label Cena_Introducao_Raul_Escolha_1_continuacao:
 
         Raul "Temos um grupo no Whatsapp dos Jovens do Centro, por enquanto não pensamos num nome melhor para o grupo, se quiser já adiciono agora o seu contato."
 
-        Ren "Passei o meu contato para ele e sorrimos juntos, definitivamente gostei da vibe desse cara."
+        "Passei o meu contato para ele e sorrimos juntos, definitivamente gostei da vibe desse cara."
 
         jump Cena_Introducao_personagens
 label Raul_positiva_1_a:
@@ -181,10 +181,207 @@ label Raul_neutra_1_b:
         return
 
 label Cena_Introducao_Priscila:
-    return
+    "Resolvi dar uma olhada na cozinha primeiro."
+
+    "Ia ser uma péssima primeira impressão se me pegarem assaltando a geladeira no meu primeiro dia de trabalho de campo."
+
+    "E claro que eu não ia fazer isso."
+
+    "Mas quando eu entro…"
+
+    "Vejo que a porta da geladeira estava aberta e o alarme de temperatura da geladeira estava tocando, indicando que ela estava assim já faz um bom tempo."
+
+    "Não sei quem esqueceria a porta da geladeira de um centro comunitário aberta, deve ser muita falta de responsabilidade."
+
+    "Deixei meus pensamentos de lado e me aproximei para fechar o eletroeletrônico. Entrando…"
+
+    "Quando olho para baixo, encontro uma garota agachada comendo um cookie."
+
+    "???" "…"
+
+    Ren "…"
+
+    "???" "…"
+
+    "Continuamos nos encarando em silêncio por alguns segundos devido ao choque da situação."
+
+    "???" "*Chomp *Chomp… P-peua! Eu não extou cumendo nada da feladeila, voxê tá enfanado!"
+
+    "Eu não entendi quase nada que a garota me falou, mas ela parecia bastante desesperada com o momento, como se ela estivesse fazendo algo de muito errado."
+
+    "???" "C-calma, tá tudo bem, eu sou novo aqui no centro comunitário, estou apenas passando para conhecer haha."
+
+    "A menina se levantava em um salto enquanto terminava de comer o cookie, dessa vez parecia um pouco mais aliviada."
+
+    "???" "Enfão voxê não feio aqui pra me denunpiar pro tio Asfolfo? *Chomp *Chomp, Desculpa-"
+
+    "Ela terminou rapidamente de comer seu biscoito, deixando diversos farelos caírem no chão, e logo depois chupou seus dedos que estavam sujos com chocolate."
+
+    Pris "Hum, Hum… Me chamo Priscilla, muito prazer! Espero que possamos termos uma boa amizade e nos divertirmos muito juntos!"
+
+    "A menina estendeu amigavelmente a mão para me cumprimentar, enquanto apresentava um grande sorriso radiante. Senti como se ela emanasse luz com essa tamanha alegria. Estendi minha mão igualmente."
+
+    Ren "O prazer é meu, me chamo Ren, sou o sobrinho do tio Astolfo e espero a mesma coisa."
+
+    Pris "Ahhh, então você é o sobrinho! Ele tinha comentado com a gente! Hi hi hi! Então, então, o que te trouxe ao centro comunitário?"
+
+    Ren "Eu preciso fazer uma atividade da minha faculdade de jornalismo, então acabei recebendo uma proposta de pesquisar sobre o centro comunitário."
+
+    Pris "Hmmm… Faculdade? Pesquisa?... Soa bem chato… Você poderia aproveitar que está aqui para conhecer novas pessoas e relaxar, tem gente bem legal aqui! Tem o Raul, o tio Astolfo, o Johnny e… Bom, na verdade são só eles, mas são bem legais haha!"
+
+    jump Cena_Introducao_Priscila_Escolha_1
+label Cena_Introducao_Priscila_Escolha_1:
+    menu:
+        "Eu discordo, jornalismo às vezes pode ser cansativo, mas é algo que eu amo fazer, pretendo focar bastante na pesquisa":
+            call Priscila_neutra_1_a
+        "É verdade, talvez eu devesse relaxar um pouco mais de vez em quando. Socializar também é importante":
+            call Priscila_positiva_1_b
+label Priscila_neutra_1_a:
+    #[Escolha 1 Neutra - Priscila: "Eu discordo, jornalismo às vezes pode ser cansativo, mas é algo que eu amo fazer, pretendo focar bastante na pesquisa"]
+
+    Pris "Hããã… Que chato… Acho que você não vai entrar na lista de pessoas legais… -_-"
+
+    Ren "Ei!"
+
+    Pris "Hahaha, brincadeira! Só o fato de você não ter me denunciado pro tio Astolfo já te torna uma pessoa legal, ninguém me deixa comer a vontade aqui hahaha!"
+
+    Ren "Mas eles não estão certos por fazer isso?"
+
+    Pris "Depende do ponto de vista! Aqui é um centro COMUNITÁRIO, o que significa que ele é aberto à comunidade, como eu faço parte dela então eu tecnicamente tenho o direito de comer essa comida! Além disso, nem todos os alimentos aqui são comidos, o que quer dizer que eu estou evitando desperdício!"
+
+    Ren "…"
+
+    "Comecei a olhar para ela com um olhar de julgamento."
+
+    Pris "…"
+
+    Ren "…"
+
+    Pris "N-não me olha com essa cara! T-tá bom, eu admito, é errado! Eu sei que é! Mas é difícil controlar a minha fome quando eu preciso aguardar até o almoço para comer apenas algumas das comidas tão gostosas que ficam dentro dessa geladeira!"
+
+    "Bom, pelo menos ela tem algum nível de autocrítica"
+
+    Pris "Vou ir pra sala de jogos daqui do centro comunitário, se você mudar de ideia e quiser relaxar um pouco você pode ir até lá. Só não me olhe com esse olhar de desprezo."
+
+    "Quando a Priscila se virou para ir embora, notei mais dois cookies que segurava em suas mãos, mas decidi não falar nada."
+
+    "Parece que ela não aprendeu nada com essa situação"
+    jump Cena_Introducao_personagens
+label Priscila_positiva_1_b:
+
+    #[Escolha 2 Positiva - Priscila: "É verdade, talvez eu devesse relaxar um pouco mais de vez em quando. Socializar também é importante"]
+
+    Pris "Hi hi hi, não é? Trabalhar é chato e cansativo, a gente deveria ir na sala de jogos do centro comunitário pra relaxar, tem algumas coisas bem legais lá! E a maioria delas fui eu mesma que trouxe! hahaha! Acho que vamos nos dar bem!
+    A gente pode até levar algumas comidas daqui da geladeira para comer enquanto joga! Super recomendo esses cookies e chocolates que tem guardado no fundo, são sempre muito bons!"
+
+    Ren "Haha, eu agradeço o convite, mas eu ainda preciso conhecer o resto do centro comunitário e depois voltar para falar com meu tio."
+
+    Pris "Humm, faz sentido. Bom, qualquer hora que você quiser relaxar um pouco você pode falar comigo! Eu sou a melhor daqui na arte de não fazer nada, ninguém nunca nem ousou me superar nisso!"
+
+    "Isso deveria ser algo para se ter orgulho!?"
+
+    Ren "Certo haha. Bom, então já vou indo, até mais!"
+
+    Pris "Até mais! Tcha-tchau!"
+
+    "Após andar um pouco, olhei para trás e notei a geladeira aberta novamente… Mas dessa vez eu sabia o porquê."
+
+    jump Cena_Introducao_personagens
 
 label Cena_Introducao_Alexandra:
-    return
+
+    "No piano da sala de música, há uma garota tocando de forma super concentrada. Ela aparenta ser muito elegante. Com cabelo cinza comprido que é ondulado nas pontas."
+
+    "Tem uma franja reta e uma trança acima da franja parecendo que há uma coroa em sua cabeça."
+
+    "Também usa um óculos redondo dourado, uma camisa de gola branca com um laço preto e uma saia longa preta."
+
+    "Resolvi ir olhar a sala de música. Embora eu não entenda nada sobre música, eu estava ouvindo uma bela melodia vindo do corredor."
+
+    "Ao abrir a porta, vi uma figura de uma bela menina sentada no piano. Extremamente concentrada na melodia que estava tocando."
+
+    "A delicadeza da música parecia que realçava sua beleza."
+
+    "O protagonista a observa encantado até que ela se vira para trás."
+
+    "Até que ela para. E se vira para trás."
+
+    "Deve ter notado minha presença ali."
+
+    "A menina, ao notar o protagonista, se levanta e vai em sua direção. Sua aura deixa o protagonista ansioso perto dela."
+
+    "A menina se levanta e me encara. Será que eu deixei ela brava?! Sua aura é extremamente forte. Quase como se fosse chefe de uma família extremamente rica… "
+
+    "O Protagonista fica nervoso nessa situação."
+
+    Ren "A-Ah! Me desculpa, e-eu devo ter te atrapalhado. Pode continuar se quiser!"
+
+    Ale "Está tudo bem. Eu estava apenas matando tempo aqui."
+
+    Ale "Seu rosto é novo por aqui. Qual é o seu nome?"
+
+    "Apesar da sua aura fria, ela dá um pequeno sorriso."
+
+    Ren "Eu sou Ren! Prazer."
+
+    Ale "Prazer. Eu sou, Alexandra. De vez em quando venho aqui no centro para tocar música para as pessoas."
+
+    Ren "Você é muito boa nisso. Que música era essa que você estava tocando?"
+
+    "Eu tento criar algum tipo de conversação para quebrar o gelo. Mas a presença dela é tão forte que me deixa nervoso de qualquer forma."
+
+    Ale "Chopin Nocturne op.9 No.2"
+
+    "É… Eu realmente não entendo nada sobre música. Mas com o jeito que ela me encara, eu sinto que tenho que dizer alguma coisa. Nem que tenha que mentir-"
+
+    jump Cena_Introducao_Alexandra_Escolha_1
+label Cena_Introducao_Alexandra_Escolha_1:
+    menu:
+        "E-Eu conheço!! Já escutei em algum lugar ao menos…":
+            call Alexandra_neutra_1_a
+        "Eu não conheço, mas era muito bonita a música!":
+            call Alexandra_positiva_1_b
+label Alexandra_neutra_1_a:
+    #Escolha 1[Neutro] - Ren
+    #"E-Eu conheço!! Já escutei em algum lugar ao menos…"
+
+    Ale "Ter escutado não é muita surpresa. É bem conhecida. Mas e outras do Chopin? Como Revolutionary Étude ou Waltz?"
+
+    "…"
+
+    "É. Com isso eu quebro a cara. Dificilmente vou conhecer essas. "
+
+    "Fui idiota- eu devia ter falado a verdade."
+
+    Ren "Eu preciso de verdade me informar mais sobre música clássica ahahaha-"
+
+    Ale "Bem, eu não espero que as pessoas conheçam as músicas."
+
+    Ale "Mas pode vir aqui para me ouvir tocar novamente. E quem sabe assim você não aprende um pouco mais?"
+
+    "Me sinto completamente dominado aqui. Como se estivesse numa jaula com um leão que pudesse me devorar a qualquer momento–"
+
+    Ren "Eu com c-certeza visitarei de novo! Foi um prazer, Alexandra!"
+
+    "Com um pequeno sorriso de volta, me retiro da sala de música."
+
+    jump Cena_Introducao_personagens
+label Alexandra_positiva_1_b:
+    #Escolha 2[Positiva] - Ren
+    #"Eu não conheço, mas era muito bonita a música!"
+
+    Ale "É. Eu não espero que as pessoas conheçam mesmo."
+
+    "Não adianta. É extremamente difícil quebrar a partir desse gelo dela. É como se estivéssemos em planos de existência completamente diferentes."
+
+    Ale "Mas sinta-se livre para vir me ver tocar quando eu estiver aqui. É para isso que venho aqui mesmo."
+
+    "Ela deu um pequeno sorriso… Talvez eu tenha conseguido derreter um pouco desse gelo no fim. "
+
+    Ren "Com certeza irei visitar mais vezes! Foi um prazer, Alexandra!"
+
+    "Com um pequeno sorriso de volta, me retiro da sala de música."
+    jump Cena_Introducao_personagens
 
 label Cena_Introducao_Johnny:
 
@@ -227,14 +424,54 @@ label Cena_Introducao_Johnny:
     Ren  "Prazer em te conhecer Johnny. Pode me responder algumas perguntas sobre o centro?"
 
     Joh  "Dependendo das perguntas… Prefiro manter certos detalhes pessoais fora da conversa…"
+    jump Cena_Introducao_Johnny_Escolha_1
 
+label Cena_Introducao_Johnny_Escolha_1:
     menu:
         "Que tipo de atividades você costuma fazer aqui no centro comunitário?":
             call Johnny_positiva_1_a
         "Por que você ainda vem ao centro?":
             call Johnny_negativa_1_b
-label Cena_Introducao_Johnny_Escolha_1:
 label Johnny_positiva_1_a:   #[Escolha A (Positiva- Joh) "Que tipo de atividades você costuma fazer aqui no centro comunitário?"
-label Johnny_negativa_1_b:    #[Escolha B (Negativa- Joh) "Porquê você ainda vem ao centro?" 
+    Joh "Eu dou aulas de violão e guitarra aqui no centro durante as tardes. É uma boa maneira de praticar e ajudar algumas das pessoas da comunidade"
+
+    Joh "Além, de vez em quando, ajudar com algumas coisas de manutenção do centro quando eu tenho algum tempo livre nos finais de semana"
+
+    "A sua expressão passa de intimidadora para algo mais alegre"
+
+    Ren  "E você faz isso há quanto tempo?"
+
+    Joh "Eu comecei com as aulas há mais ou menos uns 2 anos, mas eu frequento o centro já faz uns…"
+
+    "Voz no fundo"  "Johnny! Pode dar uma mão aqui? Não to conseguindo fazer o acorde de fá menor"
+
+    Joh  "Tô indo aí! Tenho que ir, mais tarde a gente continua"
+
+    "Ele parece uma pessoa legal"
+
+    jump Cena_Introducao_personagens
+
+label Johnny_negativa_1_b:    #[Escolha B (Negativa- Joh) "Porquê você ainda vem ao centro?"
+    "A expressão dele fica mais séria"
+
+    Joh  "Que tipo de pergunta é essa?!… Eu venho aqui porque eu quero"
+
+    Ren "Tá mas a quanto tempo você vem aqui?"
+
+    Joh "Sei lá, há algum tempo eu acho"
+
+    Ren "Mas, quanto tempo? Eu preciso de números"
+
+    Joh "Muito tempo, ok? Achei que você não ia fazer perguntas pessoais"
+
+    Ren  "Desculpa, achei que essa pergunta não era muito…"
+
+    "Voz no fundo" "Johnny! Pode dar uma mão aqui? Não to conseguindo fazer…"
+
+    Joh "Tenho que ir, boa sorte com a sua matéria"
+
+    "Talvez… eu tenha começado com o pé errado…"
+
+    jump Cena_Introducao_personagens
 
 return
