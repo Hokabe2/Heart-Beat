@@ -6,10 +6,9 @@ init python:
 ### EFFECTS PREFABS ###
 
 ## Effect when the character enter the scene ##
-    #show alexandra happy at center:
+    #show alexandra happy at center with dissolve:
     #    yalign 1.0
     #    zoom 0.5
-    #    with dissolve
 
 ## Animate character when start talking ##
     #show alexandra happy at left:
@@ -23,10 +22,10 @@ init python:
 
 ## Animate character when stop talking ##
     #show potato sad at right:
-    #    matrixcolor TintMatrix("#777")
+    #    matrixcolor TintMatrix("#fff")
     #    yalign 1.0
     #    zoom 0.5
-    #    linear 0.1 matrixcolor TintMatrix("#fff")
+    #    linear 0.1 matrixcolor TintMatrix("#777")
 
 ## Music and Sound Effects ##
     #   play sound "audio/effect.ogg"

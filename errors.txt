@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Introducao.rpy", line 281: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "Isso deveria ser algo para se ter orgulho!?" Pensei comigo mesmo"
+File "game/scripts/Introducao.rpy", line 340: expected 'comma or end of line' not found.
+    with dissolve
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Nov 19 21:59:50 2022
+Sun Nov 20 15:53:02 2022
