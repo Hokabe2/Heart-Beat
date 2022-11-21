@@ -1,4 +1,5 @@
 label Dia2_Raul_Priscila:
+    scene bg exterior
 
     "Eu caminho pelo pátio quando, a distância, noto um cobertor enrolado no chão. Parece apenas um cobertor, mas logo vejo um leve movimento, o qual revela um cabelo castanho escuro e um óculos. Desta maneira, já consigo reconhecer quem está lá, e, por algum motivo, não me surpreendo com o resultado: é ninguém mais ninguém menos que a ladra de cookies, Priscila."
 
@@ -156,7 +157,10 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Raul "Vamos para a biblioteca."
 
+
     #INT- BIBLIOTECA - DIA
+    scene bg recep
+    with fade
 
     Ren "Já tô ligando aqui o computador."
 
@@ -276,6 +280,8 @@ label Escolha_2_continuacao:
 
     #Ren *Gira a maçaneta*
     #*A porta se abre*
+    scene bg sala de musica
+    with fade
 
     Ren "Olha, estava destrancada."
 

@@ -2,13 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia2JohnnyAlexandra.rpy", line 476: end of line expected.
-    hide johnny irritado2 at left with dissolve:
-                                               ^
+File "game/scripts/Dia2RaulPriscila.rpy", line 195: expected statement.
+    funk = False
+         ^
 
-File "game/scripts/Dia2JohnnyAlexandra.rpy", line 482: end of line expected.
-    hide alexandra sigh at right:
-                                ^
+File "game/scripts/Dia2RaulPriscila.rpy", line 205: expected statement.
+    rock = False
+         ^
+
+File "game/scripts/Dia2RaulPriscila.rpy", line 215: expected statement.
+    pop = False
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Nov 20 18:56:33 2022
+Mon Nov 21 10:10:17 2022
