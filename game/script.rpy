@@ -16,7 +16,13 @@ default talkToPriscila1 = False
 default talkToRaul1 = False
 default talkToAlexandra1 = False
 default talkToJohnny1 = False
-# The game starts here.
+
+
+#Day 2
+#Cena Raul e Priscila
+default funk = False
+default rock = False
+default pop = False
 
 label start:
     # Show a background. This uses a placeholder by default, but you can
