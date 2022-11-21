@@ -2,17 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia2RaulPriscila.rpy", line 195: expected statement.
-    funk = False
-         ^
+The label Priscila_positiva_1_b is defined twice, at File "game/scripts/Dia3AlexandraPriscila.rpy", line 83:
+label Priscila_positiva_1_b:
+and File "game/scripts/Introducao.rpy", line 321:
+label Priscila_positiva_1_b:
 
-File "game/scripts/Dia2RaulPriscila.rpy", line 205: expected statement.
-    rock = False
-         ^
-
-File "game/scripts/Dia2RaulPriscila.rpy", line 215: expected statement.
-    pop = False
-        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Nov 21 10:10:17 2022
+Mon Nov 21 18:50:05 2022
