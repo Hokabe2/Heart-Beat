@@ -22,11 +22,12 @@ label Introducao:
         "Estranho. O e-mail não foi assinado e não dá pra saber quem mandou pelo apelido… Minha primeira fonte anônima! Isso vai ser interessante, ou um desastre. Mas é melhor do que o carro que fala. Vou comprar a passagem pra amanhã."
 
         jump Cena_Introducao_email
-
+        with fade
         # Introdução
 label Cena_Introducao_email:
 
         scene bg cafe
+        with fade
 
         "Onde está o tio Astolfo? Ele me mandou mensagem a menos de cinco minutos atrás falando pra me encontrar aqui…"
 
@@ -62,28 +63,66 @@ label Cena_Introducao_email:
         #Eles vão para o centro comunitário
 
         jump Cena_Introducao_personagens
+        with fade
 
 label Cena_Introducao_personagens:
 
         scene bg exterior
+        with fade
+
+        if (talkToRaul1 == True) and (talkToPriscila1 == True) and (talkToAlexandra1 == True) and (talkToJohnny1 == True):
+            Ren "Estou exausto, já conheci todo o centro comunitário. Acho que vou para casa."
+            jump Cena_Quarto_dia1
+            with fade
+        else:
+            Ren "Preciso decidir para onde eu vou."
 
         #Menu de decisões para conhecer os personagens
         menu:
             "Biblioteca":
-                jump Cena_Introducao_Raul
+                if talkToRaul1 == False:
+                    jump Cena_Introducao_Raul
+                    with fade
+                else:
+                    Ren "Eu já fui na biblioteca."
+                    jump Cena_Introducao_personagens
+                    with fade
             "Copa":
-                jump Cena_Introducao_Priscila
+                if talkToPriscila1 == False:
+                    jump Cena_Introducao_Priscila
+                    with fade
+                else:
+                    Ren "Eu já fui na copa."
+                    jump Cena_Introducao_personagens
+                    with fade
             "Sala de música":
-                jump Cena_Introducao_Alexandra
+                if talkToAlexandra1 == False:
+                    jump Cena_Introducao_Alexandra
+                    with fade
+                else:
+                    Ren "Eu já fui na sala de música."
+                    jump Cena_Introducao_personagens
+                    with fade
             "Pátio":
-                jump Cena_Introducao_Johnny
+                if talkToJohnny1 == False:
+                    jump Cena_Introducao_Johnny
+                    with fade
+                else:
+                    Ren "Eu já fui no pátio."
+                    jump Cena_Introducao_personagens
+                    with fade
 
 label Cena_Introducao_Raul:
+        scene bg recep
+        with fade
+
         Ren "Decidi ir para a biblioteca."
 
         Ren "Havia três prateleiras com diversos gibis, livros infantis e infantojuvenis."
 
-        Ren "Fui vendo e folheando alguns dos catálogos. Eu costumava ler muitos gibis quando eu era criança. Sempre tinha um desses quando ia ao consultório médico fazer um daqueles exames que demoram uma hora para chegar a sua vez para uns 15 minutos de exame de verdade."
+        Ren "Fui vendo e folheando alguns dos catálogos."
+
+        Ren "Eu costumava ler muitos gibis quando eu era criança. Sempre tinha um desses quando ia ao consultório médico fazer um daqueles exames que demoram uma hora para chegar a sua vez para uns 15 minutos de exame de verdade."
 
         Ren "Acho que quem lê muito é uma pessoa culta."
 
@@ -136,7 +175,10 @@ label Cena_Introducao_Raul_Escolha_1_continuacao:
 
         "Passei o meu contato para ele e sorrimos juntos, definitivamente gostei da vibe desse cara."
 
+        $ talkToRaul1 = True
+
         jump Cena_Introducao_personagens
+        with fade
 label Raul_positiva_1_a:
         Raul  "Mais ou menos uns dez anos e pouco."
 
@@ -181,6 +223,9 @@ label Raul_neutra_1_b:
         return
 
 label Cena_Introducao_Priscila:
+    scene bg copa
+    with fade
+
     "Resolvi dar uma olhada na cozinha primeiro."
 
     "Ia ser uma péssima primeira impressão se me pegarem assaltando a geladeira no meu primeiro dia de trabalho de campo."
@@ -247,7 +292,9 @@ label Priscila_neutra_1_a:
 
     Ren "Mas eles não estão certos por fazer isso?"
 
-    Pris "Depende do ponto de vista! Aqui é um centro COMUNITÁRIO, o que significa que ele é aberto à comunidade, como eu faço parte dela então eu tecnicamente tenho o direito de comer essa comida! Além disso, nem todos os alimentos aqui são comidos, o que quer dizer que eu estou evitando desperdício!"
+    Pris "Depende do ponto de vista! Aqui é um centro COMUNITÁRIO, o que significa que ele é aberto à comunidade, como eu faço parte dela então eu tecnicamente tenho o direito de comer essa comida!"
+
+    Pris "Além disso, nem todos os alimentos aqui são comidos, o que quer dizer que eu estou evitando desperdício!"
 
     Ren "…"
 
@@ -261,18 +308,23 @@ label Priscila_neutra_1_a:
 
     "Bom, pelo menos ela tem algum nível de autocrítica"
 
-    Pris "Vou ir pra sala de jogos daqui do centro comunitário, se você mudar de ideia e quiser relaxar um pouco você pode ir até lá. Só não me olhe com esse olhar de desprezo."
+    Pris "Vou ir pra sala de jogos daqui do centro comunitário, se você mudar de ideia e quiser relaxar um pouco você pode me chamar. Só não me olhe com esse olhar de desprezo."
 
     "Quando a Priscila se virou para ir embora, notei mais dois cookies que segurava em suas mãos, mas decidi não falar nada."
 
-    "Parece que ela não aprendeu nada com essa situação"
+    "Parece que ela não aprendeu nada com essa situação..."
+
+    $ talkToPriscila1 = True
+
     jump Cena_Introducao_personagens
+    with fade
 label Priscila_positiva_1_b:
 
     #[Escolha 2 Positiva - Priscila: "É verdade, talvez eu devesse relaxar um pouco mais de vez em quando. Socializar também é importante"]
 
-    Pris "Hi hi hi, não é? Trabalhar é chato e cansativo, a gente deveria ir na sala de jogos do centro comunitário pra relaxar, tem algumas coisas bem legais lá! E a maioria delas fui eu mesma que trouxe! hahaha! Acho que vamos nos dar bem!
-    A gente pode até levar algumas comidas daqui da geladeira para comer enquanto joga! Super recomendo esses cookies e chocolates que tem guardado no fundo, são sempre muito bons!"
+    Pris "Hi hi hi, não é? Trabalhar é chato e cansativo, a gente deveria ir comer no Capputinho pra relaxar, tem comidas muito boas lá!"
+
+    Pris "Ou a gente pode levar algumas comidas daqui da geladeira para comer enquanto anda! Super recomendo esses cookies e chocolates que tem guardado no fundo, são sempre muito bons! Hahaha!"
 
     Ren "Haha, eu agradeço o convite, mas eu ainda preciso conhecer o resto do centro comunitário e depois voltar para falar com meu tio."
 
@@ -286,11 +338,22 @@ label Priscila_positiva_1_b:
 
     "Após andar um pouco, olhei para trás e notei a geladeira aberta novamente… Mas dessa vez eu sabia o porquê."
 
+    $ talkToPriscila1 = True
+
     jump Cena_Introducao_personagens
+    with fade
 
 label Cena_Introducao_Alexandra:
 
+    scene bg sala de musica
+    with fade
+
     "No piano da sala de música, há uma garota tocando de forma super concentrada. Ela aparenta ser muito elegante. Com cabelo cinza comprido que é ondulado nas pontas."
+
+    show alexandra neutral 2 at center with dissolve:
+        yalign 1.0
+        zoom 0.5
+        matrixcolor TintMatrix("#777")
 
     "Tem uma franja reta e uma trança acima da franja parecendo que há uma coroa em sua cabeça."
 
@@ -302,35 +365,79 @@ label Cena_Introducao_Alexandra:
 
     "A delicadeza da música parecia que realçava sua beleza."
 
-    "O protagonista a observa encantado até que ela se vira para trás."
-
-    "Até que ela para. E se vira para trás."
+    "De repente ela para. E se vira para trás."
 
     "Deve ter notado minha presença ali."
 
-    "A menina, ao notar o protagonista, se levanta e vai em sua direção. Sua aura deixa o protagonista ansioso perto dela."
-
     "A menina se levanta e me encara. Será que eu deixei ela brava?! Sua aura é extremamente forte. Quase como se fosse chefe de uma família extremamente rica… "
-
-    "O Protagonista fica nervoso nessa situação."
 
     Ren "A-Ah! Me desculpa, e-eu devo ter te atrapalhado. Pode continuar se quiser!"
 
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Está tudo bem. Eu estava apenas matando tempo aqui."
 
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+
     Ale "Seu rosto é novo por aqui. Qual é o seu nome?"
+
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "Apesar da sua aura fria, ela dá um pequeno sorriso."
 
     Ren "Eu sou Ren! Prazer."
 
-    Ale "Prazer. Eu sou, Alexandra. De vez em quando venho aqui no centro para tocar música para as pessoas."
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Ale "Prazer. Eu sou Alexandra. De vez em quando venho aqui no centro para tocar música para as pessoas."
+
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Você é muito boa nisso. Que música era essa que você estava tocando?"
 
     "Eu tento criar algum tipo de conversação para quebrar o gelo. Mas a presença dela é tão forte que me deixa nervoso de qualquer forma."
 
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Chopin Nocturne op.9 No.2"
+
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "É… Eu realmente não entendo nada sobre música. Mas com o jeito que ela me encara, eu sinto que tenho que dizer alguma coisa. Nem que tenha que mentir-"
 
@@ -345,6 +452,15 @@ label Alexandra_neutra_1_a:
     #Escolha 1[Neutro] - Ren
     #"E-Eu conheço!! Já escutei em algum lugar ao menos…"
 
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Ter escutado não é muita surpresa. É bem conhecida. Mas e outras do Chopin? Como Revolutionary Étude ou Waltz?"
 
     "…"
@@ -353,7 +469,22 @@ label Alexandra_neutra_1_a:
 
     "Fui idiota- eu devia ter falado a verdade."
 
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Eu preciso de verdade me informar mais sobre música clássica ahahaha-"
+
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "Bem, eu não espero que as pessoas conheçam as músicas."
 
@@ -361,14 +492,32 @@ label Alexandra_neutra_1_a:
 
     "Me sinto completamente dominado aqui. Como se estivesse numa jaula com um leão que pudesse me devorar a qualquer momento–"
 
+    show alexandra neutral at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Eu com c-certeza visitarei de novo! Foi um prazer, Alexandra!"
 
     "Com um pequeno sorriso de volta, me retiro da sala de música."
 
+    $ talkToAlexandra1 = True
+
     jump Cena_Introducao_personagens
+    with fade
 label Alexandra_positiva_1_b:
     #Escolha 2[Positiva] - Ren
     #"Eu não conheço, mas era muito bonita a música!"
+
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "É. Eu não espero que as pessoas conheçam mesmo."
 
@@ -376,54 +525,164 @@ label Alexandra_positiva_1_b:
 
     Ale "Mas sinta-se livre para vir me ver tocar quando eu estiver aqui. É para isso que venho aqui mesmo."
 
+    show alexandra happy at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     "Ela deu um pequeno sorriso… Talvez eu tenha conseguido derreter um pouco desse gelo no fim. "
 
     Ren "Com certeza irei visitar mais vezes! Foi um prazer, Alexandra!"
 
     "Com um pequeno sorriso de volta, me retiro da sala de música."
+
+    $ talkToAlexandra1 = True
+
     jump Cena_Introducao_personagens
+    with fade
 
 label Cena_Introducao_Johnny:
 
+    scene bg patio
+    with fade
+
     "Em um dos bancos no pátio do centro comunitário se encontra um jovem ouvindo música"
+
+    show johnny neutro1 at center with dissolve:
+        yalign 1.0
+        zoom 0.5
+        matrixcolor TintMatrix("#777")
 
     "Ele emana uma aura bem intimidadora, enquanto observava o seu entorno. Ele usa um colete jeans rasgado, uma camiseta preta com uma estampa vermelha, suas calças são rasgadas e ele usa coturnos bem altos."
 
-    "Seu cabelo é uma mistura de um moicano com um mullet, ele possui um cavanhaque apenas no queixo, semelhante a um bode. Seu rosto quadrado possui um nariz meio torto, uma cicatriz que cruza sua sobrancelha direita, um brinco em sua orelha esquerda e um olhar frio e distante. "
+    "Seu cabelo é uma mistura de um moicano com um mullet, ele possui um cavanhaque apenas no queixo, semelhante a um bode."
+
+    "Seu rosto quadrado possui um nariz meio torto, uma cicatriz que cruza sua sobrancelha direita, um brinco em sua orelha esquerda e um olhar frio e distante."
 
     "Quem é esse cara? Por quê ele tá me encarando? Ele parece ser durão, tem maior cara de encrenqueiro. A gente tá em uma disputa pra quem pisca primeiro?"
 
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     "???"  "Ow!... Quem é você?..."
 
-    Ren "OI? Ah! Meu… Meu nome é Ren"
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
-    "Droga, já to começando a me enrolar"
+    Ren "OI? Ah! Meu… Meu nome é Ren."
 
-    "???" "E o que você tá fazendo aqui?."
+    "Droga, já to começando a me enrolar."
 
-    Ren  "Vim pra cá escrever uma matéria sobre o centro comunitário"
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
-    "O jovem no banco resmunga algo para si mesmo e anda até Ren. Ele para bem diante de mim com um olhar de escárnio"
+    "???" "E o que você tá fazendo aqui?"
+
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    Ren  "Vim pra cá escrever uma matéria sobre o centro comunitário."
+
+    "O jovem no banco resmunga algo para si mesmo e anda até Ren. Ele para bem diante de mim com um olhar de escárnio."
+
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     "???"  "Que tipo de matéria?"
 
-    Ren  "E..e..e eu sou es… estudan… estudante de jornalismo e… e… precisava de…de uma matéria intere..re..re..ssante pro trabalho fi…fi..final de uma das mi...mi…minhas matérias"
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
-    "A ansiedade bateu forte"
+    Ren  "E..e..e eu sou es… estudan… estudante de jornalismo e… e… precisava de…de uma matéria intere..re..re..ssante pro trabalho fi…fi..final de uma das mi...mi…minhas matérias..."
+
+    "A ansiedade bateu forte."
+
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     "???"  "Jornalismo?"
 
-    "???" "Então você é o sobrinho do Seu Astolfo? Vi você com ele na entrada"
+    "???" "Então você é o sobrinho do Seu Astolfo? Vi você com ele na entrada."
+
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "…*suspiro* Sim sou eu…"
 
     "Esse cara ainda é intimidador."
 
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     "???"  "Meu nome é Johnny."
+
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren  "Prazer em te conhecer Johnny. Pode me responder algumas perguntas sobre o centro?"
 
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Joh  "Dependendo das perguntas… Prefiro manter certos detalhes pessoais fora da conversa…"
+
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
     jump Cena_Introducao_Johnny_Escolha_1
 
 label Cena_Introducao_Johnny_Escolha_1:
@@ -433,45 +692,193 @@ label Cena_Introducao_Johnny_Escolha_1:
         "Por que você ainda vem ao centro?":
             call Johnny_negativa_1_b
 label Johnny_positiva_1_a:   #[Escolha A (Positiva- Joh) "Que tipo de atividades você costuma fazer aqui no centro comunitário?"
-    Joh "Eu dou aulas de violão e guitarra aqui no centro durante as tardes. É uma boa maneira de praticar e ajudar algumas das pessoas da comunidade"
 
-    Joh "Além, de vez em quando, ajudar com algumas coisas de manutenção do centro quando eu tenho algum tempo livre nos finais de semana"
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
-    "A sua expressão passa de intimidadora para algo mais alegre"
+    Joh "Eu dou aulas de violão e guitarra aqui no centro durante as tardes. É uma boa maneira de praticar e ajudar algumas das pessoas da comunidade."
+
+    Joh "Além, de vez em quando, ajudar com algumas coisas de manutenção do centro quando eu tenho algum tempo livre nos finais de semana."
+
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    "A sua expressão passa de intimidadora para algo mais alegre."
 
     Ren  "E você faz isso há quanto tempo?"
 
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Joh "Eu comecei com as aulas há mais ou menos uns 2 anos, mas eu frequento o centro já faz uns…"
 
-    "Voz no fundo"  "Johnny! Pode dar uma mão aqui? Não to conseguindo fazer o acorde de fá menor"
+    show johnny sorrindo1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
-    Joh  "Tô indo aí! Tenho que ir, mais tarde a gente continua"
+    "Voz no fundo"  "Johnny! Pode dar uma mão aqui? Não to conseguindo fazer o acorde de fá menor."
 
-    "Ele parece uma pessoa legal"
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Joh  "Tô indo aí! Tenho que ir, mais tarde a gente continua."
+
+    Ren "Ok!"
+
+    hide johnny neutro1 at center with dissolve
+
+    "Ele parece uma pessoa legal."
+
+    $ talkToJohnny1 = True
 
     jump Cena_Introducao_personagens
+    with fade
 
 label Johnny_negativa_1_b:    #[Escolha B (Negativa- Joh) "Porquê você ainda vem ao centro?"
-    "A expressão dele fica mais séria"
+    "A expressão dele fica mais séria."
 
-    Joh  "Que tipo de pergunta é essa?!… Eu venho aqui porque eu quero"
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
-    Ren "Tá mas a quanto tempo você vem aqui?"
+    Joh  "Que tipo de pergunta é essa?!… Eu venho aqui porque eu quero."
 
-    Joh "Sei lá, há algum tempo eu acho"
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
-    Ren "Mas, quanto tempo? Eu preciso de números"
+    Ren "Tá, mas há quanto tempo você vem aqui?"
 
-    Joh "Muito tempo, ok? Achei que você não ia fazer perguntas pessoais"
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Joh "Sei lá, há algum tempo eu acho."
+
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    Ren "Mas, quanto tempo? Eu preciso de números."
+
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Joh "Muito tempo, ok? Achei que você não ia fazer perguntas pessoais."
+
+    show johnny irritado2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren  "Desculpa, achei que essa pergunta não era muito…"
 
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     "Voz no fundo" "Johnny! Pode dar uma mão aqui? Não to conseguindo fazer…"
 
-    Joh "Tenho que ir, boa sorte com a sua matéria"
+    show johnny neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Joh "Tenho que ir, boa sorte com a sua matéria."
+
+    hide johnny neutro1 at center with dissolve
 
     "Talvez… eu tenha começado com o pé errado…"
 
-    jump Cena_Introducao_personagens
+    $ talkToJohnny1 = True
 
+    jump Cena_Introducao_personagens
+    with fade
+
+label Cena_Quarto_dia1:
+
+    scene bg quarto
+    with fade
+
+    "Foi um dia bem agitado mas muito divertido. Apesar de ter acabado de conhecer, senti uma grande conexão com o ambiente do centro comunitário."
+
+    "Vai dar muito ao que eu escrever sobre para minha matéria!"
+
+    "Conheci muitas pessoas diferentes e únicas… Mas a que mais está em minha cabeça no momento é..."
+
+    menu:
+        "Johnny":
+            "O Johnny me pareceu um cara bem intimidador, fechado… mas parece que tem um bom coração… lá no fundo… bem no fundo na verdade."
+
+            "Talvez amanhã eu converse mais com ele."
+        "Priscila":
+            "A Priscila parece ser alguém bem preguiçosa, mas é bastante amigável com os outros. Por conta disso, em pouquíssimo tempo já me senti confortável perto dela."
+
+            "Porém eu sinto que ela pode acabar não sendo a melhor pessoa para ajudar em qualquer tipo de atividade que exija esforço e isso pode atrapalhar para socializar com algumas pessoas que valorizam mais trabalho duro."
+
+            "Humm… Me pergunto o porquê dela ser tão preguiçosa…"
+        "Raul":
+            "Raul é muito gente boa, temos muitos gostos em comum."
+
+            "Ele é definitivamente uma pessoa que eu chamaria para um rolê. A vibe que ele passa é de alguém aberto para os outros e sempre pronto para puxar conversa."
+        "Alexandra":
+            "Alexandra é uma garota linda. Acho que aquela imagem dela meticulosamente tocando piano na sala vai para sempre ficar na minha cabeça…"
+
+            "Mas eu não consegui atravessar a atitude fria dela como consegui com os outros. Talvez eu tenha feito uma primeira impressão ruim."
+
+            "Pensando bem… A Priscila não mencionou o nome dela quando falou sobre os outros frequentadores do centro. Será que elas não se conhecem?"
+
+            "Mas acho que é impossível. Considerando como todo mundo ali parece que frequenta há bastante tempo."
+
+            "Espero amanhã conseguir conversar melhor com ela. Algo sobre ela me intriga e não sai da minha cabeça…"
 return

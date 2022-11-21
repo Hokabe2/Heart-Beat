@@ -10,6 +10,12 @@ define Pris = Character("Priscila")
 define Ale = Character("Alexandra")
 
 define Tio_Astolfo = Character("Astolfo")
+
+#Day 1 - Check if the player met the characters
+default talkToPriscila1 = False
+default talkToRaul1 = False
+default talkToAlexandra1 = False
+default talkToJohnny1 = False
 # The game starts here.
 
 label start:
