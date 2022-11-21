@@ -9,7 +9,7 @@ define Joh = Character("Johnny")
 define Pris = Character("Priscila")
 define Ale = Character("Alexandra")
 
-define Tio_Astolfo = Character("Astolfo")
+define Tio_Astolfo = Character("Tio Astolfo")
 
 #Day 1 - Check if the player met the characters
 default talkToPriscila1 = False
