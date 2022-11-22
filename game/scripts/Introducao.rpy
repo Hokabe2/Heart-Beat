@@ -180,6 +180,8 @@ label Cena_Introducao_Raul_Escolha_1_continuacao:
         jump Cena_Introducao_personagens
         with fade
 label Raul_positiva_1_a:
+        $ pointsRaul+= 1
+
         Raul  "Mais ou menos uns dez anos e pouco."
 
         Raul  "Mas tem gente que tá aqui desde que se lembram como ser humano."
@@ -321,6 +323,8 @@ label Priscila_neutra_1_a:
 label Priscila_positiva_1_b:
 
     #[Escolha 2 Positiva - Priscila: "É verdade, talvez eu devesse relaxar um pouco mais de vez em quando. Socializar também é importante"]
+
+    $ pointsPriscila+=1
 
     Pris "Hi hi hi, não é? Trabalhar é chato e cansativo, a gente deveria ir comer no Capputinho pra relaxar, tem comidas muito boas lá!"
 
@@ -510,6 +514,8 @@ label Alexandra_positiva_1_b:
     #Escolha 2[Positiva] - Ren
     #"Eu não conheço, mas era muito bonita a música!"
 
+    $ pointsAlexandra+=1
+
     show alexandra happy at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -692,6 +698,8 @@ label Cena_Introducao_Johnny_Escolha_1:
         "Por que você ainda vem ao centro?":
             call Johnny_negativa_1_b
 label Johnny_positiva_1_a:   #[Escolha A (Positiva- Joh) "Que tipo de atividades você costuma fazer aqui no centro comunitário?"
+
+    $ pointsJohnny+=1
 
     show johnny sorrindo1 at center:
         matrixcolor TintMatrix("#777")

@@ -7,6 +7,7 @@ init python:
 
 ## Effect when the character enter the scene ##
     #show alexandra happy at center with dissolve:
+    #    matrixcolor TintMatrix("#777")
     #    yalign 1.0
     #    zoom 0.5
 
