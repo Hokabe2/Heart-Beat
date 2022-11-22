@@ -164,6 +164,8 @@ label JohnnyAlexandra:
 
 label Resposta_Johnny:
 
+    $pointsJohnny += 1
+
     show johnny rindo1 at left:
         matrixcolor TintMatrix("#777")
         xalign 0.1
@@ -249,6 +251,8 @@ label Resposta_Johnny:
     "Fico feliz deles terem achado um meio termo, e acho que isso pode trazer um pouco de empolgação para o festival."
 
 label Resposta_Alexandra:
+
+    $ pointsAlexandra += 1
 
     show alexandra happy 2 at right:
         matrixcolor TintMatrix("#777")
