@@ -1,26 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 31, in script call
-    call Johnny_Dia5
-  File "game/scripts/Dia5Johnny.rpy", line 175, in script
-    Johnny "Brigado vó! A senhora é demais! Vou separar a sua vitrola lá."
-Exception: Sayer 'Johnny' is not defined.
+  File "game/script.rpy", line 34, in script call
+    call FinalJohnny
+  File "game/scripts/FinalJohnny.rpy", line 9, in script
+    "No dia seguinte da apresentação, meu tio Astolfo veio me dar a notícia que as pessoas voltaram a se interessar pelo centro e especialmente em aulas de música com o "O moço assustador que toca guitarra muito bem", imagino que o Johnny ficou feliz até mesmo com essa última parte."
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 31, in script call
-    call Johnny_Dia5
-  File "game/scripts/Dia5Johnny.rpy", line 175, in script
-    Johnny "Brigado vó! A senhora é demais! Vou separar a sua vitrola lá."
-  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'Johnny' is not defined.
+  File "game/script.rpy", line 34, in script call
+    call FinalJohnny
+  File "game/scripts/FinalJohnny.rpy", line 9, in script
+    "No dia seguinte da apresentação, meu tio Astolfo veio me dar a notícia que as pessoas voltaram a se interessar pelo centro e especialmente em aulas de música com o "O moço assustador que toca guitarra muito bem", imagino que o Johnny ficou feliz até mesmo com essa última parte."
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 956, in resolve_say_attributes
+    raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
+Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Heart Beat 1.0
-Tue Nov 22 10:59:50 2022
+Wed Nov 23 17:05:43 2022

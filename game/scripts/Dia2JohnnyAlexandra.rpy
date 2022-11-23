@@ -485,3 +485,5 @@ label Resposta_NeutraJohnnyAlexandra:
     "Os dois saíram sem falar nada..."
 
     " Talvez eu devesse ter dito outra coisa..."
+
+    return

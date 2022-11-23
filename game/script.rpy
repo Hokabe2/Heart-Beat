@@ -24,9 +24,11 @@ default talkToAlexandra1 = False
 default talkToJohnny1 = False
 # The game starts here.
 
+#Day 3 - Check if the player met the characters
+default talkToPriscila3 = False
+
 label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    call Johnny_Dia5
-    call Introducao
+    call Dia3_AlexandraPriscila

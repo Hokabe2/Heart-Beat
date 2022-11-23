@@ -12,6 +12,15 @@ label Dia3_AlexandraPriscila:
     Se a Priscila já não devorou todos. "
 
     #[Ren entra na copa]
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
 
     Ale "Priscila."
 
@@ -19,9 +28,24 @@ label Dia3_AlexandraPriscila:
 
     Pris "*Cospe o suco que estava tomando*"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "E-eu? Por que você acha que eu faria isso? "
 
     Pris "Hmpf! Bem feito, se você foi roubada, você deveria ter pensado duas vezes antes de colocar comida em uma geladeira pública, não achei que a mais inteligente do centro comunitário não fosse pensar nisso."
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "A minha pessoa jamais recolheria comidas fora do horário! E expecto os demais de apresentarem mínima decência igualmente, entretanto aparenta-se como impossível para indivíduos patifes como você."
 
@@ -29,13 +53,37 @@ label Dia3_AlexandraPriscila:
 
     Ale "O centro está prestes a fechar e você, depois de ontem ter feito todo aquele drama, podia manifestar um bocado a mais de consideração com o restante dos trabalhadores do centro comunitário. Você não compreende?"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+
     Pris "Consideração? Pelo menos eu trato de forma amigável as outras pessoas do centro, não sou uma princesinha de gelo igual você! Desculpa se você é perfeita demais para as outras pessoas."
 
     "Eu já percebia que as duas não se davam bem, mas parece que é pior do que eu imaginava."
 
-    Ale  "Seja livre para me designar de princesa, burguesa, mimada, seja o que for! Eu sequer me interesso se esse centro vai fechar, porém eu estou considerando as pessoas que se importam. Todo mundo está levando isso a sério, menos a garota de baixíssimo nível que se manifesta à minha frente. "
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Ale  "Seja livre para me designar de princesa, burguesa, mimada, seja o que for!"
+
+    Ale "Eu sequer me interesso se esse centro vai fechar, porém eu estou considerando as pessoas que se importam. Todo mundo está levando isso a sério, menos a garota de baixíssimo nível que se manifesta à minha frente. "
 
     "As palavras de Alexandra são cortantes. Priscila está com uma cara de quem parece que vai chorar… Além de que essa conversa está ficando fora do assunto- "
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "Grrr… É-é muito fácil 'levar a sério' e ser produtivo quando você é boa em tudo e todos te mimam e endeusam por conta disso."
 
@@ -61,17 +109,55 @@ label Dia3_Alexandra_positiva_1_a:
 
     Ren "Além de que você não sabe quais eram as intenções da Alexandra com essas trufas. E se ela quisesse distribuir pros outros? "
 
-    "Alexandra olha um pouco pro lado, com vergonha."
+    #Alexandra olha um pouco pro lado, com vergonha.
+    show alexandra sad at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "T-tá bom, fui eu que comi, desculpa, eu não sabia que era de alguém.
-    Mas desde quando ela se importa em distribuir as coisas pros outros? Ela mesma disse que não se importa se o centro comunitário fechar. Provavelmente foram doces feitos por algum mordomo dela e exclusivamente para ela."
+    Mas desde quando ela se importa em distribuir as coisas pros outros? Ela mesma disse que não se importa se o centro comunitário fechar."
+
+    Pris "Provavelmente foram doces feitos por algum mordomo dela e exclusivamente para ela."
+
+    show disgust at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "T-Talvez eu quisesse fazer algo generoso para as pessoas do centro já que está prestes a fechar! Mas agora você nunca vai saber, pois todas as trufas já se foram.
     Hmpf… Estou mais ofendida com você assumindo que tenho a mesma gula que você."
 
-    Pris "Hi hi hi, eu estou vendo a princesa de gelo, sempre fria com todos, envergonhada? Fu fu fu, não precisa mentir, é claro que alguém de sua classe social come muito, você tem comida de sobra. E você queria ‘fazer algo generoso’? Então quer dizer que a situação do centro comunitário está fazendo seu gelo está derreter? Hi hi hi."
+    show alexandra disgust at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    Pris "Hi hi hi, eu estou vendo a princesa de gelo, sempre fria com todos, envergonhada? Fu fu fu, não precisa mentir, é claro que alguém de sua classe social come muito, você tem comida de sobra."
+    Pris "E você queria ‘fazer algo generoso’? Então quer dizer que a situação do centro comunitário está fazendo seu gelo está derreter? Hi hi hi."
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "O-Ora sua…! "
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "As palavras de Priscila são ditas com veneno nelas. Consigo ver, Alexandra saindo do sério quase- estou com medo disso dar algo muito errado. "
 
@@ -85,6 +171,12 @@ label Dia3_Priscila_positiva_1_b:
     #[Alexandra…Você pegou pesado, melhor se desculpar à Priscila.]
 
     Pris "Hi hi hi, então você entende do que eu estou falando!"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ale "…" #[Expressão brava/desacreditada]
 
@@ -110,6 +202,15 @@ label Dia3_AlexandraPriscila_neutra_1_c:
 
     Pris "Desde quando você está ouvindo tudo isso?"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Hmpf, patético…"
 
     "Eu falei algo de tão errado assim!?"
@@ -117,6 +218,12 @@ label Dia3_AlexandraPriscila_neutra_1_c:
     Ren "Eu só acho que vocês tem que parar de brigar!"
 
     Ale "Se ela não mudar a atitude dela, não vai ajudar em nada para o festival! "
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "Olha quem fala!"
 
@@ -138,17 +245,47 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Pris "Um grupo de dançarinos coreanos lindos, charmosos, musculosos e sem camisa dançando 'Manteiga', o último lançamento do BLZ… KYAAAAAAA, O JÃO COOKIE TÁ TÃO LINDO NESSA MÚSICA!!! MWAHAHAHAHAHAHAHAHAHAHA!!"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Essa música certamente vai agradar as pessoas mais jovens. Contudo, da mesma forma teremos bastantes pessoas de idades mais avançadas no festival.
     Diante disso, imagino que uma melodia como Chopin seja intensamente apropriada-"
 
     "E novamente, lá vamos nós, mesma discussão do outro dia sobre gêneros musicais.
     Eu preciso achar alguma coisa que faça elas se entenderem melhor!"
 
+    show alexandra disgust at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Olha, vamos ter vários tipos de pessoas lá! Talvez vocês possam aprender um pouco mais sobre o que a outra gosta, assim poderão se entender melhor. Vamos à sala de música, uma vai apresentar sua ideia à outra."
 
     Pris "Ahhh… Tá bom… Chato…"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "*Suspira*, Após tamanho escândalo dessa garota, ainda terei que debater sobre gostos musicais com ela, que momento deveras menosprezável…"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "Juntar essas duas vai ser bem difícil, mas eu preciso tentar, pelo bem do festival e do centro comunitário…"
 
@@ -159,7 +296,19 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Certo, chegamos, quem quer começar?"
 
+    show alexandra happy at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Eu devo começar. Apresentarei uma melodia que vocês nunca se esquecerão."
+
+    #hide alexandra
+    hide alexandra
 
     Pris "Ela nem me deu tempo pra falar!"
 
@@ -177,23 +326,37 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     #Algum efeito visual
 
-    "Uma linda melodia adentra nossos ouvidos. Nos arrepiamos com tamanha perfeição em cada uma das notas passadas. As batidas de nossos corações seguem o belo ritmo da música, acalmando nossas almas. Os movimentos dos dedos de Alexandra tocando as teclas do piano eram tão delicados quanto pequenas gotas de uma leve garoa matinal tocando as pequenas poças espalhadas pela cidade."
+    "Uma linda melodia adentra nossos ouvidos. Nos arrepiamos com tamanha perfeição em cada uma das notas passadas. As batidas de nossos corações seguem o belo ritmo da música, acalmando nossas almas. "
+    "Os movimentos dos dedos de Alexandra tocando as teclas do piano eram tão delicados quanto pequenas gotas de uma leve garoa matinal tocando as pequenas poças espalhadas pela cidade."
     "Não consigo ver qual a reação da Priscila, pois não consigo tirar os olhos do piano e da pianista que estavam ali presentes."
 
-    "Na verdade, eu nem preciso olhar para a Priscila. Eu posso sentir daqui que ela está se impressionando tanto quanto eu… Não, ela está se impressionando até mais do que eu. Alexandra está apresentando a concentração que Priscila não possui e talvez nunca possua, e a Priscila sabe disso."
+    "Na verdade, eu nem preciso olhar para a Priscila. Eu posso sentir daqui que ela está se impressionando tanto quanto eu…"
+    "Não, ela está se impressionando até mais do que eu. Alexandra está apresentando a concentração que Priscila não possui e talvez nunca possua, e a Priscila sabe disso."
 
     #Fecha o efeito visual
 
-
     "Alexandra terminou de tocar a melodia de uma forma bastante dramática, simplesmente impecável."
 
-    Ren "Olho para o lado e a Priscila já está mexendo na caixa de som, provavelmente colocando sua música."
+    "Olho para o lado e a Priscila já está mexendo na caixa de som, provavelmente colocando sua música."
 
     #Pris *Se move para o centro da sala*
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Vamos ver se o tempo que ela usa para procrastinar serve pra alguma coisa."
 
-    "Os punhos de Priscila se fecham com muita força, parece até que eles sangrariam se ela continuasse apertando. Eu nunca havia visto ela desse jeito, alguém que simplesmente não para de falar em nenhum momento está completamente quieta, deixando um clima de mistério na sala. Nós não temos ideia do que pode sair dessa apresentação: uma surpreendente performance ou um envergonhante fracasso."
+    #hide alexandra
+    hide alexandra
+
+    "Os punhos de Priscila se fecham com muita força, parece até que eles sangrariam se ela continuasse apertando. Eu nunca havia visto ela desse jeito, alguém que simplesmente não para de falar em nenhum momento está completamente quieta, "
+    "deixando um clima de mistério na sala. Nós não temos ideia do que pode sair dessa apresentação: uma surpreendente performance ou um envergonhante fracasso."
 
 
     "Além disso… Eu posso estar enganado por conta da distância, mas… Aquilo são lágrimas nos olhos da Priscila?"
@@ -207,20 +370,38 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     "*Música retorna*"
 
 
-    "Uma animação 3D da Priscila com rosto de Jojo dançando a dança do Fortnite ao som de Megalovania se inicia. Eu não faço ideia do que está acontecendo com a minha vida. Hmmm… Então talvez os boatos sobre o tio Astolfo ser traficante de drogas fossem reais…
-    Olho para o lado e vejo a Alexandra deitada no chão chorando em posição fetal. Calma… Então não é uma ilusão!?"
+    #"Uma animação 3D da Priscila com rosto de Jojo dançando a dança do Fortnite ao som de Megalovania se inicia. Eu não faço ideia do que está acontecendo com a minha vida. Hmmm… Então talvez os boatos sobre o tio Astolfo ser traficante de drogas fossem reais…
+    #Olho para o lado e vejo a Alexandra deitada no chão chorando em posição fetal. Calma… Então não é uma ilusão!?"
 
 
-    "Instantaneamente o som da música se torna altamente agitado e os movimentos de Priscila seguem a mesma onda. Seus movimentos são eletrizantes, fazendo com que a enorme animação da música fosse contagiada por mim e pela Alexandra, é como se cada passo dado por ela emanasse as ondas sonoras junto das batidas da música. Os passos de Priscila são rápidos e difíceis de acompanhar, principalmente para pessoas que não estão ligadas ao mundo da dança."
+    "Instantaneamente o som da música se torna altamente agitado e os movimentos de Priscila seguem a mesma onda. Seus movimentos são eletrizantes, fazendo com que a enorme animação da música fosse contagiada por mim e pela Alexandra,"
+    "é como se cada passo dado por ela emanasse as ondas sonoras junto das batidas da música. Os passos de Priscila são rápidos e difíceis de acompanhar, principalmente para pessoas que não estão ligadas ao mundo da dança."
 
 
-    "Para nos surpreender ainda mais, Priscila começa a cantar em coreano enquanto dança! A música é um hip hop bastante frenético, as sentenças pronunciadas velozmente atingem nossos ouvidos como um raio, embaralhando nossos sentidos. Talvez nem se entendêssemos coreano nós conseguiríamos entender o que Priscila estava falando."
+    "Para nos surpreender ainda mais, Priscila começa a cantar em coreano enquanto dança! A música é um hip hop bastante frenético, as sentenças pronunciadas velozmente atingem nossos ouvidos como um raio, embaralhando nossos sentidos."
+    "Talvez nem se entendêssemos coreano nós conseguiríamos entender o que Priscila estava falando."
 
     "Priscila se vira para Alexandra, olhando-a diretamente nos olhos. Mesmo que não entendamos nada do que está sendo falado na letra da canção, é perceptível que cada uma das palavras faladas são voltadas para atacar de alguma forma Alexandra."
 
-    "Parece que a Priscila escolheu essa música propositalmente para confrontar sua rival. O olhar direto da Kpopper aliado à complexa dança e as rimas sem interrupção chegam a incomodar a garota rica. Dessa vez quem estava apertando os próprios punhos era a Alexandra."
+    "Parece que a Priscila escolheu essa música propositalmente para confrontar sua rival. O olhar direto da Kpopper aliado à complexa dança e as rimas sem interrupção chegam a incomodar a garota rica."
+    "Dessa vez quem estava apertando os próprios punhos era a Alexandra."
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "Como ela… Sem nem mesmo se esforçar… Ela apenas dorme e come… Então como…?"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "Ela tem uma boa pergunta… Como Priscila teria tamanha habilidade em dançar e cantar se ela está o tempo todo dormindo fechada na sala de jogos ou tentando roubar comida da geladeira da copa?"
 
@@ -231,22 +412,76 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ale "…"
 
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "S-sua…"
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "Grrr…"
 
     "Ah não… De novo não…"
 
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "De que maneira você é capaz de ter tamanho talento e não usar esse talento para o festival!?"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "Queeeee!? E nem chego perto das suas habilidades, menina prodígio! Como você pode chamar o que eu tenho de talento!? Você está em um nível completamente além do meu!"
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "COMO OUSA!? AINDA TENHO MUITO O QUE APRENDER!
     SEUS MOVIMENTOS…! A VELOCIDADE DE APLICAÇÃO DAS RIMAS EM UMA LÍNGUA COMPLETAMENTE DISTINTA DA NOSSA… É ALGO QUE EU JAMAIS PODERIA REALIZAR!"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "HÃÃÃ!? GRRRR! AS MINHAS HABILIDADES NÃO CHEGAM NEM PERTO DAS SUAS!!! A FORMA COMO VOCÊ TOCA O PIANO E ATÉ A FORMA COMO VOCÊ ANDA E SE SENTA SÃO PERFEITAS! É TUDO MUITO DRAMÁTICO! EU TE INVEJO, PRINCESA DE GELO!"
 
     Pris "GRRRR!!!"
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "HUUUMMMMM…!!!"
 
@@ -254,15 +489,51 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     "Se elogiando?"
 
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Ah… Pessoal…"
 
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     "Alexandra e Priscila" "O QUE!?"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Vocês perceberam que vocês estão se elogiando ao invés de se ofender?"
 
     Pris "Hã?"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Hm?"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "As duas começaram a se encarar por alguns segundos."
 
@@ -280,36 +551,110 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Pris "Piff…"
 
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Ale "Hm, hm…"
+
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "HAHAHAHAHAHAHAHAHA!!"
 
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
     Ale "Hahahaha!"
+
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Pris "HAHAHAHAHAHAHAHAHAHAHAHAHA!!! AHHHHH, EU NÃO CONSIGO PARAR DE RIR! EU VOU CHORAR!! HAHAHAHAHAH!!"
 
-    Ale "Pare! Está me contagiando!! Hahahahaha!!!"
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
+    Ale "Pare! Está me contagiando!! Hahahahaha!!!"
 
     "Eu queria rir também, mas eu acho que eu estava tão tenso pela dúvida em relação a esse desfecho que eu só consigo suspirar de alívio…"
 
     Ale "Como você sente inveja de mim? Você tem um enorme talento que eu não possuo nem de longe."
 
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "É claro que eu sinto! Eu sempre quis ser igual a você! Você é perfeita! Você é boa em tudo o que faz, além de também ser super popular! Talvez… As pessoas não me pressionariam tanto se eu fosse como você…"
 
     Pris "E provavelmente você é a única que consegue realmente namorar o Jão Cookie!"
+
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "É evidente que não! Você tem qualidades que eu certamente não tenho e isso é deveras admirável."
 
     Ale "Eu… Também queria ser um pouco como você, alguém amigável com o próximo. Mas eu, apesar de ser perfeita como você se refere à minha pessoa, não tenho ideia de como fazer isso."
 
+
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "Hi hi hi! Relaxa! Eu te ajudo com isso!"
+
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "Me sinto lisonjeada. E eu estarei disposta a te ajudar a se tornar melhor em suas outras habilidades. Talvez até para conquistar o tal do Jão Cookie."
 
     "Parece que a situação finalmente se acalmou… Fico muito feliz que as duas finalmente tenham se dado bem. Agora deu uma sensação de missão cumprida."
 
     "Inclusive, tenho que tirar uma dúvida"
+
+    show alexandra happy 2 at left with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Priscila, desde quando você é fluente em coreano?"
 
@@ -321,7 +666,19 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Por que eu não estou surpreso…? Haha…"
 
-    return
     #Ale *Ri delicadamente*
+    show alexandra neutral 2 at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    #efeito fade in e fade out
+    with fade
+
+    return
 
     #[FIM DA CENA]

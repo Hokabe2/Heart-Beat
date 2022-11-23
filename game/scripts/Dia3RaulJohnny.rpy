@@ -5,6 +5,15 @@ label Dia3_RaulJohnny:
     scene bg sala de musica
     with fade
 
+    show johnny  at left:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Joh "Ok… Raul, me passa a chave de fenda?"
 
     Raul "Aqui! Agora passa aquele cabo ali por trás e conecta na entrada C"
