@@ -1,6 +1,7 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< Updated upstream
   File "game/script.rpy", line 34, in script call
     call FinalJohnny
   File "game/scripts/FinalJohnny.rpy", line 9, in script
@@ -8,10 +9,18 @@ While running game code:
   File "renpy/common/00library.rpy", line 303, in say
     who(what, interact=interact, *args, **kwargs)
 Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
+=======
+  File "game/script.rpy", line 31, in script call
+    call Dia4_PriscilaJohnny
+  File "game/scripts/Dia4PriscilaJohnny.rpy", line 251, in script
+    Ren e Priscila  "OI!?"
+Exception: Say has image attributes ('e', 'Priscila'), but there's no image tag associated with the speaking character.
+>>>>>>> Stashed changes
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< Updated upstream
   File "game/script.rpy", line 34, in script call
     call FinalJohnny
   File "game/scripts/FinalJohnny.rpy", line 9, in script
@@ -22,15 +31,33 @@ Full traceback:
     renpy.store.say(who, what, *args, **kwargs)
   File "renpy/common/00library.rpy", line 303, in say
     who(what, interact=interact, *args, **kwargs)
+=======
+  File "game/script.rpy", line 31, in script call
+    call Dia4_PriscilaJohnny
+  File "game/scripts/Dia4PriscilaJohnny.rpy", line 251, in script
+    Ren e Priscila  "OI!?"
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+>>>>>>> Stashed changes
   File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
     old_attr_state = self.handle_say_attributes(False, interact)
   File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
     if self.resolve_say_attributes(predicting, attrs):
   File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 956, in resolve_say_attributes
     raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
+<<<<<<< Updated upstream
 Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
+=======
+Exception: Say has image attributes ('e', 'Priscila'), but there's no image tag associated with the speaking character.
+>>>>>>> Stashed changes
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Heart Beat 1.0
+<<<<<<< Updated upstream
 Wed Nov 23 17:05:43 2022
+=======
+Tue Nov 22 11:26:15 2022
+>>>>>>> Stashed changes
