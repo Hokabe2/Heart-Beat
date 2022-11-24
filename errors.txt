@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia3AlexandraPriscila.rpy", line 482: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    show alexandra neutral 2 at left with dissolve:
+File "game/scripts/Dia5Raul.rpy", line 8: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    "É tão estranho que só se passaram algumas semanas, mas eu sinto como se eu sempre estivesse aqui, como se eu fizesse parte desse lugar e dessas pessoas há muito tempo."
     ^
 
+File "game/scripts/Dia5Raul.rpy", line 115: expecting name after dot.
+    "Essa era a primeira vez que eu ouvi ele chamar a tia dele de 'mãe'".
+                                                                         ^
+
+File "game/scripts/Dia5Raul.rpy", line 131: end of line expected.
+    Raul "Calma lá! Ainda nem sei se vou passar".
+                                                ^
+
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Nov 23 18:04:55 2022
+Thu Nov 24 19:18:18 2022

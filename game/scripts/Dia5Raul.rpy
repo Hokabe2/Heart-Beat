@@ -5,11 +5,11 @@ label Dia5_Raul:
 
     "Parece que demorou uma eternidade até esse momento."
 
-     "É tão estranho que só se passaram algumas semanas, mas eu sinto como se eu sempre estivesse aqui, como se eu fizesse parte desse lugar e dessas pessoas há muito tempo."
+    "É tão estranho que só se passaram algumas semanas, mas eu sinto como se eu sempre estivesse aqui, como se eu fizesse parte desse lugar e dessas pessoas há muito tempo."
 
-     "Ahhh! Estou ficando melancólico demais. Eu não esperava que o meu primeiro trabalho de campo fosse tão… tão… divertido."
+    "Ahhh! Estou ficando melancólico demais. Eu não esperava que o meu primeiro trabalho de campo fosse tão… tão… divertido."
 
-     "Acho que essa é a palavra que mais definiu a minha estadia aqui."
+    "Acho que essa é a palavra que mais definiu a minha estadia aqui."
 
     "Falando em diversão, lembrei que tenho que me encontrar com o Raul para terminarmos o nosso ensaio."
 
@@ -112,7 +112,7 @@ label Dia5_Raul:
 
     Raul "Tive uma conversa com a minha mãe ontem."
 
-    "Essa era a primeira vez que eu ouvi ele chamar a tia dele de 'mãe'".
+    "Essa era a primeira vez que eu ouvi ele chamar a tia dele de 'mãe'"
 
     Raul "Eu ainda não contei para o pessoal… mas eu vou sair da cidade daqui uns meses. "
 
@@ -128,7 +128,7 @@ label Dia5_Raul:
 
     Ren "Então isso quer dizer que vou ser o seu veterano! "
 
-    Raul "Calma lá! Ainda nem sei se vou passar".
+    Raul "Calma lá! Ainda nem sei se vou passar"
 
     Ren"Claro que vai! Você é mais inteligente que metade dos meus colegas de turma."
 
