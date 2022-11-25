@@ -42,3 +42,8 @@ init python:
 
 ## Scene Transition Effect ##
     #   with fade
+
+##Flash out effect
+    #   scene example with flash
+init:
+    $ flash = Fade(.25, 0, .75, color="#fff")
