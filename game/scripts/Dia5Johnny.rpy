@@ -1,5 +1,7 @@
 label Johnny_Dia5:
 
+    play music "audio/cute_bossa_nova.ogg" volume 1.0
+
     scene bg sala de musica
     with fade
 
@@ -96,6 +98,8 @@ label Johnny_Dia5_PT2:
 
     "Agora... Eu fiquei curioso sobre uma coisa..."
 
+    stop music fadeout 3.0
+
     Ren "Dona Cida, eu fiquei curioso sobre uma coisa..."
 
     Cida "Diga, querido!"
@@ -103,6 +107,8 @@ label Johnny_Dia5_PT2:
     Ren " Onde estão os pais do Johnny, ele fala bem pouco dele mesmo."
 
     "Toda vez que ele ou alguém toca no assunto dos pais dele, ele parece desconversar ou trocar pra qualquer outro assunto"
+
+    play music "audio/home.ogg" volume 1.0
 
     Cida "Oh… ó céus…"
 

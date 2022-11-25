@@ -1,4 +1,7 @@
 label FinalJohnny:
+
+    play music "audio/till_death_do_us_part.ogg" volume 1.0
+
     "Por mais que a apresentação tenha sido barulhenta, foi um sucesso! Nunca tinha me divertido tanto fazendo algo como isso."
     "Foi tão divertido que nem eu nem o Johnny percebemos que ficamos tocando por quatro horas e meia… Claro que no dia seguinte nenhum de nós tinha voz nem pra sussurrar, e eu acho que a minha voz só foi voltar no dia da apresentação do meu trabalho final."
 
@@ -12,4 +15,6 @@ label FinalJohnny:
     "Me doeu um pouco dizer tchau para o pessoal do centro comunitário, especialmente o Johnny. Continuamos a trocar mensagens e a conversar sobre música ao longo do ano, mas com o tempo ficou difícil manter o contato constante."
     "E conversando com meu tio, descobri que não somente o centro, mas a floricultura da avó do Johnny tem recebido muitos visitantes."
     "Imagino que Dona Cida e seu neto se mantiveram bem ocupados nos anos que se seguiram."
-    "Até hoje eu tiro duas semanas do meu ano para visitar o meu tio, e eu aproveito para ajudar na floricultura. Assim eu passo um tempo com um bom e velho amigo"
+    "Até hoje eu tiro duas semanas do meu ano para visitar o meu tio, e eu aproveito para ajudar na floricultura. Assim eu passo um tempo com um bom e velho amigo."
+
+    "FIM"

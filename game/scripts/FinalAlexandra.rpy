@@ -1,6 +1,8 @@
 label FinalAlexandra:
     #(Ren - Narração)
 
+    play music "audio/frozen_winter.ogg" volume 5.0
+
     "O festival foi um sucesso, com o esforço e paixão de todo mundo. Todos eles mostraram seu talento ao mundo e encantaram com diferentes estilos de música."
 
     "Mas lógico que para mim a estrela do show foi… Alexandra. "
@@ -26,4 +28,6 @@ label FinalAlexandra:
     "'Obrigada por tudo, Ren. Por favor visite mais vezes'"
 
     "O sorriso que ela me deu com essas palavras, me fez pensar que essa viagem realmente valeu a pena."
+
+    "FIM"
     return

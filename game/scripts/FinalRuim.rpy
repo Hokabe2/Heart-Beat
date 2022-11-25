@@ -1,4 +1,7 @@
 label FinalRuim:
+
+    play music "audio/home.ogg" volume 1.0
+    
     "Eu… Eu falhei. A apresentação foi terrível. Nenhum de nós conseguiu tocar da maneira que a gente queria. E por mais que as pessoas que vieram assistir ao festival tenham aplaudido e nos parabenizando pelo nosso esforço, não foi o suficiente para salvar o Centro Comunitário."
     "Por entre sorrisos tortos eu me despedi do pessoal, prometendo voltar no próximo verão. Quando voltei para a faculdade, não consegui me concentrar em escrever uma matéria decente."
     "O pensamento de que eu poderia ter feito algo diferente, algo para ter salvado o Centro, algo para ter mudado o final dessa história, isso me mantinha acordado de noite. Apesar disso, consegui apresentar um trabalho final medíocre."
