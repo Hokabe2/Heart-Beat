@@ -32,4 +32,8 @@ label start:
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
-    call Introducao
+#<<<<<<< Updated upstream
+    call FinalPriscila
+#=======
+    call Dia4_PriscilaJohnny
+#>>>>>>> Stashed changes

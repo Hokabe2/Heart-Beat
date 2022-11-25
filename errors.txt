@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 6: invalid syntax
-    Character("Ren" color="#ffffff")
-                     ^
+File "game/scripts/Introducao.rpy", line 122: if statement expects a non-empty block.
+    if talkToPriscila1 == False:
+                                ^
+
+File "game/scripts/Introducao.rpy", line 123: expected statement.
+    3    stop music fadeout 1.0
+                             ^
+
+File "game/scripts/Introducao.rpy", line 126: expected statement.
+    else:
+        ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Thu Nov 24 19:22:16 2022
+Fri Nov 25 09:08:44 2022
