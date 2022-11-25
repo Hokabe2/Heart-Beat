@@ -2,33 +2,31 @@
 
 While running game code:
   File "game/script.rpy", line 36, in script call
-    call Dia3_AlexandraPriscila
-  File "game/scripts/Dia3AlexandraPriscila.rpy", line 994, in script
-    show priscila feliz 2 at right with dissolve:
-Exception: Image 'priscila feliz' does not accept attributes '2'.
+    call Dia2_Raul_Priscila
+  File "game/scripts/Dia2RaulPriscila.rpy", line 394, in script
+    if(funk == True) and (rock == True) and (pop == True):
+  File "game/scripts/Dia2RaulPriscila.rpy", line 394, in <module>
+    if(funk == True) and (rock == True) and (pop == True):
+NameError: name 'funk' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 36, in script call
-    call Dia3_AlexandraPriscila
-  File "game/scripts/Dia3AlexandraPriscila.rpy", line 994, in script
-    show priscila feliz 2 at right with dissolve:
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 1408, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 1371, in show_imspec
-    renpy.config.show(name,
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
-    self.target = target._duplicate(a)
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\display\core.py", line 397, in _duplicate
-    args.extraneous()
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'priscila feliz' does not accept attributes '2'.
+    call Dia2_Raul_Priscila
+  File "game/scripts/Dia2RaulPriscila.rpy", line 394, in script
+    if(funk == True) and (rock == True) and (pop == True):
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/Dia2RaulPriscila.rpy", line 394, in <module>
+    if(funk == True) and (rock == True) and (pop == True):
+NameError: name 'funk' is not defined
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Heart Beat 1.0
-Fri Nov 25 14:21:06 2022
+Fri Nov 25 18:42:27 2022

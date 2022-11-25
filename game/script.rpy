@@ -25,6 +25,11 @@ default talkToAlexandra1 = False
 default talkToJohnny1 = False
 # The game starts here.
 
+#Dia 2
+default funk = False
+default rock = False
+default pop = False
+
 #Day 3 - Check if the player met the characters
 default talkToPriscila3 = False
 
@@ -33,7 +38,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 #<<<<<<< Updated upstream
-    call Dia4_PriscilaJohnny
+    call Dia2_Raul_Priscila
 #=======
     call Dia4_PriscilaJohnny
 #>>>>>>> Stashed changes

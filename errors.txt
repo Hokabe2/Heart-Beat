@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia3AlexandraPriscila.rpy", line 588: expected statement.
-    Pris *Se move para o centro da sala*
-         ^
+File "game/scripts/Dia2RaulPriscila.rpy", line 410: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Nov 25 14:07:53 2022
+Fri Nov 25 18:40:02 2022
