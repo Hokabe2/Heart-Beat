@@ -288,7 +288,7 @@ label Cena_Introducao_Priscila:
 
     "Continuamos nos encarando em silêncio por alguns segundos devido ao choque da situação."
 
-    show priscila feliz at center:
+    show priscila neutro at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -308,7 +308,6 @@ label Cena_Introducao_Priscila:
     "???" "Enfão voxê não feio aqui pra me denunpiar pro tio Asfolfo? *Chomp *Chomp, Desculpa-"
 
     "Ela terminou rapidamente de comer seu biscoito, deixando diversos farelos caírem no chão, e logo depois chupou seus dedos que estavam sujos com chocolate."
-
 
 
     Pris "Hum, Hum… Me chamo Priscilla, muito prazer! Espero que possamos termos uma boa amizade e nos divertirmos muito juntos!"
