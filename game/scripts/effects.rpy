@@ -3,6 +3,12 @@ init python:
     def ShowText(characterName, _text):
         renpy.say(characterName, _text)
 
+    config.underlay.append(
+        renpy.Keymap(
+            mousedown_1 = lambda: renpy.run(renpy.play("audio/mixkit-interface-click-1126.ogg"))
+        )
+    )
+
 ### EFFECTS PREFABS ###
 
 ## Effect when the character enter the scene ##

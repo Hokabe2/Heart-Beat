@@ -29,6 +29,8 @@ label Cena_Introducao_email:
         scene bg cafe
         with fade
 
+        play music "audio/blithe_part_b.ogg"
+
         "Onde está o tio Astolfo? Ele me mandou mensagem a menos de cinco minutos atrás falando pra me encontrar aqui…"
 
         "Será que ele se perdeu?... Ele já se perdeu num parque aquático e a gente ficou procurando ele por duas horas pra encontrar ele tentando trazer um monte de patos pra piscina de ondas…"
@@ -48,7 +50,7 @@ label Cena_Introducao_email:
         Tio_Astolfo "Sobre o que vai ser esta matéria? Será sobre seu adorável tio?"
 
 
-        "Uma matéria sobre o Tio Astolfo seria interessante, porém acho difícil que os professores aceitariam… Talvez eu faça algo sobre as histórias dele em um próximo semestre"
+        "Uma matéria sobre o Tio Astolfo seria interessante, porém acho difícil que os professores aceitarem… Talvez eu faça algo sobre as histórias dele em um próximo semestre"
 
         Ren "Na verdade é sobre o centro comunitário local. Recebi um e-mail outro dia falando sobre o lugar, então eu vim pesquisar"
 
@@ -56,11 +58,17 @@ label Cena_Introducao_email:
 
         Tio_Astolfo "PARA O ASTOLFO MÓVEL!!!"
 
-        "Pelo amor de Deus aquela Kombi velha de novo não… A última vez que eu entrei lá o Tio Astolfo quase jogou a gente em um barranco tentando se livrar de uma mosca…"
+        "Pelo amor de Deus, aquela Kombi velha de novo não… A última vez que eu entrei lá o Tio Astolfo quase jogou a gente em um barranco tentando se livrar de uma mosca…"
 
-        "O Tio Astolfo corre de maneira cômica em direção a uma Kombi cheia de decalques enquanto Ren segue lentamente decepcionado"
+        "O Tio Astolfo corre de maneira cômica em direção à sua Kombi cheia de decalques enquanto eu sigo lentamente e decepcionado."
+
+        play sound "audio/mixkit-short-car-ignition-1541.ogg"
+
+        "Entramos no carro e nos movemos rumo ao centro comunitário."
 
         #Eles vão para o centro comunitário
+
+        stop music fadeout 1.0
 
         jump Cena_Introducao_personagens
         with fade
@@ -70,12 +78,35 @@ label Cena_Introducao_personagens:
         scene bg exterior
         with fade
 
+        play music "audio/cute_bossa_nova.ogg" fadeout 1.0
+
         if (talkToRaul1 == True) and (talkToPriscila1 == True) and (talkToAlexandra1 == True) and (talkToJohnny1 == True):
             Ren "Estou exausto, já conheci todo o centro comunitário. Acho que vou para casa."
             jump Cena_Quarto_dia1
             with fade
         else:
-            Ren "Preciso decidir para onde eu vou."
+
+            if firstTimeInCenter == False:
+
+                play sound "audio/mixkit-old-car-arriving-1536.ogg"
+
+                Ren "Chegamos."
+
+                Ren "O Tio Astolfo disse que tinha algumas questões urgentes para resolver, então ele me deixou no pátio do centro comunitário."
+
+                Ren "Hmmm... Então esse é o centro comunitário..."
+
+                Ren "É relativamente pequeno se for comparar com outros centros comunitários, mas parece bem organizado."
+
+                Ren "Bom, eu devia dar uma explorada aqui."
+
+                Ren "Preciso decidir para onde eu vou."
+
+                $firstTimeInCenter = True
+
+            else:
+
+                Ren "Preciso decidir para onde eu vou agora."
 
         #Menu de decisões para conhecer os personagens
         menu:
@@ -89,6 +120,7 @@ label Cena_Introducao_personagens:
                     with fade
             "Copa":
                 if talkToPriscila1 == False:
+                    stop music fadeout 1.0
                     jump Cena_Introducao_Priscila
                     with fade
                 else:
@@ -97,6 +129,7 @@ label Cena_Introducao_personagens:
                     with fade
             "Sala de música":
                 if talkToAlexandra1 == False:
+                    stop music fadeout 1.0
                     jump Cena_Introducao_Alexandra
                     with fade
                 else:
@@ -105,6 +138,7 @@ label Cena_Introducao_personagens:
                     with fade
             "Pátio":
                 if talkToJohnny1 == False:
+                    stop music fadeout 1.0
                     jump Cena_Introducao_Johnny
                     with fade
                 else:
@@ -227,6 +261,8 @@ label Raul_neutra_1_b:
 label Cena_Introducao_Priscila:
     scene bg copa
     with fade
+
+    play music "audio/1_Menu_Master.mp3" volume 0.7
 
     "Resolvi dar uma olhada na cozinha primeiro."
 
@@ -351,6 +387,8 @@ label Cena_Introducao_Alexandra:
 
     scene bg sala de musica
     with fade
+
+    play music "audio/autumn_leaves_part_a.ogg" volume 0.5
 
     "No piano da sala de música, há uma garota tocando de forma super concentrada. Ela aparenta ser muito elegante. Com cabelo cinza comprido que é ondulado nas pontas."
 
@@ -552,6 +590,8 @@ label Cena_Introducao_Johnny:
 
     scene bg patio
     with fade
+
+    play music "audio/dramatic_boi_v3.ogg" volume 0.5
 
     "Em um dos bancos no pátio do centro comunitário se encontra um jovem ouvindo música"
 
@@ -857,6 +897,8 @@ label Cena_Quarto_dia1:
 
     scene bg quarto
     with fade
+
+    play music "audio/4_Dramatic_1_Master.mp3" fadeout 1.0
 
     "Foi um dia bem agitado mas muito divertido. Apesar de ter acabado de conhecer, senti uma grande conexão com o ambiente do centro comunitário."
 

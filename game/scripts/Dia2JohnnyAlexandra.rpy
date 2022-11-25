@@ -3,6 +3,8 @@ label JohnnyAlexandra:
     scene bg sala de musica
     with fade
 
+    play music "audio/autumn_leaves_part_b.ogg" volume 0.5
+
     show johnny neutro1 at left with dissolve:
         xalign 0.1
         yalign 1.0

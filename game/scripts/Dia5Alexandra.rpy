@@ -7,6 +7,8 @@ label Alexandra_Dia5:
 
     "Então eu acho que vou ir checar a Alexandra, que está na sala de música."
 
+    play music "audio/5_Dramatic_2_Master.ogg"
+
     "Próximo à entrada da sala, eu consigo ouvir uma melodia de piano sendo tocada novamente…"
 
     "Mas... A música não está saindo como sempre."
@@ -29,8 +31,6 @@ label Alexandra_Dia5_Sala_De_Musica:
     "Mas ela está errando várias notas.  E isso não é normal para alguém sempre beirando a perfeição como ela."
 
     "Ouvir essa melodia falha chega a ser desnorteante."
-
-    #[Barulho alto de tecla de piano]
 
     "Ela nota minha presença e se vira para mim."
 
@@ -175,6 +175,8 @@ label Alexandra_Dia5_Sala_De_Musica:
 
     "Com isso, eu decidi levar ela para a rua central da cidade. Onde possamos fazer alguma coisa."
 
+    stop music fadeout 2.0
+
     jump Alexandra_Dia5_Rua
     with fade
 
@@ -182,6 +184,8 @@ label Alexandra_Dia5_Rua:
 
     scene bg patio
     with fade
+
+    play music "audio/cute_bossa_nova.ogg"
 
     show alexandra neutral at center with dissolve:
         matrixcolor TintMatrix("#777")
@@ -779,6 +783,8 @@ label Alexandra_Dia5_Rua2:
     scene bg patio
     with fade
 
+    stop music fadeout 2.0
+
     show alexandra neutral at center with dissolve:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -796,6 +802,8 @@ label Alexandra_Dia5_Rua2:
         linear 0.15 yalign 1.0
 
     Ale "Sim. Meus pais iam nessa loja."
+
+    play music "audio/home.ogg"
 
     Ale "Mas você sabe, essa loja só vai continuar aberta se Johnny decidir continuar o legado dela."
 

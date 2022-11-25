@@ -1,36 +1,65 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 34, in script call
-    call FinalJohnny
-  File "game/scripts/FinalJohnny.rpy", line 9, in script
-    "No dia seguinte da apresentação, meu tio Astolfo veio me dar a notícia que as pessoas voltaram a se interessar pelo centro e especialmente em aulas de música com o "O moço assustador que toca guitarra muito bem", imagino que o Johnny ficou feliz até mesmo com essa última parte."
+  File "game/script.rpy", line 35, in script call
+    call Introducao
+  File "game/scripts/Introducao.rpy", line 4, in script
+    python:
+  File "game/scripts/Introducao.rpy", line 5, in <module>
+    ShowText("","{sc=4}BZZZZ! BZZZZ! BZZZZ!{/sc}")
+  File "game/scripts/effects.rpy", line 4, in ShowText
+    renpy.say(characterName, _text)
   File "renpy/common/00library.rpy", line 303, in say
     who(what, interact=interact, *args, **kwargs)
-Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
+OSError: Couldn't find file 'audio/phone_vibration.ogg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 34, in script call
-    call FinalJohnny
-  File "game/scripts/FinalJohnny.rpy", line 9, in script
-    "No dia seguinte da apresentação, meu tio Astolfo veio me dar a notícia que as pessoas voltaram a se interessar pelo centro e especialmente em aulas de música com o "O moço assustador que toca guitarra muito bem", imagino que o Johnny ficou feliz até mesmo com essa última parte."
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+  File "game/script.rpy", line 35, in script call
+    call Introducao
+  File "game/scripts/Introducao.rpy", line 4, in script
+    python:
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scripts/Introducao.rpy", line 5, in <module>
+    ShowText("","{sc=4}BZZZZ! BZZZZ! BZZZZ!{/sc}")
+  File "game/scripts/effects.rpy", line 4, in ShowText
+    renpy.say(characterName, _text)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
     renpy.store.say(who, what, *args, **kwargs)
   File "renpy/common/00library.rpy", line 303, in say
     who(what, interact=interact, *args, **kwargs)
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
-    old_attr_state = self.handle_say_attributes(False, interact)
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
-    if self.resolve_say_attributes(predicting, attrs):
-  File "C:\Users\User\Backup\rafae\Programas\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 956, in resolve_say_attributes
-    raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
-Exception: Say has image attributes ('O', 'moço', 'assustador', 'que', 'toca', 'guitarra', 'muito', 'bem'), but there's no image tag associated with the speaking character.
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\User\Documents\Ren'py\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/phone_vibration.ogg'.
 
 Windows-10-10.0.19041 AMD64
 Ren'Py 8.0.3.22090809
 Heart Beat 1.0
-Wed Nov 23 17:05:43 2022
+Thu Nov 24 17:57:49 2022
