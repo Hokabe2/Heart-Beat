@@ -288,6 +288,15 @@ label Cena_Introducao_Priscila:
 
     "Continuamos nos encarando em silêncio por alguns segundos devido ao choque da situação."
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     "???" "*Chomp *Chomp… P-peua! Eu não extou cumendo nada da feladeila, voxê tá enfanado!"
 
     "Eu não entendi quase nada que a garota me falou, mas ela parecia bastante desesperada com o momento, como se ela estivesse fazendo algo de muito errado."
@@ -300,15 +309,47 @@ label Cena_Introducao_Priscila:
 
     "Ela terminou rapidamente de comer seu biscoito, deixando diversos farelos caírem no chão, e logo depois chupou seus dedos que estavam sujos com chocolate."
 
+
+
     Pris "Hum, Hum… Me chamo Priscilla, muito prazer! Espero que possamos termos uma boa amizade e nos divertirmos muito juntos!"
+
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "A menina estendeu amigavelmente a mão para me cumprimentar, enquanto apresentava um grande sorriso radiante. Senti como se ela emanasse luz com essa tamanha alegria. Estendi minha mão igualmente."
 
     Ren "O prazer é meu, me chamo Ren, sou o sobrinho do tio Astolfo e espero a mesma coisa."
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Ahhh, então você é o sobrinho! Ele tinha comentado com a gente! Hi hi hi! Então, então, o que te trouxe ao centro comunitário?"
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Eu preciso fazer uma atividade da minha faculdade de jornalismo, então acabei recebendo uma proposta de pesquisar sobre o centro comunitário."
+
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Hmmm… Faculdade? Pesquisa?... Soa bem chato… Você poderia aproveitar que está aqui para conhecer novas pessoas e relaxar, tem gente bem legal aqui! Tem o Raul, o tio Astolfo, o Johnny e… Bom, na verdade são só eles, mas são bem legais haha!"
 
@@ -322,13 +363,40 @@ label Cena_Introducao_Priscila_Escolha_1:
 label Priscila_neutra_1_a:
     #[Escolha 1 Neutra - Priscila: "Eu discordo, jornalismo às vezes pode ser cansativo, mas é algo que eu amo fazer, pretendo focar bastante na pesquisa"]
 
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hããã… Que chato… Acho que você não vai entrar na lista de pessoas legais… -_-"
 
     Ren "Ei!"
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hahaha, brincadeira! Só o fato de você não ter me denunciado pro tio Astolfo já te torna uma pessoa legal, ninguém me deixa comer a vontade aqui hahaha!"
 
     Ren "Mas eles não estão certos por fazer isso?"
+
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Depende do ponto de vista! Aqui é um centro COMUNITÁRIO, o que significa que ele é aberto à comunidade, como eu faço parte dela então eu tecnicamente tenho o direito de comer essa comida!"
 
@@ -338,9 +406,27 @@ label Priscila_neutra_1_a:
 
     "Comecei a olhar para ela com um olhar de julgamento."
 
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "…"
 
     Ren "…"
+
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "N-não me olha com essa cara! T-tá bom, eu admito, é errado! Eu sei que é! Mas é difícil controlar a minha fome quando eu preciso aguardar até o almoço para comer apenas algumas das comidas tão gostosas que ficam dentro dessa geladeira!"
 
@@ -362,17 +448,44 @@ label Priscila_positiva_1_b:
 
     $ pointsPriscila+=1
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hi hi hi, não é? Trabalhar é chato e cansativo, a gente deveria ir comer no Capputinho pra relaxar, tem comidas muito boas lá!"
 
     Pris "Ou a gente pode levar algumas comidas daqui da geladeira para comer enquanto anda! Super recomendo esses cookies e chocolates que tem guardado no fundo, são sempre muito bons! Hahaha!"
 
     Ren "Haha, eu agradeço o convite, mas eu ainda preciso conhecer o resto do centro comunitário e depois voltar para falar com meu tio."
 
+    show priscila neutro at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Humm, faz sentido. Bom, qualquer hora que você quiser relaxar um pouco você pode falar comigo! Eu sou a melhor daqui na arte de não fazer nada, ninguém nunca nem ousou me superar nisso!"
 
     "Isso deveria ser algo para se ter orgulho!?"
 
     Ren "Certo haha. Bom, então já vou indo, até mais!"
+
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Até mais! Tcha-tchau!"
 
