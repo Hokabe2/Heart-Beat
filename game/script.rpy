@@ -33,7 +33,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 #<<<<<<< Updated upstream
-    call FinalPriscila
+    call Introducao
 #=======
     call Dia4_PriscilaJohnny
 #>>>>>>> Stashed changes

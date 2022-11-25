@@ -58,10 +58,10 @@ define gui.interface_text_color = '#ffffff'
 define gui.text_font = "fonts/libre franklin/LibreFranklin-Light.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/libre franklin/LibreFranklin-SemiBold.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/libre franklin/LibreFranklin-ExtraBold.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 33
@@ -128,7 +128,7 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 300
+define gui.dialogue_xpos = 340
 define gui.dialogue_ypos = 70
 
 ## The maximum width of dialogue text, in pixels.
