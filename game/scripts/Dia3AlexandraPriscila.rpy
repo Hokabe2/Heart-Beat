@@ -26,6 +26,12 @@ label Dia3_AlexandraPriscila:
 
     Ale "Suponho que você é a sujeita na qual é responsável por comer as trufas que eu guardei na geladeira, estou correta?"
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Pris "*Cospe o suco que estava tomando*"
 
     show alexandra neutral 2 at left with dissolve:
@@ -34,9 +40,24 @@ label Dia3_AlexandraPriscila:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "E-eu? Por que você acha que eu faria isso? "
 
     Pris "Hmpf! Bem feito, se você foi roubada, você deveria ter pensado duas vezes antes de colocar comida em uma geladeira pública, não achei que a mais inteligente do centro comunitário não fosse pensar nisso."
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -59,6 +80,14 @@ label Dia3_AlexandraPriscila:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Consideração? Pelo menos eu trato de forma amigável as outras pessoas do centro, não sou uma princesinha de gelo igual você! Desculpa se você é perfeita demais para as outras pessoas."
 
@@ -73,6 +102,12 @@ label Dia3_AlexandraPriscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ale  "Seja livre para me designar de princesa, burguesa, mimada, seja o que for!"
 
     Ale "Eu sequer me interesso se esse centro vai fechar, porém eu estou considerando as pessoas que se importam. Todo mundo está levando isso a sério, menos a garota de baixíssimo nível que se manifesta à minha frente. "
@@ -85,7 +120,22 @@ label Dia3_AlexandraPriscila:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Grrr… É-é muito fácil 'levar a sério' e ser produtivo quando você é boa em tudo e todos te mimam e endeusam por conta disso."
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     #[Ren intervém na briga das duas]
     Ren "Vocês duas, parem com isso, agora! Aqui não é hora e nem lugar para brigar. Vocês não deveriam estar desenvolvendo as coisas do festival?"
@@ -103,7 +153,23 @@ label Dia3_AlexandraPriscila_Escolha_1:
 label Dia3_Alexandra_positiva_1_a:
     #Escolha A
     #[Priscila… Se você realmente comeu as trufas, é bom pedir desculpas.]
+
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Humpf! Eu falei, todos mimam a princesa, não adianta discutir."
+
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Não é sobre isso, Priscila. É que por mais que seja uma geladeira comunitária, muita gente guarda a própria comida ali. "
 
@@ -116,12 +182,27 @@ label Dia3_Alexandra_positiva_1_a:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "T-tá bom, fui eu que comi, desculpa, eu não sabia que era de alguém.
     Mas desde quando ela se importa em distribuir as coisas pros outros? Ela mesma disse que não se importa se o centro comunitário fechar."
 
     Pris "Provavelmente foram doces feitos por algum mordomo dela e exclusivamente para ela."
 
-    show disgust at left with dissolve:
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show alexandra disgust at left with dissolve:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -139,8 +220,24 @@ label Dia3_Alexandra_positiva_1_a:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila sorriso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hi hi hi, eu estou vendo a princesa de gelo, sempre fria com todos, envergonhada? Fu fu fu, não precisa mentir, é claro que alguém de sua classe social come muito, você tem comida de sobra."
+
     Pris "E você queria ‘fazer algo generoso’? Então quer dizer que a situação do centro comunitário está fazendo seu gelo está derreter? Hi hi hi."
+
+    show priscila sorriso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -165,14 +262,28 @@ label Dia3_Alexandra_positiva_1_a:
 
     #[CONTINUAÇÃO]
     jump Cena_Dia3AlexandraPriscila_Escolha_1_continuacao
-
 label Dia3_Priscila_positiva_1_b:
     #Escolha B
     #[Alexandra…Você pegou pesado, melhor se desculpar à Priscila.]
 
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hi hi hi, então você entende do que eu estou falando!"
 
-    show alexandra neutral 2 at left with dissolve:
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show alexandra neutral 2 at left:
         matrixcolor TintMatrix("#fff")
         yalign 1.0
         zoom 0.5
@@ -182,15 +293,64 @@ label Dia3_Priscila_positiva_1_b:
 
     Ren "Ainda assim, Priscila, você pegou mesmo as trufas da Alexandra?"
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Olha, na verdade eu comi trufas que tinham na geladeira, mas eu não sabia que eram da Alexandra. Ela devia ter colocado o nome dela no pote ou algo do tipo."
 
     Ren "Talvez ajudasse, mas tome mais cuidado quando for assaltar a geladeira."
 
+    show priscila sorriso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Okayyy!"
+
+    show priscila sorriso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show alexandra angry at left with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Ale "Ren, você verdadeiramente crê que um indivíduo tal como ela manterá seus prometimentos? A Priscila age de maneira semelhantemente desprezível absolutamente todos os dias, uma promessa ordinária como esta não desencadeará quaisquer renovação em suas características pessoais."
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Lá vem a burguesa com as palavras difíceis…"
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     #[CONTINUAÇÃO]
     jump Cena_Dia3AlexandraPriscila_Escolha_1_continuacao
 
@@ -198,9 +358,24 @@ label Dia3_AlexandraPriscila_neutra_1_c:
     #Escolha C
     #[Vocês duas estão erradas nessa situação, vocês deviam desculpar uma a outra]
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "…"
 
     Pris "Desde quando você está ouvindo tudo isso?"
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -225,6 +400,15 @@ label Dia3_AlexandraPriscila_neutra_1_c:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Olha quem fala!"
 
     #[CONTINUAÇÃO]
@@ -235,15 +419,45 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Vocês duas brigam demais… Precisam achar algum ponto em comum! Ou senão esse festival não vai para frente."
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hmmm… Difícil, essa daí e eu somos como óleo e água."
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Priscila quer ajudar a salvar o centro, Alexandra quer ter um bom festival. Essas duas coisas andam juntas. Vocês já sabem o que querem apresentar pro público?"
+
+    show priscila animada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Hihihi… FUFUFU… HAHAHAHAHAH!! É óbvio que eu sei!"
 
     "A Priscila parecia saber perfeitamente o que responder. E isso me dá medo…"
 
     Pris "Um grupo de dançarinos coreanos lindos, charmosos, musculosos e sem camisa dançando 'Manteiga', o último lançamento do BLZ… KYAAAAAAA, O JÃO COOKIE TÁ TÃO LINDO NESSA MÚSICA!!! MWAHAHAHAHAHAHAHAHAHAHA!!"
+
+    show priscila animada at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -268,7 +482,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Olha, vamos ter vários tipos de pessoas lá! Talvez vocês possam aprender um pouco mais sobre o que a outra gosta, assim poderão se entender melhor. Vamos à sala de música, uma vai apresentar sua ideia à outra."
 
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Ahhh… Tá bom… Chato…"
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -308,15 +537,32 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     Ale "Eu devo começar. Apresentarei uma melodia que vocês nunca se esquecerão."
 
     #hide alexandra
-    hide alexandra
+    hide alexandra at left with dissolve
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "Ela nem me deu tempo pra falar!"
+
+    show priscila serioisso at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Tá certo, sinta-se a vontade."
 
     "Alexandra se move calmamente até o piano presente na sala, emanando uma forte confiança. Cada um dos passos que ela dá parecem ser milimetricamente calculados com extrema precisão, como se o simples ato de andar já fizesse parte de sua performance."
 
     Ale "…"
+
+    hide priscila at right with dissolve
 
     "Ela respira de forma calma e precisa, seus olhos não demonstram nenhuma emoção, sua concentração está em seu mais alto nível. Parece que ela realmente quer nos impressionar com essa música."
 
@@ -339,7 +585,7 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     "Olho para o lado e a Priscila já está mexendo na caixa de som, provavelmente colocando sua música."
 
-    #Pris *Se move para o centro da sala*
+    Pris "*Se move para o centro da sala*"
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -353,7 +599,7 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     Ale "Vamos ver se o tempo que ela usa para procrastinar serve pra alguma coisa."
 
     #hide alexandra
-    hide alexandra
+    hide alexandra at left with dissolve
 
     "Os punhos de Priscila se fecham com muita força, parece até que eles sangrariam se ela continuasse apertando. Eu nunca havia visto ela desse jeito, alguém que simplesmente não para de falar em nenhum momento está completamente quieta, "
     "deixando um clima de mistério na sala. Nós não temos ideia do que pode sair dessa apresentação: uma surpreendente performance ou um envergonhante fracasso."
@@ -408,6 +654,15 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     "Espera… A sala de jogos… Será…?"
 
     #*Finaliza a dança em um pose dramática e respira ofegante*
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Huff… Huff…"
 
     Ale "…"
@@ -421,7 +676,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ale "S-sua…"
+
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#fff")
@@ -432,6 +702,12 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     Pris "Grrr…"
 
     "Ah não… De novo não…"
+
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -450,7 +726,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Queeeee!? E nem chego perto das suas habilidades, menina prodígio! Como você pode chamar o que eu tenho de talento!? Você está em um nível completamente além do meu!"
+
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -470,9 +761,24 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "HÃÃÃ!? GRRRR! AS MINHAS HABILIDADES NÃO CHEGAM NEM PERTO DAS SUAS!!! A FORMA COMO VOCÊ TOCA O PIANO E ATÉ A FORMA COMO VOCÊ ANDA E SE SENTA SÃO PERFEITAS! É TUDO MUITO DRAMÁTICO! EU TE INVEJO, PRINCESA DE GELO!"
 
     Pris "GRRRR!!!"
+
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -497,6 +803,15 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Ah… Pessoal…"
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     show alexandra angry at left with dissolve:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -508,6 +823,12 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     "Alexandra e Priscila" "O QUE!?"
 
+    show priscila indignada at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#fff")
         yalign 1.0
@@ -516,7 +837,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Vocês perceberam que vocês estão se elogiando ao invés de se ofender?"
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hã?"
+
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -549,7 +885,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ale "…"
 
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Piff…"
+
+    show priscila neutro at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra neutral 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -568,7 +919,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "HAHAHAHAHAHAHAHAHA!!"
+
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra happy 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -578,6 +944,7 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         linear 0.15 yalign 0.85
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
+
     Ale "Hahahaha!"
 
     show alexandra happy 2 at left with dissolve:
@@ -586,7 +953,22 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "HAHAHAHAHAHAHAHAHAHAHAHAHA!!! AHHHHH, EU NÃO CONSIGO PARAR DE RIR! EU VOU CHORAR!! HAHAHAHAHAH!!"
+
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra happy 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -609,9 +991,24 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila feliz2 at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "É claro que eu sinto! Eu sempre quis ser igual a você! Você é perfeita! Você é boa em tudo o que faz, além de também ser super popular! Talvez… As pessoas não me pressionariam tanto se eu fosse como você…"
 
     Pris "E provavelmente você é a única que consegue realmente namorar o Jão Cookie!"
+
+    show priscila feliz2 at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra happy 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -626,14 +1023,28 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ale "Eu… Também queria ser um pouco como você, alguém amigável com o próximo. Mas eu, apesar de ser perfeita como você se refere à minha pessoa, não tenho ideia de como fazer isso."
 
-
     show alexandra happy 2 at left with dissolve:
         matrixcolor TintMatrix("#fff")
         yalign 1.0
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Hi hi hi! Relaxa! Eu te ajudo com isso!"
+
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show alexandra happy 2 at left with dissolve:
         matrixcolor TintMatrix("#777")
@@ -658,6 +1069,15 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
 
     Ren "Priscila, desde quando você é fluente em coreano?"
 
+    show priscila feliz2 at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Eu? Fluente?"
 
     Pris "Haha! Nhé!"
@@ -665,6 +1085,12 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
     Pris "Eu não sei nada de coreano, eu só decorei as letras das músicas de tanto ouvir elas e só repito o que eles falam na hora de cantar! Hahaha!"
 
     Ren "Por que eu não estou surpreso…? Haha…"
+
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     #Ale *Ri delicadamente*
     show alexandra neutral 2 at left with dissolve:

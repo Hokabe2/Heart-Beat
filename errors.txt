@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia5Escolha.rpy", line 10: expected menuitem
-    if pointsJohnny >= 2:
-    ^
+File "game/scripts/Dia3AlexandraPriscila.rpy", line 588: expected statement.
+    Pris *Se move para o centro da sala*
+         ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Nov 25 10:14:13 2022
+Fri Nov 25 14:07:53 2022
