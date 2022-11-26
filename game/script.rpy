@@ -17,7 +17,7 @@ default pointsRaul = 0
 default pointsAlexandra = 0
 default pointsJohnny = 0
 
-#Day 1 - Check if the player met the characters
+#Day 1 - Check if the playerMa met the characters
 default firstTimeInCenter = False
 default talkToPriscila1 = False
 default talkToRaul1 = False
@@ -38,7 +38,11 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 #<<<<<<< Updated upstream
-    call Dia2_Astolfo
+#<<<<<<< Updated upstream
+    call Alexandra_Dia5
+#=======
+    call Dia4_PriscilaJohnny
+#>>>>>>> Stashed changes
 #=======
     call Dia4_PriscilaJohnny
 #>>>>>>> Stashed changes
