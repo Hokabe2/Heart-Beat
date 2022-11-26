@@ -253,7 +253,7 @@ label Dia4_PriscilaJohnny_Escolha_1:
 label Dia4_PriscilaJohnny_Escolha_1_a:
     #Escolha A
     #[Johnny, eu queria te fazer uma pergunta, ou talvez não apenas uma]
-
+    $ pointsJohnny +=1
     show johnny neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -1367,3 +1367,6 @@ label Dia4_PriscilaJohnny_Escolha_1_continuacao:
     Joh "Grrrr!"
 
     "Pelo menos tudo acabou bem… Ha ha ha…"
+
+    jump Dia5Escolha
+    with fade

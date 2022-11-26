@@ -316,9 +316,9 @@ label Cena_Introducao_Raul:
 label Cena_Introducao_Raul_Escolha_1:
         menu:
             "Você frequenta o centro comunitário há quanto tempo?":
-                call Raul_positiva_1_a from _call_Raul_positiva_1_a
+                call Raul_positiva_1_a
             "Eu acabei entrando no projeto por causa de um trabalho da faculdade":
-                call Raul_neutra_1_b from _call_Raul_neutra_1_b
+                call Raul_neutra_1_b
 label Cena_Introducao_Raul_Escolha_1_continuacao:
 
         show raul at center:
@@ -587,9 +587,9 @@ label Cena_Introducao_Priscila:
 label Cena_Introducao_Priscila_Escolha_1:
     menu:
         "Eu discordo, jornalismo às vezes pode ser cansativo, mas é algo que eu amo fazer, pretendo focar bastante na pesquisa":
-            call Priscila_neutra_1_a from _call_Priscila_neutra_1_a
+            call Priscila_neutra_1_a
         "É verdade, talvez eu devesse relaxar um pouco mais de vez em quando. Socializar também é importante":
-            call Priscila_positiva_1_b from _call_Priscila_positiva_1_b
+            call Priscila_positiva_1_b
 label Priscila_neutra_1_a:
     #[Escolha 1 Neutra - Priscila: "Eu discordo, jornalismo às vezes pode ser cansativo, mas é algo que eu amo fazer, pretendo focar bastante na pesquisa"]
 
@@ -830,9 +830,9 @@ label Cena_Introducao_Alexandra:
 label Cena_Introducao_Alexandra_Escolha_1:
     menu:
         "E-Eu conheço!! Já escutei em algum lugar ao menos…":
-            call Alexandra_neutra_1_a from _call_Alexandra_neutra_1_a
+            call Alexandra_neutra_1_a
         "Eu não conheço, mas era muito bonita a música!":
-            call Alexandra_positiva_1_b from _call_Alexandra_positiva_1_b
+            call Alexandra_positiva_1_b
 label Alexandra_neutra_1_a:
     #Escolha 1[Neutro] - Ren
     #"E-Eu conheço!! Já escutei em algum lugar ao menos…"
@@ -1077,9 +1077,9 @@ label Cena_Introducao_Johnny:
 label Cena_Introducao_Johnny_Escolha_1:
     menu:
         "Que tipo de atividades você costuma fazer aqui no centro comunitário?":
-            call Johnny_positiva_1_a from _call_Johnny_positiva_1_a
+            call Johnny_positiva_1_a
         "Por que você ainda vem ao centro?":
-            call Johnny_negativa_1_b from _call_Johnny_negativa_1_b
+            call Johnny_negativa_1_b
 label Johnny_positiva_1_a:   #[Escolha A (Positiva- Joh) "Que tipo de atividades você costuma fazer aqui no centro comunitário?"
 
     $ pointsJohnny+=1

@@ -32,8 +32,7 @@ label Dia2_Astolfo:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    "Tio Astolfo"
-    "Bom, Ren… Eu combinei com os meninos da gente se encontrar aqui hoje. Preciso conversar com eles e prefiro que seja aqui onde geralmente é mais calmo nessa parte da manhã."
+    "Tio Astolfo" "Bom, Ren… Eu combinei com os meninos da gente se encontrar aqui hoje. Preciso conversar com eles e prefiro que seja aqui onde geralmente é mais calmo nessa parte da manhã."
 
     "Isso é meio estranho… Tio Astolfo é geralmente mais energético, mais alegre… Quase parece que ele está num velório…"
 
@@ -1111,5 +1110,5 @@ label Dia2_Astolfo_PT2:
 
     "Todos nós entramos no carro e fomos até o centro comunitário."
 
-    #jump proximacena
-    #with fade
+    jump Dia2Escolha
+    with fade

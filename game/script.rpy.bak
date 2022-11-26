@@ -39,4 +39,4 @@ label start:
     # images directory to show it.
 #<<<<<<< Updated upstream
 #<<<<<<< Updated upstream
-    call Introducao from _call_Introducao
+    call Introducao

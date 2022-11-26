@@ -16,10 +16,17 @@ label Dia5Escolha:
 label Dia5Menu:
 
     menu:
+        "Desistir":
+            if (pointsJohnny >= 2) and (pointsRaul >= 2) and (pointsAlexandra >= 2) and (pointsPriscila >= 2):
+                jump FinalRuim
+                with fade
+            else:
+                "Não posso desistir agora."
+                jump Dia5Menu
         "Sala de Música (Johnny)":
             if pointsJohnny >= 2:
                 stop music fadeout 1.0
-                jump Dia3_RaulJohnny
+                jump Dia5Johnny
                 with fade
             else:
                 "Não tenho muita afinidade com o Johnny."
@@ -30,7 +37,7 @@ label Dia5Menu:
         "Sala de Música (Raul)":
             if pointsRaul >= 2:
                 stop music fadeout 1.0
-                jump Dia3_RaulJohnny
+                jump Dia5Raul
                 with fade
             else:
                 "Não tenho muita afinidade com o Raul."
@@ -41,7 +48,7 @@ label Dia5Menu:
         "Pátio (Priscila)":
             if pointsPriscila >= 2:
                 stop music fadeout 1.0
-                jump Dia3_RaulJohnny
+                jump Dia5Priscila
                 with fade
             else:
                 "Não tenho muita afinidade com a Priscila."
@@ -52,7 +59,7 @@ label Dia5Menu:
         "Sala de Música (Alexandra)":
             if pointsAlexandra >= 2:
                 stop music fadeout 1.0
-                jump Dia3_RaulJohnny
+                jump Dia5Alexandra
                 with fade
             else:
                 "Não tenho muita afinidade com a Alexandra."

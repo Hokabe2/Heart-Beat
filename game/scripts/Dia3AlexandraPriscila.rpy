@@ -153,7 +153,7 @@ label Dia3_AlexandraPriscila_Escolha_1:
 label Dia3_Alexandra_positiva_1_a:
     #Escolha A
     #[Priscila… Se você realmente comeu as trufas, é bom pedir desculpas.]
-
+    $ pointsAlexandra +=1
     show priscila indignada at right with dissolve:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -265,6 +265,7 @@ label Dia3_Alexandra_positiva_1_a:
 label Dia3_Priscila_positiva_1_b:
     #Escolha B
     #[Alexandra…Você pegou pesado, melhor se desculpar à Priscila.]
+    $ pointsPriscila +=1
 
     show priscila feliz at right with dissolve:
         matrixcolor TintMatrix("#777")
@@ -1103,8 +1104,9 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     #efeito fade in e fade out
-    with fade
 
-    return
+
+    jump Dia4Escolha
+    with fade
 
     #[FIM DA CENA]

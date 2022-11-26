@@ -45,11 +45,35 @@ label Dia5_Raul:
 
     Ren "Raul?"
 
+    show raul irritado1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "O que? O que foi Ren?"
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Nós… combinamos de fazer um último ensaio antes do festival."
 
     Ren "Eu não sabia que você tinha chegado mais cedo."
+
+    show raul rindo2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "Eu cheguei aqui primeiro que todo mundo."
 
@@ -57,9 +81,30 @@ label Dia5_Raul:
 
     "Geralmente o Raul faz alguma piada para descontrair o clima. Dessa vez foi diferente, deu para sentir uma… tristeza da expressão dele."
 
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Você… quer tirar uma pausa por hoje?"
 
+    show raul rindo2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Não, não. Para com essa nerdice, eu estou bem."
+
+    show raul pensativo1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     "Assim que pegamos nossos instrumentos, demos uma revisada nas músicas que íamos tocar."
 
@@ -69,9 +114,30 @@ label Dia5_Raul:
 
     "Ele só ficou observando e me corrigindo quando eu errava. Estava achando estranho aquilo. Passou quase meia hora do ensaio e ele nem tocou no violão."
 
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Não dá para tocar solo no festival."
 
+    show raul pensativo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Eu sei, eu sei. Deixa que eu te ajudo hoje, já dei uma praticada em casa."
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Beleza…"
 
@@ -85,7 +151,22 @@ label Dia5_Raul:
 
     Ren "Preciso treinar a minha sincronia com você. Daqui até a próxima estrofe vai ser o refrão principal e vamos alternar duas vezes."
 
+    show raul irritado1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Tudo bem."
+
+    show raul pensativo1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Trocamos de papéis de um momento para o outro. Eu tinha que desacelerar porque às vezes ele se perdia, o desenrolar suave das notas tão típico dele não estava presente e… havia uma certa raiva e tristeza no rosto de Raul."
 
@@ -95,20 +176,49 @@ label Dia5_Raul:
 
     Raul "Hum.…"
 
-    Ren " …"
+    show raul neutro1 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    Ren "…"
 
     Ren "Aconteceu alguma coisa?"
 
+    show raul rindo2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "É complicado."
 
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Quer conversar?"
+
+    show raul triste2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "..."
 
     Raul "Tudo bem."
 
     Raul "Mas que droga."
-
 
     Raul "Tive uma conversa com a minha mãe ontem."
 
@@ -118,36 +228,116 @@ label Dia5_Raul:
 
     Raul "Há anos eu tenho essa vontade de viver um tempo fora desta cidade. Que nem aqueles filmes em que o personagem principal saí para explorar o mundo e viver grandes aventuras."
 
+    show raul pensativo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Só a minha mãe sabe disso, tenho planejado isso com ela faz um tempo."
 
-    Raul "É meio difícil me afastar dela desse jeito, mas um dia todo passarinho tem que bater asas, né?"
+    Raul "É meio difícil me afastar dela desse jeito, mas um dia todo passarinho tem que bater asas um dia, né?"
 
     Raul "Eu vou fazer o vestibular para entrar na UC (Universidade da Capivara)."
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Espera, a Universidade da Capivara? Agora faz todo sentido, por isso ele me fez tantas perguntas sobre o campus, os cursos e tudo mais."
 
     Ren "Então isso quer dizer que vou ser o seu veterano! "
 
+    show raul envergonhado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Calma lá! Ainda nem sei se vou passar"
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren"Claro que vai! Você é mais inteligente que metade dos meus colegas de turma."
 
+    show raul envergonhado2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Valeu…?"
+
+    show raul rindo2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "Isso realmente é um elogio inesperado."
 
     Raul " Ainda nem decidi o curso que vou entrar, talvez algo relacionado à engenharia ou filosofia."
 
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren " Você não tem cara de exatas."
+
+    show raul sorrindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "Tem muita coisa que você não sabe sobre mim."
 
+    show raul neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
-    Raul "Mas não é isso que está me incomodando."
+    Raul "Mas não é isso que realmente está me incomodando."
 
     "Ele respirou fundo, com os seus olhos prestes a lacrimejar."
 
-    Raul " Minha tia nunca me contou sobre os meus pais. Fingi por muito tempo que não me importava, só que agora que eu vou ficar afastado dela não podia carregar essa pedra comigo."
+    show raul triste2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
+    Raul " Minha tia nunca me contou sobre os meus pais. Fingi por muito tempo que não me importava, só que agora que eu vou ficar afastado dela, não posso carregar esse peso comigo."
 
     Raul "A verdade é que a minha tia não contou nenhum detalhe sobre quem é o meu pai. "
 
@@ -157,9 +347,24 @@ label Dia5_Raul:
 
     Raul " As duas discutiram muito, eu também ficaria confuso e com raiva se um parente que eu não via há anos chegasse para mim sem avisar que eu tinha que cuidar de um bebê de um ano."
 
-    Ren "Caramba Raul"
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
-    Ren "Eu não sei o que dizer"
+    Ren "Caramba Raul..."
+
+    Ren "Eu não sei o que dizer."
+
+    show raul triste2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "Doeu um pouco."
 
@@ -171,9 +376,24 @@ label Dia5_Raul:
 
     "Nossa… Eu não esperava mesmo por isso, ninguém nunca me fez um desabafo desses para mim. É tão assustador alguém se abrir desse jeito e você simplesmente não ter ideia do que fazer."
 
+    show raul triste2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Que droga. Eu deveria estar feliz. Eu tenho uma mãe que me ama e amigos que estão sempre prontos para me ajudar e mesmo assim… mesmo assim… por que eu continuo me sentindo tão mal???"
 
     "Eu dei um passo para frente e o abracei. Não precisei pensar duas vezes."
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Raul…"
 
@@ -183,24 +403,76 @@ label Dia5_Raul:
 
     Raul "É… eu acho que… esqueci o meu fogão ligado e acabei queimando a minha ‘cozinha’. "
 
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Uma coisa que a Priscila faria."
+
+    show raul rindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "Ha, ha, ha. Não, ela só mexe na geladeira mesmo."
 
     "Ele saiu para lavar o rosto no banheiro e quando voltou estava com uma cara bem melhor. Começamos a conversar e rir de tudo um pouco. "
 
+    show raul rindo2 at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Vamos tocar um pouco para dar um ‘up’ no nosso humor."
 
+    show raul surpreso2 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Assim do nada?"
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "O festival não se faz sozinho "
 
     Ren "Escolhe aí uma música."
 
+    show raul sorrindo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Tempo Perdido?"
+
+    show raul at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren " Bora!"
 
     "Eu só fiquei cantando mesmo porque eu não sabia tocar os acordes desta música. Peguei o microfone desligado e subi na carteira. Começamos a fazer um show como se fosse o Rock in Rio de 90."
 
-    return
+    jump FinalRaul
+    with fade

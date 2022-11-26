@@ -1017,5 +1017,6 @@ label Dia5_Priscila:
 
     Ren "Ahaha! Fico feliz em ouvir isso. Aliás, eu estou estudando para ser um!"
 
-    return
+    jump FinalPriscila
+    with fade
     #[Fim]

@@ -21,7 +21,7 @@ label Dia2_Raul_Priscila:
 
     Pris "ZZZZZZZZ"
 
-    show raul at left:
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -38,7 +38,7 @@ label Dia2_Raul_Priscila:
 
     "Ouvíamos roncos bem altos de Priscila."
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -55,7 +55,7 @@ label Dia2_Raul_Priscila:
 
     Ren "…Por que você pegou um graveto?"
 
-    show raul at left:
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -77,7 +77,7 @@ label Dia2_Raul_Priscila:
 
     Pris "*Grunhidos* Tô não… ZZZZZ… Jão Cookie, a sua capivara branca… ZZZZZZ"
 
-    show raul at left:
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -108,7 +108,7 @@ label Dia2_Raul_Priscila:
 
     "Parece que o comentário surtiu algum efeito."
 
-    show raul at left:
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -815,5 +815,9 @@ label Escolha_2_continuacao:
 
     Pris "Chega, entrega a caixa de som pro Raul, eu vou voltar para a sala de jogos…"
     #*Priscila sai da cena*
+    hide pris at right with dissolve
 
     Ren "…"
+
+    jump Dia3Escolha
+    with fade

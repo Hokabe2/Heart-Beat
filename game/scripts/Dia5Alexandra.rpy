@@ -1157,3 +1157,6 @@ label Alexandra_Dia5_Rua3:
     Ale "Vou tentar o meu melhor hoje de novo, assim como sempre faço."
 
     "E assim retornamos pro centro. E com todo mundo lá, nós ensaiamos. Numa harmonia e sintonia da qual nunca vi antes."
+
+    jump FinalAlexandra
+    with fade

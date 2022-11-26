@@ -158,11 +158,11 @@ label JohnnyAlexandra:
 
     menu:
         "Eu prefiro a música do Johnny. Pode até ser barulhenta mas traz um pouco mais de animação pro evento":
-            call Resposta_Johnny from _call_Resposta_Johnny
+            call Resposta_Johnny
         "Bem… Eu acho que os clássicos podem trazer uma boa imagem para o centro. Além de ser muito agradável!":
-            call Resposta_Alexandra from _call_Resposta_Alexandra
+            call Resposta_Alexandra
         "Acho que ambas são escolhas excelentes!":
-            call Resposta_NeutraJohnnyAlexandra from _call_Resposta_NeutraJohnnyAlexandra
+            call Resposta_NeutraJohnnyAlexandra
 
 label Resposta_Johnny:
 

@@ -305,3 +305,6 @@ label Johnny_Dia5_PT3:
     "Mas tudo bem, é melhor assim mesmo."
 
     "Agora eu entendo o Johnny melhor e é isso que importa."
+
+    jump FinalJohnny
+    with fade

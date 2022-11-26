@@ -321,7 +321,7 @@ label Cena_Dia3_RaulJohnny_Escolha_1:
 label Raul_positiva_Escolha_1_a:
     #Escolha A
     #[Escolha A Raul "Vou tentar o violão" ]
-
+    $ pointsRaul +=1
     show raul at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -403,7 +403,7 @@ label Raul_positiva_Escolha_1_a:
 label Johnny_positiva_Escolha_1_b:
     #Escolha B
     #[Escolha B Joh "eh- Eu… Eu… to- topo, opito, pela guitarra" ]
-
+    $ pointsJohnny +=1
     show johnny irritado2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -977,5 +977,8 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
     Ren "…"
 
     Ren "Obrigado."
+
+    jump Dia4Escolha
+    with fade
 
     #[FIM DA CENA]

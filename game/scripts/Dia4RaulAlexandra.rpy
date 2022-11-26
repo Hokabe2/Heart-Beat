@@ -928,13 +928,13 @@ label Dia4_RaulAlexandra_Escolha_2_a:
 
     "Eu acho que… resolvi a situação?"
 
-    return
+    jump Dia5Menu
     #Encerra a cena
 
 label Dia4_RaulAlexandra_Escolha_2_b:
     #Escolha B
     #[Escolha B Ale (Bossa Nova- Garota de Ipanema) "Tem um estilo de música que combina com piano e violão" ]
-
+    $ pointsAlexandra +=1
     Ren "Podemos tocar Garota de Ipanema."
 
     show alexandra happy 2 at left:
@@ -990,7 +990,7 @@ label Dia4_RaulAlexandra_Escolha_2_b:
 label Dia4_RaulAlexandra_Escolha_2_c:
     #Escolha C
     #[Escolha C Raul (Lulu Santos - Tempos Modernos) "Tem uma música que combina com piano e violão" ]
-
+    $ pointsRaul +=1
     Ren  "Podemos tocar Lulu Santos - Tempos Modernos."
 
     show alexandra at left:
@@ -1587,3 +1587,5 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
     "A Alexandra tentava disfarçar os risinhos dela até que ela só se soltou e riu junto com a gente."
 
     #[Fim da cena]
+    jump Dia5Escolha
+    with fade
