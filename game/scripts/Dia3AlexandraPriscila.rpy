@@ -10,6 +10,8 @@ label Dia3_AlexandraPriscila:
 
     play music "audio/4_Dramatic_1_Master.ogg"
 
+    $ talkToPriscila3 = True
+
     "Decido ir olhar a copa do centro hoje. Talvez tenha um daqueles biscoitos sobrando-
     Se a Priscila já não devorou todos. "
 
