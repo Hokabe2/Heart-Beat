@@ -4,6 +4,8 @@ label Dia4_PriscilaJohnny:
 
     scene bg sala de musica
 
+    play music "audio/blithe_part_a.ogg" fadeout 1.0
+
     "Parece que o Johnny e a Priscila estão arrumando os microfones para o show"
 
     show johnny neutro1 at left:
@@ -99,7 +101,7 @@ label Dia4_PriscilaJohnny:
 
     Ren "Priscila?"
 
-    show priscila chorando at right:
+    show priscila chorando at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -108,13 +110,15 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "E-eu pareço estar bem!? O Johnny é assustador! Ele vai me matar! Se eu fizer algo de errado ele vai me partir ao meio e me prender dentro da geladeira da copa logo depois de sugar a minha alma e quebrar o PC gamer da Alexandra que eu uso sem permissão na sala de jogos! "
+    Pris "E-eu pareço estar bem!? O Johnny é assustador! Ele vai me matar!"
+
+    Pris "Se eu fizer algo de errado ele vai me partir ao meio e me prender dentro da geladeira da copa logo depois de sugar a minha alma e quebrar o PC gamer da Alexandra que eu uso sem permissão na sala de jogos!"
 
     Pris "Dá medo! Muito muito muito medo!"
 
     Ren  "Não sei se ele seria capaz de fazer tudo isso ha ha ha… Mas sim, ele é um pouco intimidador, mas você sabe que ele é uma boa pessoa, não?"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -123,11 +127,11 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris  "UM POUCO!? É que você não ouviu os boatos sobre o Johnny!"
+    Pris "UM POUCO!? É que você não ouviu os boatos sobre o Johnny!"
 
     Ren  "Que boatos?"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -136,17 +140,23 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "O Johnny é praticamente um mutante criminoso mundialmente procurado! Uma vez ele entortou uma bicicleta com as mãos vazias e no mesmo dia ele prendeu a cabeça de um garoto na privada, só porque ele olhou torto pra ele!"
+    Pris "O Johnny é praticamente um mutante criminoso mundialmente procurado!"
 
-    Pris "Dizem que o garoto foi hospitalizado e o Johnny nem se importou! E ainda mais, um aluno dele viu a situação e ele estava muito assustado! Então quer dizer que o Johnny nem se importa em como os próprios alunos o vêem."
+    Pris "Uma vez ele entortou uma bicicleta com as mãos vazias e no mesmo dia ele prendeu a cabeça de um garoto na privada, só porque ele olhou torto pra ele!"
+
+    Pris "Dizem que o garoto foi hospitalizado e o Johnny nem se importou!"
+
+    Pris "E ainda mais, um aluno dele viu a situação e ele estava muito assustado! Então quer dizer que o Johnny nem se importa em como os próprios alunos o vêem."
 
     Pris "O pior é que esse aluno continua tendo aulas com o Johnny! "
 
     Pris "Pobrezinho… O Johnny deve ter ameaçado ele para se manter em silêncio…"
 
-    Ren "Uhh… Tem certeza que não são apenas mal entendidos? Não faz muito sentido o aluno continuar indo às aulas do Johnny se ele é tão assustador."
+    Ren "Uhh… Tem certeza que não são apenas mal entendidos?"
 
-    show priscila preocupada2 at right:
+    Ren "Não faz muito sentido o aluno continuar indo às aulas do Johnny se ele é tão assustador."
+
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -159,7 +169,7 @@ label Dia4_PriscilaJohnny:
 
     Ren "Priscila… Eu-"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -168,11 +178,13 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Você não ouviu falar da vez que ele botou fogo no cabelo de uma professora dele? Dizem que na verdade sua intenção era queimar a professora viva junto com toda a sala dos professores."
+    Pris "Você não ouviu falar da vez que ele botou fogo no cabelo de uma professora dele?"
+
+    Pris "Dizem que na verdade sua intenção era queimar a professora viva junto com toda a sala dos professores."
 
     Ren "Prisc-"
 
-    show priscila chorando at right:
+    show priscila chorando at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -181,11 +193,13 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Meu deus… Só consigo imaginar a escola em um enorme incêndio e o Johnny do lado de fora com uma risada malígna, apreciando o sofrimento de todas as vidas inocentes que seriam perdidas naquele momento…"
+    Pris "Meu deus…"
+
+    Pris "Só consigo imaginar a escola em um enorme incêndio e o Johnny do lado de fora com uma risada malígna, apreciando o sofrimento de todas as vidas inocentes que seriam perdidas naquele momento…"
 
     Ren "Uh…-"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -194,11 +208,15 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "E se ele pretende fazer coisas piores? E se ele está planejando um ataque terrorista ao centro comunitário durante o festival… Não… A suposta ligação que ele foi atender… Não… Não, NÃO PODE SER!!! REN, NÓS TEMOS QUE-"
+    Pris "E se ele pretende fazer coisas piores?"
+
+    Pris "E se ele está planejando um ataque terrorista ao centro comunitário durante o festival…"
+
+    Pris "Não… A suposta ligação que ele foi atender… Não… Não, NÃO PODE SER!!! REN, NÓS TEMOS QUE-"
 
     Ren "PRISCILA!"
 
-    show priscila pout at right:
+    show priscila pout at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -211,7 +229,7 @@ label Dia4_PriscilaJohnny:
 
     Ren "Não é mais fácil só perguntarmos pra ele sobre a verdade desses boatos?"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -220,11 +238,13 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "O-o que!? Você tá doido!? E se ele matar a gente!? Talvez ele até fale sobre as informações, mas depois ele vai aprisionar e torturar a gente até que esqueçamos de tudo completamente!"
+    Pris "O-o que!? Você tá doido!? E se ele matar a gente!?"
+
+    Pris "Talvez ele até fale sobre as informações, mas depois ele vai aprisionar e torturar a gente até que esqueçamos de tudo completamente!"
 
     Ren "Priscila, se ele tivesse feito essas coisas, a polícia já teria prendido ele faz um bom tempo."
 
-    show priscila preocupada at right:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -233,7 +253,9 @@ label Dia4_PriscilaJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Uh… Ehh… Pior que faz sentido… Mas talvez ele seja muito bom em esconder pistas e ninguém nunca conseguiu provar a verdade!"
+    Pris "Uh… Ehh… Pior que faz sentido…"
+
+    Pris "Mas talvez ele seja muito bom em esconder pistas e ninguém nunca conseguiu provar a verdade!"
 
     #Ren *Suspira*
 
@@ -276,7 +298,9 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
 
     Pris "A-a gente vai morrer…"
 
-    Ren "Você provavelmente já sabe, mas alguns boatos sobre você rolam pelo centro comunitário. Eu queria saber sobre a veracidade dos fatos."
+    Ren "Você provavelmente já sabe, mas alguns boatos sobre você rolam pelo centro comunitário."
+
+    Ren "Eu queria saber sobre a veracidade dos fatos."
 
     show johnny neutro1 at left:
         matrixcolor TintMatrix("#777")
@@ -292,11 +316,13 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
     Joh "*Suspira* Tem uns idiotas que não tem nada pra fazer mesmo…
     *Olha de lado para Priscila*"
 
-    #Pris *Leva um choque de medo*
+    Pris "*Leva um choque de medo*"
 
     "Realmente, deve ser difícil pro Johnny. Ser alvo de boatos o tempo todo só pela forma de agir não deve ser fácil."
 
-    Ren "Então, eu tava ouvindo falar de quando você botou fogo na esco- *Ajusta a garganta* - Eu tava ouvindo falar de quando você queimou o cabelo de uma professora na sua escola."
+    Ren "Então, eu tava ouvindo falar de quando você botou fogo na esco-"
+
+    Ren "*Ajusta a garganta* - Eu tava ouvindo falar de quando você queimou o cabelo de uma professora na sua escola."
 
     show johnny pensativo1 at left:
         matrixcolor TintMatrix("#777")
@@ -307,7 +333,8 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "Ah, isso aí? Foi a própria professora que queimou o cabelo com uma chapinha que ela conectou em uma tomada defeituosa. Eu só comuniquei pro pessoal da minha turma que a sala dos professores tava com cheiro de queimado."
+    Joh "Ah, isso aí? Foi a própria professora que queimou o cabelo com uma chapinha que ela conectou em uma tomada defeituosa."
+    Joh "Eu só comuniquei pro pessoal da minha turma que a sala dos professores tava com cheiro de queimado."
     Joh "No final das contas, a coordenação precisava culpar alguém e uns arrombados da turma disseram que eu queimei a professora com um isqueiro."
 
     Ren "Mas eles te julgaram como culpado sem nem contestar?"
@@ -323,9 +350,9 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
 
     Joh "A coordenação já não me enxergava bem por conta do meu jeito, então eles só aceitaram como verdade."
 
-    #Ren *Olha pra Priscila*
+    Ren "*Olha pra Priscila*"
 
-    #Pris *Outro choque de medo*
+    Pris "*Outro choque de medo*"
 
     show priscila preocupada at right:
         matrixcolor TintMatrix("#777")
@@ -382,7 +409,8 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "*Suspira* Esse de eu ter entortado a bicicleta nunca aconteceu. A única vez que eu me lembro de ver uma bicicleta entortada foi quando eu fui atropelado por ônibus quando eu estava andando de bicicleta."
+    Joh "*Suspira* Esse de eu ter entortado a bicicleta nunca aconteceu."
+    Joh "A única vez que eu me lembro de ver uma bicicleta entortada foi quando eu fui atropelado por ônibus quando eu estava andando de bicicleta."
     Joh "A minha bicicleta entortou, mas ela já estava velha, então eu não liguei muito."
 
     Joh "E sobre o garoto na privada, é verdade, mas-"
@@ -433,7 +461,9 @@ label Dia4_PriscilaJohnny_Escolha_1_a:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "Como eu estava dizendo, é verdade que eu coloquei a cabeça dele na privada, mas a privada estava vazia. E ainda mais, esse negócio dele ter ido para o hospital é idiotice, o moleque era um daqueles folgados que se faz de macho, mas chora por qualquer coisa."
+    Joh "Como eu estava dizendo, é verdade que eu coloquei a cabeça dele na privada, mas a privada estava vazia."
+
+    Joh "E ainda mais, esse negócio dele ter ido para o hospital é idiotice, o moleque era um daqueles folgados que se faz de macho, mas chora por qualquer coisa."
 
     show priscila preocupada at right:
         matrixcolor TintMatrix("#777")
@@ -503,7 +533,11 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
     #Escolha B
     #[*Manter-se em silêncio*]
 
-    "Tá… Eu amarelei… Perguntar coisas pro Johnny é mais difícil do que eu imaginava. A Priscila tá certa, e se os boatos estiverem certos? E se o Johnny é um criminoso extremamente perigoso infiltrado em um centro comunitário? E se ele se irritar com as perguntas? São muitas dúvidas contra a pouca coragem que eu tenho…"
+    "Tá… Eu amarelei… Perguntar coisas pro Johnny é mais difícil do que eu imaginava."
+
+    "A Priscila tá certa, e se os boatos estiverem certos? E se o Johnny é um criminoso extremamente perigoso infiltrado em um centro comunitário?"
+
+    "E se ele se irritar com as perguntas? São muitas dúvidas contra a pouca coragem que eu tenho…"
 
     show johnny neutro1 at left:
         matrixcolor TintMatrix("#777")
@@ -597,8 +631,9 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
 
     Pris "Como assim…!? Você acha que eu sei arrumar isso…!? Eu só sei dormir…! Arruma você…!"
 
-    Ren "Eu faço jornalismo, não eletrônica, eu não sei mexer em cabos…! Você não joga muito no seu PC da sala de jogos? Você deveria saber como conectar cabos…!?"
+    Ren "Eu faço jornalismo, não eletrônica, eu não sei mexer em cabos…!"
 
+    Ren "Você não joga muito no seu PC da sala de jogos? Você deveria saber como conectar cabos…!?"
 
     show priscila preocupada at right:
         matrixcolor TintMatrix("#777")
@@ -637,7 +672,9 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "P-por favor, senhor Johnny, eu te imploro, não nos mate! Se for pra matar alguém, mate o Ren, a culpa é dele, eu só sou uma garota inocente que está sendo influenciada por um forasteiro do centro comunitário!"
+    Pris "P-por favor, senhor Johnny, eu te imploro, não nos mate!"
+
+    Pris "Se for pra matar alguém, mate o Ren, a culpa é dele, eu só sou uma garota inocente que está sendo influenciada por um forasteiro do centro comunitário!"
 
     "Quem precisa de inimigos quando se tem a Priscila…?"
 
@@ -668,7 +705,9 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
 
     "EU!?"
 
-    Ren "N-Nós ouvimos f-falar de alguns boatos sobre você, mas a gente não sabia se eram verdade ou não… E a gente queria te perguntar sobre a veracidade dos boatos…"
+    Ren "N-Nós ouvimos f-falar de alguns boatos sobre você, mas a gente não sabia se eram verdade ou não…"
+
+    Ren "E a gente queria te perguntar sobre a veracidade dos boatos…"
 
     show johnny bravo1 at left:
         matrixcolor TintMatrix("#777")
@@ -718,7 +757,8 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "*Suspira* Esse de eu ter entortado a bicicleta nunca aconteceu. A única vez que eu me lembro de ver uma bicicleta entortada foi quando eu fui atropelado por ônibus quando eu estava andando de bicicleta."
+    Joh "*Suspira* Esse de eu ter entortado a bicicleta nunca aconteceu."
+    Joh "A única vez que eu me lembro de ver uma bicicleta entortada foi quando eu fui atropelado por ônibus quando eu estava andando de bicicleta."
     Joh "A minha bicicleta entortou, mas ela já estava velha, então eu não liguei muito."
 
     Joh "E sobre o garoto na privada, é verdade, mas-"
@@ -747,7 +787,9 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "Como eu estava dizendo, é verdade que eu coloquei a cabeça dele na privada, mas a privada estava vazia. E ainda mais, esse negócio dele ter ido para o hospital é idiotice, o moleque era um daqueles folgados que se faz de macho, mas chora por qualquer coisa."
+    Joh "Como eu estava dizendo, é verdade que eu coloquei a cabeça dele na privada, mas a privada estava vazia."
+
+    Joh "E ainda mais, esse negócio dele ter ido para o hospital é idiotice, o moleque era um daqueles folgados que se faz de macho, mas chora por qualquer coisa."
 
     show priscila preocupada at right:
         matrixcolor TintMatrix("#777")
@@ -814,7 +856,8 @@ label Dia4_PriscilaJohnny_Escolha_1_b:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "Ah, isso aí? Foi a própria professora que queimou o cabelo com uma chapinha que ela conectou em uma tomada defeituosa. Eu só comuniquei pro pessoal da minha turma que a sala dos professores tava com cheiro de queimado."
+    Joh "Ah, isso aí? Foi a própria professora que queimou o cabelo com uma chapinha que ela conectou em uma tomada defeituosa."
+    Joh "Eu só comuniquei pro pessoal da minha turma que a sala dos professores tava com cheiro de queimado."
     Joh "No final das contas, a coordenação precisava culpar alguém e uns arrombados da turma disseram que eu queimei a professora com um isqueiro."
 
     Ren "Mas eles te julgaram como culpado sem nem contestar?"
@@ -862,7 +905,9 @@ label Dia4_PriscilaJohnny_Escolha_1_continuacao:
 
     Pris "…"
 
-    "Os olhos da Priscila começaram a brilhar. O medo que ela estava demonstrando desapareceu instantaneamente. Eu não faço ideia do que pode estar passando na mente dela, como de costume."
+    "Os olhos da Priscila começaram a brilhar."
+
+    "O medo que ela estava demonstrando desapareceu instantaneamente. Eu não faço ideia do que pode estar passando na mente dela, como de costume."
 
     show priscila sorriso at right:
         matrixcolor TintMatrix("#777")
@@ -1108,7 +1153,9 @@ label Dia4_PriscilaJohnny_Escolha_1_continuacao:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Pfft! Ha ha ha! É claro que é! Se a tomada é mais velha então quer dizer que ela tem mais experiência e já foi usada muitas vezes. O que significa que ela funciona bem!"
+    Pris "Pfft! Ha ha ha! É claro que é! Se a tomada é mais velha então quer dizer que ela tem mais experiência e já foi usada muitas vezes."
+
+    Pris "O que significa que ela funciona bem!"
 
     "De onde ela tirou essa informação!?"
 
@@ -1268,7 +1315,9 @@ label Dia4_PriscilaJohnny_Escolha_1_continuacao:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Joh "Ei, você tá bem? Se machucou em algum lugar!? Essas tomadas antigas são perigosas, você não devia usar elas, tem outras tomadas novas aqui na sala."
+    Joh "Ei, você tá bem? Se machucou em algum lugar!?"
+
+    Joh "Essas tomadas antigas são perigosas, você não devia usar elas, tem outras tomadas novas aqui na sala."
 
     show priscila sorriso at right:
         matrixcolor TintMatrix("#777")

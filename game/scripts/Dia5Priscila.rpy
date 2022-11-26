@@ -2,6 +2,8 @@ label Dia5_Priscila:
     #EXT - PÁTIO DO CENTRO COMUNITÁRIO - MANHÃ
     scene bg patio
 
+    play music "audio/home.ogg" fadeout 1.0
+
     "Certo, esse é o último dia para arrumar as coisas para o festival. Cada um dos membros do centro comunitário já se direcionaram para suas tarefas."
 
     "O Raul, a Alexandra e o Johnny já estão ensaiando com seus respectivos instrumentos. Mas… E a Priscila? Eu não vi ela desde o início do dia…"
