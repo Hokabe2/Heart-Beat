@@ -51,7 +51,7 @@ label Dia2_Astolfo:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul feliz1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -91,7 +91,7 @@ label Dia2_Astolfo:
 
     Ale  "Bom dia senhor Astolfo e Ren."
 
-    show raul at center:
+    show raul feliz1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -164,7 +164,7 @@ label Dia2_Astolfo:
 
     Ale "É só você se organizar."
 
-    show raul at center:
+    show raul sorrindo1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -251,7 +251,7 @@ label Dia2_Astolfo:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -302,7 +302,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul feliz1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -342,7 +342,7 @@ label Dia2_Astolfo_PT2:
 
     Ale  "O chá preto de hoje estava espetacular."
 
-    show raul at center:
+    show raul envergonhado2 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -412,7 +412,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul neutro1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -463,7 +463,7 @@ label Dia2_Astolfo_PT2:
 
     Pris "NANI?!"
 
-    show raul at center:
+    show raul surpreso2 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -499,7 +499,7 @@ label Dia2_Astolfo_PT2:
 
     Pris "Isso só pode ser um pesadelo… Eu ainda tô na minha cama abraçada com o meu travesseiro do Jão Cookie…"
 
-    show raul at center:
+    show raul pensativo1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -558,7 +558,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul neutro1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -574,6 +574,15 @@ label Dia2_Astolfo_PT2:
         yalign 1.0
         zoom 0.5
         matrixcolor TintMatrix("#777")
+
+    show raul neutro1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Raul "…"
 
@@ -656,7 +665,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul sorrindo1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -673,7 +682,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center:
+    show raul feliz1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -741,7 +750,7 @@ label Dia2_Astolfo_PT2:
 
     Pris "Muito trabalho, dá até preguiça…"
 
-    show raul at center:
+    show raul rindo2 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -795,7 +804,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul irritado2 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -821,7 +830,7 @@ label Dia2_Astolfo_PT2:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    show raul at center:
+    show raul irritado2 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -892,7 +901,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul feliz1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -909,7 +918,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center:
+    show raul feliz1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
@@ -1024,7 +1033,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul at center with dissolve:
+    show raul sorrindo1 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5
@@ -1074,7 +1083,7 @@ label Dia2_Astolfo_PT2:
 
     Pris "Ahhhhh não é justo isso! Eu nunca vou na frente Johnny! Então o rádio é meu!"
 
-    show raul at center:
+    show raul feliz1 at center:
         matrixcolor TintMatrix("#777")
         xalign 0.3
         yalign 1.0
