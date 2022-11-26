@@ -39,24 +39,69 @@ label Cena_Introducao_email:
 
         "???" "TIIIIIIIIIIOOOOOOOOOOOOOOO AAASSSSSSSSSSSSSSSSTOOOOOOOOOLLLLLLLLFFFFFFFFOOOOOOOOOO A CAMIIIIIIIINHOOOOOOOOOOOOOOOOOOO"
 
-        Ren "O senhor sempre foi ‘único’ nas suas entradas Tio Astolfo"
+        show astolfo sprite at center with dissolve:
+            yalign 1.0
+            zoom 0.5
+            matrixcolor TintMatrix("#777")
 
-        Tio_Astolfo "Ora, uma boa entrada sempre precede uma conversa fenomenal"
+        Ren "O senhor sempre foi ‘único’ nas suas entradas Tio Astolfo."
 
-        Tio_Astolfo "Então meu sobrinho, fiquei sabendo que você está aqui para fazer um trabalho acadêmico"
+        show astolfo sprite at center:
+            matrixcolor TintMatrix("#777")
+            yalign 1.0
+            zoom 0.5
+            linear 0.15 yalign 1.0
+            linear 0.15 yalign 0.85
+            linear 0.1 matrixcolor TintMatrix("#fff")
+            linear 0.15 yalign 1.0
+
+        Tio_Astolfo "Ora, uma boa entrada sempre precede uma conversa fenomenal!"
+
+        Tio_Astolfo "Então meu sobrinho, fiquei sabendo que você está aqui para fazer um trabalho acadêmico!"
+
+        show astolfo sprite at center:
+            matrixcolor TintMatrix("#fff")
+            yalign 1.0
+            zoom 0.5
+            linear 0.1 matrixcolor TintMatrix("#777")
 
         Ren "Ah sim! Tenho uma matéria pra entregar pro final do mês e…"
 
-        Tio_Astolfo "Sobre o que vai ser esta matéria? Será sobre seu adorável tio?"
+        show astolfo sprite at center:
+            matrixcolor TintMatrix("#777")
+            yalign 1.0
+            zoom 0.5
+            linear 0.15 yalign 1.0
+            linear 0.15 yalign 0.85
+            linear 0.1 matrixcolor TintMatrix("#fff")
+            linear 0.15 yalign 1.0
 
+        Tio_Astolfo "Sobre o que vai ser esta matéria? Será sobre seu adorável tio?"
 
         "Uma matéria sobre o Tio Astolfo seria interessante, porém acho difícil que os professores aceitarem… Talvez eu faça algo sobre as histórias dele em um próximo semestre"
 
+        show astolfo sprite at center:
+            matrixcolor TintMatrix("#fff")
+            yalign 1.0
+            zoom 0.5
+            linear 0.1 matrixcolor TintMatrix("#777")
+
         Ren "Na verdade é sobre o centro comunitário local. Recebi um e-mail outro dia falando sobre o lugar, então eu vim pesquisar"
+
+        show astolfo sprite at center:
+            matrixcolor TintMatrix("#777")
+            yalign 1.0
+            zoom 0.5
+            linear 0.15 yalign 1.0
+            linear 0.15 yalign 0.85
+            linear 0.1 matrixcolor TintMatrix("#fff")
+            linear 0.15 yalign 1.0
 
         Tio_Astolfo "O Centro Comunitário? Olha mas que sorte, pelos últimos vinte anos eu fui responsável pelo centro. Venha, vou te contar sobre isso tudo enquanto vamos para lá"
 
         Tio_Astolfo "PARA O ASTOLFO MÓVEL!!!"
+
+        hide astolfo sprite at center with dissolve
 
         "Pelo amor de Deus, aquela Kombi velha de novo não… A última vez que eu entrei lá o Tio Astolfo quase jogou a gente em um barranco tentando se livrar de uma mosca…"
 
@@ -169,6 +214,11 @@ label Cena_Introducao_Raul:
         "(Criança aleatória)"  "Tá bom, Raul."
 
         "Uma menina passou correndo por mim."
+
+        show raul at center with dissolve:
+            yalign 1.0
+            zoom 0.5
+            matrixcolor TintMatrix("#777")
 
         show raul at center:
             matrixcolor TintMatrix("#777")
@@ -461,6 +511,11 @@ label Cena_Introducao_Priscila:
     Ren "…"
 
     "???" "…"
+
+    show priscila neutro at center with dissolve:
+        yalign 1.0
+        zoom 0.5
+        matrixcolor TintMatrix("#777")
 
     "Continuamos nos encarando em silêncio por alguns segundos devido ao choque da situação."
 
