@@ -1,5 +1,8 @@
 label FinalRaul:
 
+    scene bg black
+    with fade
+
     play music "audio/autumn_leaves_part_a.ogg" volume 1.0
 
     "A apresentação foi sensacional! Arrasamos demais. A plateia não parava de pedir mais músicas. No fim, tocamos umas 10 músicas a mais e o show só terminou quando o Sol nasceu."
@@ -21,3 +24,5 @@ label FinalRaul:
     "Somos amigos até hoje e nos encontramos quase todos os dias lá no campus."
 
     "FIM"
+
+    $ renpy.quit()

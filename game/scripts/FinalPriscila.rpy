@@ -1,5 +1,8 @@
 label FinalPriscila:
 
+    scene bg black
+    with fade
+
     play music "audio/good_old_days_part_a.ogg" fadeout 1.0
 
     "O festival finalmente chegou ao fim. Logo em seguida o Tio Astolfo nos chamou para falar o resultado. E foi um sucesso! "
@@ -31,3 +34,5 @@ label FinalPriscila:
     "Eu agradeço a todos do centro comunitário por terem me dado essa experiência. Obrigado Raul. Obrigado Johnny. Obrigado Alexandra. E… É claro, obrigado, Priscila!"
 
     "FIM"
+
+    $ renpy.quit()

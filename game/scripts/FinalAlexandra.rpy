@@ -1,5 +1,7 @@
 label FinalAlexandra:
-    #(Ren - Narração)
+
+    scene bg black
+    with fade
 
     play music "audio/frozen_winter.ogg" volume 5.0
 
@@ -30,4 +32,5 @@ label FinalAlexandra:
     "O sorriso que ela me deu com essas palavras, me fez pensar que essa viagem realmente valeu a pena."
 
     "FIM"
-    return
+
+    $ renpy.quit()

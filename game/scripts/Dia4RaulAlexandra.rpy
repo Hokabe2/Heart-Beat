@@ -2,6 +2,9 @@ label Dia4_RaulAlexandra:
     #INT- SALA DE MÚSICA - DIA
 
     scene bg sala de musica
+    with fade
+
+    play music "audio/blithe_part_a.ogg"
 
     "Quando entrei na sala de música, encontrei a Alexandra limpando as teclas do piano."
 

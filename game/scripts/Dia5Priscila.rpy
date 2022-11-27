@@ -1,24 +1,32 @@
 label Dia5_Priscila:
     #EXT - PÁTIO DO CENTRO COMUNITÁRIO - MANHÃ
     scene bg patio
+    with fade
 
-    play music "audio/home.ogg" fadeout 1.0
+    play music "audio/home.ogg"
 
     "Certo, esse é o último dia para arrumar as coisas para o festival. Cada um dos membros do centro comunitário já se direcionaram para suas tarefas."
 
-    "O Raul, a Alexandra e o Johnny já estão ensaiando com seus respectivos instrumentos. Mas… E a Priscila? Eu não vi ela desde o início do dia…"
+    "O Raul, a Alexandra e o Johnny já estão ensaiando com seus respectivos instrumentos."
+
+    "Mas… E a Priscila? Eu não vi ela desde o início do dia…"
 
     "Talvez ela esteja roubando comida da geladeira da copa e esqueceu de fazer as coisas dela, acho bom eu dar um puxão de orelha nela antes de fazer o que eu planejei pra hoje."
     #[Move-se para a Copa do Centro Comunitário]
 
     #INT - COPA DO CENTRO COMUNITÁRIO - MANHÃ
     scene bg copa
+    with fade
 
     "Cheguei, agora é só olhar para a geladeira que ela…"
 
     "Ué, ela não está aqui?"
 
-    "Hmm… Ela não está aqui na copa, a sala de música está ocupada e ela não está deitada no chão do pátio. A Priscila passa a maior parte do tempo aqui no centro comunitário, então deve ter mais algum lugar que ela possa estar. Vou tentar perguntar pra alguém aqui do centro comunitário."
+    "Hmm… Ela não está aqui na copa, a sala de música está ocupada e ela não está deitada no chão do pátio."
+
+    "A Priscila passa a maior parte do tempo aqui no centro comunitário, então deve ter mais algum lugar que ela possa estar."
+
+    "Vou tentar perguntar pra alguém aqui do centro comunitário."
 
     "Estou com um mal pressentimento…"
 
@@ -28,7 +36,7 @@ label Dia5_Priscila:
 
     Ren "Opa, olá, Johnny."
 
-    show joh neutro1 at center:
+    show johnny neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -41,7 +49,7 @@ label Dia5_Priscila:
 
     Ren "Johnny, posso te perguntar uma coisa?"
 
-    show joh sorrindo1 at center:
+    show johnny sorrindo1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -54,7 +62,7 @@ label Dia5_Priscila:
 
     Ren "É sobre a P-Priscila! Ela está sumida desde o início do dia, você viu ela em algum lugar?"
 
-    show joh neutro2 at center:
+    show johnny neutro2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -67,7 +75,7 @@ label Dia5_Priscila:
 
     Ren "Talvez… Mas, ainda assim, ela normalmente estaria em algum lugar aqui do centro comunitário. Você sabe de alguém que sabe onde ela está?"
 
-    show joh neutro1 at center:
+    show johnny neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -86,7 +94,11 @@ label Dia5_Priscila:
     #INT - SALA DE MÚSICA DO CENTRO COMUNITÁRIO - MANHÃ
 
     scene bg sala de musica
-    "Vou até a sala de música e encontro a Alexandra tocando uma bela melodia em seu piano com extrema concentração. Ela deve estar levando o festival realmente a sério, acho melhor eu esperar ela terminar de tocar a música para que eu fale com ela."
+    with fade
+
+    "Vou até a sala de música e encontro a Alexandra tocando uma bela melodia em seu piano com extrema concentração."
+
+    "Ela deve estar levando o festival realmente a sério, acho melhor eu esperar ela terminar de tocar a música para que eu fale com ela."
 
     show alexandra neutral at center:
         matrixcolor TintMatrix("#fff")
@@ -126,7 +138,9 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Ale "A Priscila? Não a vi, estive aqui na sala de música desde que cheguei. Possivelmente o Raul sabe, ele sempre está interagindo com todos no centro comunitário. Ele está na recepção realizando algumas tarefas para o festival."
+    Ale "A Priscila? Não a vi, estive aqui na sala de música desde que cheguei."
+
+    Ale "Possivelmente o Raul sabe, ele sempre está interagindo com todos no centro comunitário. Ele está na recepção realizando algumas tarefas para o festival."
 
     Ren "Ahh, tá certo! Obrigado pela informação."
 
@@ -140,7 +154,7 @@ label Dia5_Priscila:
 
     Ren "Opa, Raul."
 
-    show raul neutro at center:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -154,7 +168,7 @@ label Dia5_Priscila:
 
     Ren "Na verdade sim, eu estou procurando a Priscila, ela está sumida desde o início do dia."
 
-    show raul neutro at center:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -168,7 +182,7 @@ label Dia5_Priscila:
 
     Ren "Sim."
 
-    show raul neutro at center:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -182,7 +196,7 @@ label Dia5_Priscila:
 
     Ren "Sim, também."
 
-    show raul pensativo at center:
+    show raul pensativo1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -196,45 +210,15 @@ label Dia5_Priscila:
 
     Ren "Mas você acha mesmo que a Priscila iria procrastinar logo no último dia de preparação do festival?"
 
-    show raul neutro at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
-
     Raul "Na real, é exatamente por conta de ser o último dia que eu imaginei que ela faria isso."
 
     Ren "Como assim? O que tem haver?"
-
-    show raul neutro at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
 
     Raul "Bom, eu não sei os detalhes e nem sei se isso é realmente verdade, mas ao meu ver parece que a Priscila tem seus motivos para ser preguiçosa do jeito que ela é."
 
     Raul "Eu já vi gente preguiçosa, só que o jeito preguiçoso dela é diferente, manja?"
 
     Ren "Diferente? Em qual sentido?"
-
-    show raul pensativo at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
 
     Raul "Hã… Como eu posso explicar…?"
 
@@ -247,30 +231,13 @@ label Dia5_Priscila:
     #[OPÇÃO 2: Caso a opção 1 não seja verdade]
         Ren "Quais habilidades a Priscila tem? Até agora eu só vi ela comendo e dormindo o dia todo."
 
-        show raul feliz at center:
-            matrixcolor TintMatrix("#777")
-            yalign 1.0
-            zoom 0.5
-            linear 0.15 yalign 1.0
-            linear 0.15 yalign 0.85
-            linear 0.1 matrixcolor TintMatrix("#fff")
-            linear 0.15 yalign 1.0
+        Raul "Ah, você nunca viu a Priscila dançando e cantando? Se não, deveria ver, ela é boa demais."
 
-
-        Raul "Ah, você nunca viu a Priscila dançando e cantando? Se não, deveria ver, ela é boa demais. Eu nem curto o estilo de música dela, mas ver ela dançando e cantando faz todo mundo se contagiar com a animação das músicas."
+        Raul "Eu nem curto o estilo de música dela, mas ver ela dançando e cantando faz todo mundo se contagiar com a animação das músicas."
 
         Ren "Hmmm… Mas então se ela tem habilidades nesse nível, por que ela não demonstra isso com mais frequência?"
 
     #[CONTINUAÇÃO]
-
-    show raul neutro at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
 
     Raul "Exatamente, esse é o meu ponto."
 
@@ -278,79 +245,32 @@ label Dia5_Priscila:
 
     Raul "Hmmm…"
 
-    show raul feliz at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
-
     Raul "Ah! Cara, como eu não pensei nisso!"
 
     Ren "O que foi?"
-
-    show raul feliz at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
 
     Raul "Você já foi dar uma olhada na sala de jogos?"
 
     Ren "Não fui, mas é que na verdade eu nunca fui lá, então não sei onde fica."
 
-    show raul feliz at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
+    Raul "Fica em um canto no fundo do pátio do centro comunitário."
 
-
-    Raul "Fica em um canto no fundo do pátio do centro comunitário. Você vai ver tipo um quarto pequeno com uma porta de metal."
+    Raul "Você vai ver tipo um quarto pequeno com uma porta de metal."
 
     "Essa descrição não ajudou muito… ha ha ha…"
 
     Ren "…Será que não é melhor você ir junto?"
 
-    show raul neutro at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
-
     Raul "Foi mal, Ren, vou ter que deixar essa com você, eu estou bastante ocupado por aqui."
 
     Ren "Ah, ok. Eu vou dar um jeito."
-
-    show raul sorrindo at center:
-        matrixcolor TintMatrix("#777")
-        yalign 1.0
-        zoom 0.5
-        linear 0.15 yalign 1.0
-        linear 0.15 yalign 0.85
-        linear 0.1 matrixcolor TintMatrix("#fff")
-        linear 0.15 yalign 1.0
-
 
     Raul "Beleza, confio em você."
 
     #EXT - PÁTIO DO CENTRO COMUNITÁRIO - MANHÃ
 
     scene bg patio
+    with fade
     "Tá certo, agora eu tenho que achar a sala de jogos…"
 
     "*Anda até o fundo do pátio*"
@@ -361,7 +281,9 @@ label Dia5_Priscila:
 
     "Ah! Eu achei!"
 
-    "Pelo incrível que pareça, foi exatamente como o Raul descreveu, um pequeno quarto com uma porta de metal em um canto no fundo do pátio. Apesar de ser relativamente grande, é bem maior do que eu imaginava."
+    "Pelo incrível que pareça, foi exatamente como o Raul descreveu: um pequeno quarto com uma porta de metal em um canto no fundo do pátio."
+
+    "Apesar de não ser tão grande, é bem maior do que eu imaginava."
 
     "Por favor, que a Priscila esteja aqui…"
 
@@ -379,7 +301,9 @@ label Dia5_Priscila:
 
     Ren "*Bate na porta mais uma vez*"
 
-    Ren "Hoje é o último dia para arrumar as coisas do festival e as pessoas estão precisando de você. Mas… Na verdade eu só vim aqui pra saber se você está bem. Você sumiu desde o início do dia, eu estou preocupado…"
+    Ren "Hoje é o último dia para arrumar as coisas do festival e as pessoas estão precisando de você."
+
+    Ren "Mas… Na verdade eu só vim aqui pra saber se você está bem. Você sumiu desde o início do dia, eu estou preocupado…"
 
     "Será que na verdade ela não está aqui e eu estou falando sozinho?"
 
@@ -427,7 +351,9 @@ label Dia5_Priscila:
 
     Pris "E todo mundo do centro comunitário também está dando o melhor de si…"
 
-    Pris "Toda essa pressão para ser o melhor possível e superar expectativas é assustadora. É como se todos estivessem te observando a todo momento para que você alcance ou até ultrapasse os resultados que eles esperam."
+    Pris "Toda essa pressão para ser o melhor possível e superar expectativas é assustadora."
+
+    Pris "É como se todos estivessem te observando a todo momento para que você alcance ou até ultrapasse os resultados que eles esperam."
 
     "É notável a aflição de Priscila em sua entonação. A voz chamativa que eu ouvi todos os outros dias desapareceu completamente, parece outra pessoa."
 
@@ -471,7 +397,11 @@ label Dia5_Priscila:
 
     "Ao abrir eu vejo a expressão melancólica de Priscila."
 
-    "Ao fundo, me deparo com uma grande sala quase vazia. A única coisa que tem aqui são duas mesas, uma com uma caixa de som, que suponho que a Priscila use para aumentar o som dos jogos, e outra com o PC gamer que a Priscila usa, o qual está bem descuidado pra falar a verdade… Será que a Priscila sequer limpa ele?"
+    "Ao fundo, me deparo com uma grande sala quase vazia."
+
+    "A única coisa que tem aqui são duas mesas, uma com uma caixa de som, que suponho que a Priscila use para aumentar o som dos jogos, e outra com o PC gamer que a Priscila usa, o qual está bem descuidado pra falar a verdade…"
+
+    "Será que a Priscila sequer limpa ele?"
 
     "Por que essa sala de jogos está tão vazia? Até onde eu sei, normalmente uma sala de jogos teria diversos objetos, como mesas de tênis de mesa ou mesas de pebolim…"
 
@@ -558,7 +488,11 @@ label Dia5_Priscila:
 
     Pris "Hm!? P-por que você acha isso?"
 
-    Ren "Bom, faz todo sentido! Você tem medo que os outros te julguem em sua competência para fazer as coisas, então por isso você se esconde para praticar. Além disso, aqui não tem tomada para ligar o PC e a sala é vazia e inutilizada pelo Centro Comunitário, sendo um lugar muito conveniente para você praticar sua dança. O que quer dizer, portanto, que o PC é apenas uma desculpa para não desconfiarem do que você faz aqui."
+    Ren "Bom, faz todo sentido! Você tem medo que os outros te julguem em sua competência para fazer as coisas, então por isso você se esconde para praticar."
+
+    Ren "Além disso, aqui não tem tomada para ligar o PC e a sala é vazia e inutilizada pelo Centro Comunitário, sendo um lugar muito conveniente para você praticar sua dança."
+
+    Ren "O que quer dizer, portanto, que o PC é apenas uma desculpa para não desconfiarem do que você faz aqui."
 
     Ren "Eu estou certo, não estou?"
 
@@ -579,7 +513,7 @@ label Dia5_Priscila:
 
     Ren "…"
 
-    show priscila serioisso at center:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -588,11 +522,13 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Mas eu sei que é idiotice! Não tem por que alguém ficar se escondendo dos outros! Por favor, não conta pra ninguém! Eu-"
+    Pris "Mas eu sei que é idiotice! Não tem por que alguém ficar se escondendo dos outros!"
+
+    Pris "Por favor, não conta pra ninguém! Eu-"
 
     Ren "Pfft…"
 
-    show priscila serioisso at center:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -609,7 +545,7 @@ label Dia5_Priscila:
 
     "Eu não sei o porquê, mas toda essa situação me fez rir sem parar."
 
-    show priscila indignada2 at center:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -663,7 +599,7 @@ label Dia5_Priscila:
 
     Ren "Priscila, coragem não é a falta de ter medo, mas sim ter medo, mas enfrentar as situações mesmo assim!"
 
-    show priscila serioisso at center:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -672,9 +608,15 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Mas eu… Só fujo de tudo e finjo ser preguiçosa… Eu pratico sozinha porque eu tenho medo que os outros vejam o que eu faço e me julguem caso eu cometa algum erro. Esse medo não me torna corajosa, me torna egoísta! Eu sempre atrapalho os outros…"
+    Pris "Mas eu… Só fujo de tudo e finjo ser preguiçosa…"
 
-    Ren "Mas ainda assim você se esforça! Mesmo que escondida, você se esforça para se tornar alguém melhor! Isso significa que você não se sente confortável em se manter no mesmo nível e por conta disso você decide treinar! É isso que eu admiro em você!"
+    Pris "Eu pratico sozinha porque eu tenho medo que os outros vejam o que eu faço e me julguem caso eu cometa algum erro."
+
+    Pris "Esse medo não me torna corajosa, me torna egoísta! Eu sempre atrapalho os outros…"
+
+    Ren "Mas ainda assim você se esforça! Mesmo que escondida, você se esforça para se tornar alguém melhor!"
+
+    Ren "Isso significa que você não se sente confortável em se manter no mesmo nível e por conta disso você decide treinar! É isso que eu admiro em você!"
 
     show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
@@ -689,13 +631,17 @@ label Dia5_Priscila:
 
     Ren "É claro que consegue!"
 
-    Ren "Priscila, ninguém consegue fazer tudo sozinho, não importa o quanto nos esforcemos. Às vezes nós precisamos de um empurrão de outras pessoas. Pessoas que são importantes e queridas para nós."
+    Ren "Priscila, ninguém consegue fazer tudo sozinho, não importa o quanto nos esforcemos."
+
+    Ren "Às vezes nós precisamos de um empurrão de outras pessoas. Pessoas que são importantes e queridas para nós."
 
     Ren "Eu percebi isso aqui no Centro Comunitário."
 
     Ren "Eu não conseguiria estar fazendo o meu trabalho da faculdade se o Tio Astolfo não tivesse me enviado o e-mail cinco dias atrás."
 
-    Ren "Eu não iria conseguir ajudar a arrumar o festival e me sentir bem fazendo isso se não fosse pela própria ajuda das pessoas incríveis que eu conheci aqui no centro comunitário. O Raul, a Alexandra, o Johnny e, você também, Priscila… Todos me ajudaram com isso."
+    Ren "Eu não iria conseguir ajudar a arrumar o festival e me sentir bem fazendo isso se não fosse pela própria ajuda das pessoas incríveis que eu conheci aqui no centro comunitário."
+
+    Ren "O Raul, a Alexandra, o Johnny e, você também, Priscila… Todos me ajudaram com isso."
 
     Ren "Então o que você precisa é de um empurrão. E eu posso te ajudar com isso se você quiser, assim como você me ajudou."
 
@@ -718,7 +664,7 @@ label Dia5_Priscila:
 
     "Começo a ver lágrimas nos olhos da Priscila."
 
-    show priscila chorando2 at center:
+    show priscila chorando at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -731,7 +677,7 @@ label Dia5_Priscila:
 
     Ren "Ha ha, por nada! Eu- Na verdade, não só eu, todos daqui do centro comunitário, estamos aqui por você."
 
-    show priscila chorando2 at center:
+    show priscila chorando at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -745,7 +691,7 @@ label Dia5_Priscila:
 
     "As fungadas voltaram ha ha ha…"
 
-    show priscila chorando2 at center:
+    show priscila chorando at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -778,6 +724,8 @@ label Dia5_Priscila:
 
     hide priscila at center with dissolve
 
+    stop music fadeout 1.0
+
     "Ela se virou e saiu andando…"
 
     "Ela pegou a caixa de som e ligou."
@@ -794,6 +742,7 @@ label Dia5_Priscila:
     Pris "Hi hi hi! É claro que sim!"
 
     #[música toca]
+    play music "audio/Gigakoops - Revenge from Behind the Grave.mp3"
 
     Ren "Priscila…!"
 
@@ -827,7 +776,15 @@ label Dia5_Priscila:
 
     #[time skip de alguns minutos]
 
-    "A música foi tocando e a Priscila dançava e cantava no decorrer dela. A sensação de ver ela se apresentando é realmente animadora! Ela contagia quem assiste com tamanha alegria, é como se eu estivesse com mais energia, eu estou ligado no 220!"
+    "A música foi tocando e a Priscila dançava e cantava no decorrer dela."
+
+    "A sensação de ver ela se apresentando é realmente animadora!"
+
+    "Ela contagia quem assiste com tamanha alegria, é como se eu estivesse com mais energia."
+
+    "Eu estou ligado no 220!"
+
+    stop music fadeout 2.0
 
     show priscila feliz at center:
         matrixcolor TintMatrix("#777")
@@ -880,17 +837,21 @@ label Dia5_Priscila:
 
     Ren "Agora deveríamos ir até a recepção, o Raul deve estar precisando de uma ajuda, ele está com bastante coisa pra fazer."
 
+    play music "audio/2_Day_1_Master.ogg" fadeout 1.0
+
     #*Transição de tela*
 
     #EXT - PÁTIO DO CENTRO COMUNITÁRIO - MANHÃ
     scene bg patio
+    with fade
 
-    "No caminho eu e Priscila estávamos conversando. Quer dizer… Mais ou menos… Admito que era uma conversa unilateral, ela ficou o tempo todo falando do Jão Cookie.
-    No meio disso, uma dúvida se instalou em minha cabeça."
+    "No caminho eu e Priscila estávamos conversando."
+    "Quer dizer… Mais ou menos… Admito que era uma conversa unilateral, ela ficou o tempo todo falando do Jão Cookie."
+    "No meio disso, uma dúvida se instalou em minha cabeça."
 
     Ren "Inclusive, Priscila, não querendo cortar o assunto, mas eu tenho uma pergunta."
 
-    show priscila sorriso at center:
+    show priscila animada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -909,7 +870,7 @@ label Dia5_Priscila:
 
     Ren "Na verdade-"
 
-    show priscila feliz at center:
+    show priscila animada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -921,7 +882,7 @@ label Dia5_Priscila:
     Pris "Tudo bem, fica tranquilo! Ele não matou a capivara, ele é bondoso demais para isso! Ele e a capivara se tornaram amigos e hoje em dia o Jão Cookie-"
 
     Ren "PRISCILA!"
-    show priscila neutro at center:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -934,11 +895,20 @@ label Dia5_Priscila:
 
     Ren "Na verdade, se você não se importar em dizer, eu queria saber o motivo de você ter medo do julgamento das pessoas."
 
+    show priscila neutro at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Ah, isso?"
 
-    Ren "Sim. Porque aqui no centro comunitário eu não vejo as pessoas te pressionando para ser super produtiva. Na verdade, apesar de você agir de forma preguiçosa, as pessoas nem se importam tanto assim com isso. Então esse problema deve ter surgido de outro lugar, não?"
+    Ren "Sim. Porque aqui no centro comunitário eu não vejo as pessoas te pressionando para ser super produtiva."
 
-    Pris "Sim. Esse problema surgiu na minha casa."
+    Ren "Na verdade, apesar de você agir de forma preguiçosa, as pessoas nem se importam tanto assim com isso. Então esse problema deve ter surgido de outro lugar, não?"
 
     show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
@@ -949,7 +919,11 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Os meus pais sempre me pressionaram muito para ser a melhor pessoa possível: notas altas, boa nos esportes, extremamente madura. E eu me esforçava para conseguir isso, mas nunca era suficiente, porque eu tenho a minha irmã mais velha."
+    Pris "Sim. Esse problema surgiu na minha casa."
+
+    Pris "Os meus pais sempre me pressionaram muito para ser a melhor pessoa possível: notas altas, boa nos esportes, extremamente madura."
+
+    Pris "E eu me esforçava para conseguir isso, mas nunca era suficiente, porque eu tenho a minha irmã mais velha."
 
     Ren "Você tem uma irmã?"
 
@@ -962,9 +936,11 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Sim, e ela é tudo que meus pais sempre quiseram, ela é extremamente esforçada e sempre conseguiu superar as expectativas em tudo. E por conta disso eles sempre quiseram que eu fosse como ela. Mesmo que eu tivesse a maior nota da minha turma na escola, mesmo que eu tivesse habilidades físicas melhores do que de muitas pessoas, nunca era o suficiente, eu nunca consegui alcançar o nível dela."
+    Pris "Sim, e ela é tudo que meus pais sempre quiseram, ela é extremamente esforçada e sempre conseguiu superar as expectativas em tudo."
 
+    Pris "E por conta disso eles sempre quiseram que eu fosse como ela."
 
+    Pris "Mesmo que eu tivesse a maior nota da minha turma na escola, mesmo que eu tivesse habilidades físicas melhores do que de muitas pessoas, nunca era o suficiente, eu nunca consegui alcançar o nível dela."
 
     Ren "Então você passa muito tempo aqui no centro comunitário exatamente porque você não tem toda essa pressão aqui, certo?"
 
@@ -988,7 +964,9 @@ label Dia5_Priscila:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Pris "Mas, ainda assim, o medo que eu tenho do julgamento dos meus pais ainda me persegue. É como se eles ficassem na minha cabeça o tempo todo dizendo que eu ainda não sou boa o suficiente."
+    Pris "Mas, ainda assim, o medo que eu tenho do julgamento dos meus pais ainda me persegue."
+
+    Pris "É como se eles ficassem na minha cabeça o tempo todo dizendo que eu ainda não sou boa o suficiente."
 
     "Isso deve ser difícil, acho que agora eu entendo um pouco sobre o que a Priscila passa…"
 
@@ -1015,7 +993,6 @@ label Dia5_Priscila:
         linear 0.15 yalign 1.0
 
     Pris "Hahaha! Você pareceu um jornalista falando!"
-
 
     Ren "Ahaha! Fico feliz em ouvir isso. Aliás, eu estou estudando para ser um!"
 

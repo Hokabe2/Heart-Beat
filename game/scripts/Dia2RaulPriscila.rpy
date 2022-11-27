@@ -1,5 +1,8 @@
 label Dia2_Raul_Priscila:
     scene bg exterior
+    with fade
+
+    play music "audio/cute_bossa_nova.ogg"
 
     "Eu caminho pelo pátio quando, a distância, noto um cobertor enrolado no chão. Parece apenas um cobertor, mas logo vejo um leve movimento, o qual revela um cabelo castanho escuro e um óculos."
     "Desta maneira, já consigo reconhecer quem está lá, e, por algum motivo, não me surpreendo com o resultado: é ninguém mais ninguém menos que a ladra de cookies, Priscila."
@@ -137,7 +140,7 @@ label Dia2_Raul_Priscila:
     Pris "Jão… Jão Cookie… Quem… QUEM TÁ MEXENDO COM O MEU JÃO COOKIE!!!
     AHHHHHHHHHHHHH, AQUELA BURGUESA PERFEITA DESGRAÇADAAAAAA!!!!"
 
-    show raul at left:
+    show raul rindo2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -169,7 +172,7 @@ label Cena_Dia2RaulPriscila_Escolha_1:
     #Escolha A
     #[Escolha A Raul “Namorando a Alexandra” ]
 label Cena_Dia2RaulPriscila_Escolha_1_a:
-    show raul at left:
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -195,7 +198,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_a:
 
     Pris "E você aí! Eu esperava mais de você, eu não sabia que você era mal também! Humf!"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -221,7 +224,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_a:
 
     Pris "Eh?! Por que eu?"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -243,7 +246,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_a:
 
     Pris "Na verdade, poder eu posso, tenho plena capacidade de fazer isso, provo pra todos do centro comunitário todos os dias."
 
-    show raul at left:
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -289,7 +292,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_b:
 
     Pris "Pelo menos tem alguém que não é malvado comigo, ao contrário do Raul…"
 
-    show raul at left:
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -311,7 +314,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_b:
 
     Pris "Você fazia isso comigo mesmo quando não tinha festival…"
 
-    show raul at left:
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -337,7 +340,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_b:
 
     Pris "Eh?! Por que eu?"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -359,7 +362,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_b:
 
     Pris "Na verdade, poder eu posso, tenho plena capacidade de fazer isso, provo pra todos do centro comunitário todos os dias."
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -383,7 +386,25 @@ label Cena_Dia2RaulPriscila_Escolha_1_b:
 
     Ren "…"
 
+    show raul pensativo1 at center:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "…"
+
+    show priscila serioisso at right:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
 
     Pris "…"
 
@@ -394,7 +415,9 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Pris "Tá bommm! Eu vou, você me deve uma camiseta do Jão Cookie com uma capivara, Raul."
 
-    show raul at left:
+    hide pris at right with dissolve
+
+    show raul pensativo1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -415,7 +438,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Ren "Eu só sei o básico."
 
-    show raul at left:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -435,7 +458,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Ren "Já tô ligando aqui o computador."
 
-    show raul at left:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -448,7 +471,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Ren "Tudo isso?!"
 
-    show raul at left:
+    show raul rindo2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -461,7 +484,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Ren "Podemos ir pesquisando umas músicas então."
 
-    show raul at left:
+    show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -478,7 +501,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Ren "Um pouco de tudo."
 
-    show raul at left:
+    show raul feliz1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -506,7 +529,7 @@ label Cena_Dia2RaulPriscila_Escolha_2:
                 if funk == False:
                     #Opção 1 Um funk:
 
-                    show raul at center:
+                    show raul neutro1 at center:
                         matrixcolor TintMatrix("#777")
                         yalign 1.0
                         zoom 0.5
@@ -526,7 +549,7 @@ label Cena_Dia2RaulPriscila_Escolha_2:
                 if rock == False:
                     #Opção 2 Música de Rock:
 
-                    show raul at center:
+                    show raul neutro1 at center:
                         matrixcolor TintMatrix("#777")
                         yalign 1.0
                         zoom 0.5
@@ -545,7 +568,7 @@ label Cena_Dia2RaulPriscila_Escolha_2:
             "(pop)":
                 if pop == False:
                     #Opção 3 Música pop:
-                    show raul at center:
+                    show raul neutro1 at center:
                         matrixcolor TintMatrix("#777")
                         yalign 1.0
                         zoom 0.5
@@ -562,6 +585,20 @@ label Cena_Dia2RaulPriscila_Escolha_2:
 
 label Escolha_2_continuacao:
 
+    show priscila feliz at right with dissolve:
+        matrixcolor TintMatrix("#777")
+        yalign 2.0
+        zoom 0.5
+
+    show priscila feliz at right:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Pris "Raul!"
 
     show raul at left:
@@ -575,7 +612,7 @@ label Escolha_2_continuacao:
 
     Raul "Pris, conseguiu achar a caixa de som?"
 
-    show priscila feliz at right:
+    show priscila neutro at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -588,7 +625,7 @@ label Escolha_2_continuacao:
 
     "A Priscila parece estar… Calma demais?"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -610,7 +647,7 @@ label Escolha_2_continuacao:
 
     Pris "Eu fiquei tentando procurar lá e depois que eu saí vocês não estavam mais no pátio, então tive que procurar vocês também."
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -634,7 +671,7 @@ label Escolha_2_continuacao:
 
     Pris "M-mas eu acabei de falar que não estava lá!"
 
-    show raul at left:
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -656,14 +693,21 @@ label Escolha_2_continuacao:
 
     Pris "Ok… Vamos lá então, Ren."
 
+    stop music fadeout 2.0
+
+    scene bg exterior
+    with fade
+
     #*Move para a sala de música*
     hide raul at left with dissolve
+
+    play music "audio/4_Dramatic_1_Master.ogg"
 
     "Estamos no caminho para a sala de música, a Priscila parece estar ficando cada vez mais nervosa quanto mais nos aproximamos do nosso objetivo. Suas mãos e sua testa parecem estar um pouco suadas."
 
     Ren "Priscila, está tudo bem? Você está suando bastante."
 
-    show priscila feliz at right:
+    show priscila feliz at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -676,7 +720,7 @@ label Escolha_2_continuacao:
 
     Ren "Então por que você não tira?"
 
-    show priscila sorriso at right:
+    show priscila sorriso at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -691,7 +735,7 @@ label Escolha_2_continuacao:
 
     Ren "Bom, chegamos. Agora só vou abrir a porta e-"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -704,7 +748,7 @@ label Escolha_2_continuacao:
 
     Ren "O que foi?"
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -717,7 +761,7 @@ label Escolha_2_continuacao:
 
     Ren "Você “acha” que trancou, não? Então quer dizer que a gente pode testar antes de voltar."
 
-    show priscila preocupada2 at right:
+    show priscila preocupada2 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -735,7 +779,7 @@ label Escolha_2_continuacao:
 
     Ren "Olha, estava destrancada."
 
-    show priscila pout at right:
+    show priscila pout at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -748,7 +792,7 @@ label Escolha_2_continuacao:
 
     Ren "Hã? Estava bem do lado da porta, em um local bem visível, como você não achou?"
 
-    show priscila sorriso at right:
+    show priscila sorriso at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -763,7 +807,7 @@ label Escolha_2_continuacao:
 
     Ren "Priscila, você estava procrastinando ao invés de vir aqui e pegar a caixa de som?"
 
-    show priscila feliz at right:
+    show priscila feliz at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -776,7 +820,7 @@ label Escolha_2_continuacao:
 
     Ren "Não precisa mentir, eu não vou contar pro Raul, só me diga a verdade."
 
-    show priscila neutro at right:
+    show priscila neutro at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -791,7 +835,7 @@ label Escolha_2_continuacao:
 
     Ren "Mas por que você fez isso? A gente confiou que você iria pegar a caixa de som."
 
-    show priscila preocupada at right:
+    show priscila preocupada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -804,7 +848,7 @@ label Escolha_2_continuacao:
 
     Ren "Mas-"
 
-    show priscila indignada at right:
+    show priscila indignada at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5

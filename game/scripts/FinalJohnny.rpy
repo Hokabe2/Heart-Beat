@@ -1,5 +1,8 @@
 label FinalJohnny:
 
+    scene bg black
+    with fade
+
     play music "audio/till_death_do_us_part.ogg" volume 1.0
 
     "Por mais que a apresentação tenha sido barulhenta, foi um sucesso! Nunca tinha me divertido tanto fazendo algo como isso."
@@ -18,3 +21,5 @@ label FinalJohnny:
     "Até hoje eu tiro duas semanas do meu ano para visitar o meu tio, e eu aproveito para ajudar na floricultura. Assim eu passo um tempo com um bom e velho amigo."
 
     "FIM"
+
+    $ renpy.quit()

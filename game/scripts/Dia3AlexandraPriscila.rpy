@@ -10,6 +10,8 @@ label Dia3_AlexandraPriscila:
 
     play music "audio/4_Dramatic_1_Master.ogg"
 
+    $ talkToPriscila3 = True
+
     "Decido ir olhar a copa do centro hoje. Talvez tenha um daqueles biscoitos sobrando-
     Se a Priscila já não devorou todos. "
 
@@ -1175,14 +1177,6 @@ label Cena_Dia3AlexandraPriscila_Escolha_1_continuacao:
         linear 0.15 yalign 0.85
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
-
-    #efeito fade in e fade out
-    with fade
-
-    return
-
-    #[FIM DA CENA]
-
 
 
     jump Dia4Escolha

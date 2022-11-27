@@ -1,4 +1,6 @@
 label Introducao:
+        stop music
+
         play sound "audio/phone_vibration.mp3"
 
         python:
@@ -540,16 +542,15 @@ label Cena_Introducao_Priscila:
 
     "Ela terminou rapidamente de comer seu biscoito, deixando diversos farelos caírem no chão, e logo depois chupou seus dedos que estavam sujos com chocolate."
 
-
     Pris "Hum, Hum… Me chamo Priscilla, muito prazer! Espero que possamos termos uma boa amizade e nos divertirmos muito juntos!"
+
+    "A menina estendeu amigavelmente a mão para me cumprimentar, enquanto apresentava um grande sorriso radiante. Senti como se ela emanasse luz com essa tamanha alegria. Estendi minha mão igualmente."
 
     show priscila feliz at center:
         matrixcolor TintMatrix("#fff")
         yalign 1.0
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
-
-    "A menina estendeu amigavelmente a mão para me cumprimentar, enquanto apresentava um grande sorriso radiante. Senti como se ela emanasse luz com essa tamanha alegria. Estendi minha mão igualmente."
 
     Ren "O prazer é meu, me chamo Ren, sou o sobrinho do tio Astolfo e espero a mesma coisa."
 
@@ -604,6 +605,12 @@ label Priscila_neutra_1_a:
 
     Pris "Hããã… Que chato… Acho que você não vai entrar na lista de pessoas legais… -_-"
 
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Ei!"
 
     show priscila feliz at center:
@@ -616,6 +623,12 @@ label Priscila_neutra_1_a:
         linear 0.15 yalign 1.0
 
     Pris "Hahaha, brincadeira! Só o fato de você não ter me denunciado pro tio Astolfo já te torna uma pessoa legal, ninguém me deixa comer a vontade aqui hahaha!"
+
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Mas eles não estão certos por fazer isso?"
 
@@ -632,6 +645,12 @@ label Priscila_neutra_1_a:
 
     Pris "Além disso, nem todos os alimentos aqui são comidos, o que quer dizer que eu estou evitando desperdício!"
 
+    show priscila feliz at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "…"
 
     "Comecei a olhar para ela com um olhar de julgamento."
@@ -647,6 +666,12 @@ label Priscila_neutra_1_a:
 
     Pris "…"
 
+    show priscila serioisso at center:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "…"
 
     show priscila serioisso at center:
@@ -660,7 +685,7 @@ label Priscila_neutra_1_a:
 
     Pris "N-não me olha com essa cara! T-tá bom, eu admito, é errado! Eu sei que é! Mas é difícil controlar a minha fome quando eu preciso aguardar até o almoço para comer apenas algumas das comidas tão gostosas que ficam dentro dessa geladeira!"
 
-    "Bom, pelo menos ela tem algum nível de autocrítica"
+    "Bom, pelo menos ela tem algum nível de autocrítica."
 
     Pris "Vou ir pra sala de jogos daqui do centro comunitário, se você mudar de ideia e quiser relaxar um pouco você pode me chamar. Só não me olhe com esse olhar de desprezo."
 
@@ -1282,4 +1307,3 @@ label Cena_Quarto_dia1:
             "Espero amanhã conseguir conversar melhor com ela. Algo sobre ela me intriga e não sai da minha cabeça…"
             jump Dia2_Astolfo
             with fade
-return

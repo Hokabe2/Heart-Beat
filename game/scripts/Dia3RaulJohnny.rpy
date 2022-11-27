@@ -5,6 +5,8 @@ label Dia3_RaulJohnny:
     scene bg sala de musica
     with fade
 
+    play music "audio/cute_bossa_nova.ogg"
+
     show johnny neutro at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
