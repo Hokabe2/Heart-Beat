@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Dia2RaulPriscila.rpy", line 410: Indentation mismatch.
+File "game/scripts/Dia2Astolfo.rpy", line 562: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    yalign 1.0
+    ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Nov 25 18:40:02 2022
+Sun Nov 27 13:07:11 2022

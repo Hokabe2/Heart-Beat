@@ -578,6 +578,7 @@ label Dia2_Astolfo_PT2:
     show raul neutro1 at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
+        xalign 0.3
         zoom 0.5
         linear 0.15 yalign 1.0
         linear 0.15 yalign 0.85
@@ -804,7 +805,7 @@ label Dia2_Astolfo_PT2:
         zoom 0.5
         matrixcolor TintMatrix("#777")
 
-    show raul irritado2 at center with dissolve:
+    show raul surpreso2 at center with dissolve:
         yalign 1.0
         xalign 0.3
         zoom 0.5

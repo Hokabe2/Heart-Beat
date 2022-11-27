@@ -7,7 +7,7 @@ label Dia3_RaulJohnny:
 
     play music "audio/cute_bossa_nova.ogg"
 
-    show johnny neutro at right:
+    show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -18,7 +18,13 @@ label Dia3_RaulJohnny:
 
     Joh "Ok… Raul, me passa a chave de fenda?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -29,7 +35,7 @@ label Dia3_RaulJohnny:
 
     Raul "Aqui! Agora passa aquele cabo ali por trás e conecta na entrada C"
 
-    show johnny neutro at right:
+    show johnny neutro2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -40,9 +46,27 @@ label Dia3_RaulJohnny:
 
     Joh "Passei e… Conectei. Agora testa o violão"
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "O- Oi pessoal. Precisam de ajuda?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -52,6 +76,12 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Fala Ren! A gente tá montando o equipamento para a apresentação, se quiser ajudar…"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny pensativo1 at right:
         matrixcolor TintMatrix("#777")
@@ -64,7 +94,13 @@ label Dia3_RaulJohnny:
 
     Joh "Só não atrapalhe, a gente passou duas horas só arrumando os cabos."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul rindo2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -74,6 +110,12 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Inclusive, aquele cabo ali ficou solto…"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny bravo1 at right:
         matrixcolor TintMatrix("#777")
@@ -86,7 +128,28 @@ label Dia3_RaulJohnny:
 
     Joh "AAAAAAAAAAAAAHHHHHHHGHHHHH!"
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show johnny neutro1 at right:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "Droga, vamos ter que testar de novo."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny bravo1 at right:
         matrixcolor TintMatrix("#777")
@@ -101,6 +164,12 @@ label Dia3_RaulJohnny:
 
     "No fim, demoramos uma hora para fazer a caixa de som funcionar. Quando não era o cabo que não funcionava, era a tomada; se a tomada funcionava, era mau contato com o plugin."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -112,7 +181,13 @@ label Dia3_RaulJohnny:
 
     Joh "Raul."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -122,6 +197,12 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Fala Johnny."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
@@ -134,7 +215,13 @@ label Dia3_RaulJohnny:
 
     Joh "Lembra do disco que eu emprestei pra você mês passado…?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul envergonhado2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -144,6 +231,12 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Ah..? É aquele disco do Legião Urbana? Hehehe eu esqueci dele."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny irritado2 at right:
         matrixcolor TintMatrix("#777")
@@ -156,7 +249,13 @@ label Dia3_RaulJohnny:
 
     Joh "E você vai me devolver quando Raul…?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul rindo2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -166,6 +265,12 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Já devolvo nesta semana. Sem falta, confia."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny irritado2 at right:
         matrixcolor TintMatrix("#777")
@@ -178,7 +283,13 @@ label Dia3_RaulJohnny:
 
     Joh "E é bom estar em bom estado, porque já é o terceiro que você pegou emprestado esse mês."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -205,7 +316,8 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
     #Johnny surpreso
 
-    show raul at left:
+
+    show raul suspreso2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -226,9 +338,27 @@ label Dia3_RaulJohnny:
 
     Joh "E você sabe tocar algo?"
 
-    Ren "Eu já tive aulas de violão e guitarra no colegial."
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    Ren "Eu já tive aulas de violão e guitarra no colegial."
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -239,7 +369,19 @@ label Dia3_RaulJohnny:
 
     Raul "Tá… Mas você acha que consegue acompanhar a gente?"
 
+    show raul at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "E-eu queria pelo menos tentar, não quero ficar apenas olhando sem fazer nada."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny irritado2 at right:
         matrixcolor TintMatrix("#777")
@@ -252,13 +394,25 @@ label Dia3_RaulJohnny:
 
     Joh "Hmm… E você tem alguma experiência com música?"
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Eu era da banda da minha escola, sabia? Me deem uma chance, se eu ver que não dou conta, aí continuamos do que jeito que tá. Tudo bem para vocês?"
 
     "É mentira, não fui aceito na banda da escola porque me acharam ‘Ok mas não bom’. "
 
     "Senti um calafrio na espinha por algum motivo, será que foi um pedido muito idiota?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -267,11 +421,11 @@ label Dia3_RaulJohnny:
         linear 0.1 matrixcolor TintMatrix("#fff")
         linear 0.15 yalign 1.0
 
-    Raul "Hmmm…Ren, nos dê um minuto para conversar. Johnny vem aqui um instante."
+    Raul "Hmmm… Ren, nos dê um minuto para conversar. Johnny vem aqui um instante."
 
     Joh "…"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -298,7 +452,7 @@ label Dia3_RaulJohnny:
 
     Joh "Nós decidimos que se você não perder o nosso tempo, vamos ver se você sabe tocar pelo menos o básico. Então mostra pra gente o que você sabe fazer?"
 
-    show raul at left:
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -308,6 +462,18 @@ label Dia3_RaulJohnny:
         linear 0.15 yalign 1.0
 
     Raul "Você prefere a guitarra ou o violão?"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Eu…"
 
@@ -324,7 +490,13 @@ label Raul_positiva_Escolha_1_a:
     #Escolha A
     #[Escolha A Raul "Vou tentar o violão" ]
     $ pointsRaul +=1
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -337,6 +509,12 @@ label Raul_positiva_Escolha_1_a:
 
     Raul "Diferente de outro ser humano."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny neutro2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -348,7 +526,13 @@ label Raul_positiva_Escolha_1_a:
 
     Joh "Não pegue leve com o novato."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -361,9 +545,15 @@ label Raul_positiva_Escolha_1_a:
 
     Raul "Vamos começar com uma sequência simples. Sol, sol, mi, mi, mi e ré. Agora a tua vez"
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Lá vai… Sol, sol, mi… mi, mi e… ré"
 
-    show raul at left:
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -376,7 +566,7 @@ label Raul_positiva_Escolha_1_a:
 
     "Ok é mais tranquilo do que eu me lembrava. Os meus dedos ainda escorregam um pouco nas casas mas se eu sentar pra ensaiar eu acho que consigo."
 
-    show raul at left:
+    show raul feliz1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -388,6 +578,12 @@ label Raul_positiva_Escolha_1_a:
     Raul "Isso! Você é o próximo Mano Brown."
 
     Raul "Vamos testar outra música."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
@@ -406,6 +602,13 @@ label Johnny_positiva_Escolha_1_b:
     #Escolha B
     #[Escolha B Joh "eh- Eu… Eu… to- topo, opito, pela guitarra" ]
     $ pointsJohnny +=1
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny irritado2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -429,6 +632,12 @@ label Johnny_positiva_Escolha_1_b:
         linear 0.15 yalign 1.0
 
     Joh "Vamo que vamo porque eu não tenho o dia todo. Tá vendo essa guitarra?"
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Sim, é a sua guitarra."
 
@@ -456,6 +665,12 @@ label Johnny_positiva_Escolha_1_b:
 
     Joh " Imagino que você já conhece as notas básicas, certo novato?"
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Si- sim!"
 
     show johnny neutro2 at right:
@@ -468,6 +683,12 @@ label Johnny_positiva_Escolha_1_b:
         linear 0.15 yalign 1.0
 
     Joh "B5, E5, G, D, E, B e E5. 1, 2, 3 e 4. Alguma pergunta?"
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Ok… Lá vai."
 
@@ -497,7 +718,13 @@ label Johnny_positiva_Escolha_1_b:
 
     Joh "Boa, garoto! Acho que eu posso trabalhar com isso. Agora vamos tentar com outra música e  dessa vez com um pedal."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -528,7 +755,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Nada mal, Ren. Nada mal… Você realmente mandou bem. Vai ser bom ter você lá no palco."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul surpreso2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -538,6 +771,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Será isso mesmo que eu ouvi? O Edgy Boy está elogiando o forasteiro?"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny nervoso2 at right:
         matrixcolor TintMatrix("#777")
@@ -550,7 +789,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Não me vem essa agora."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul envergonhado2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -565,7 +810,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "Aquelas personagens que se importam com os outros, mas que são agressivas para disfarçar os verdadeiros sentimentos?"
 
-    show raul at left:
+    show raul rindo2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -577,6 +822,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
     Raul "Isso aí. A Pris tinha me falado que ela acha que o John- Joh-"
 
     Raul "JOFFREY do desenho do dançarino arco-íris age assim. Ha ha ha."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny pensativo1 at right:
         matrixcolor TintMatrix("#777")
@@ -591,7 +842,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Humph… Ainda não sei o que se passa na cabeça dela, ela é estranha. Não sei porque ela age desse jeito toda vez que me vê."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -601,6 +858,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Deve ser por causa daqueles boatos."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
@@ -617,7 +880,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     "Os dois começaram a falar entre eles e se esqueceram de mim. Eles se empolgaram em rememorar algumas aventuras legais que viveram juntos, a maioria quando eram moleques. "
 
-    show raul at left:
+    show raul surpreso2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -627,6 +890,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Falando nisso, lembra quando você teve aquela ideia de irmos até um barraco abandonado no fim da cidade?"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny rindo1 at right:
         matrixcolor TintMatrix("#777")
@@ -641,11 +910,23 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Foi por pouco que a polícia não enquadrou a gente."
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "A polícia?! O que foi que vocês fizeram??"
 
     "Já tinha escutado boatos do Johnny, mas nunca soube que ele se envolveu com a polícia. E pelo visto Raul também estava metido nessa história."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -655,6 +936,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Não é nada de mais Ren, só foi um incidente pequeno. Ha, ha, ha…"
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny sorrindo1 at right:
         matrixcolor TintMatrix("#777")
@@ -667,6 +954,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Acho que não tem problema contarmos para ele."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny neutro2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -678,9 +971,21 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Seguinte, promete que não vai falar para ninguém sobre isso, tudo bem?"
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Pro- pro- prometo!"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul sorrindo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -697,7 +1002,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     scene bg sala de musica with fade
 
-    show raul at left:
+    show raul envergonhado2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -709,6 +1014,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
     Raul "No final descobrimos que aquele lugar era usado por outras crianças do bairro."
 
     Raul "Um dos moleques que estavam lá teve a cabeça enfiada na privada pelo..."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny neutro2 at right:
         matrixcolor TintMatrix("#777")
@@ -723,7 +1034,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "..."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -738,6 +1055,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Raul "Depois a polícia mandou fechar a cabana porque alguém foi pego por um ovini."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Sério isso?!"
 
     "Esses dois não se parecem de jeito nenhum. É como se um fosse um Pincher bombado prestes a explodir a qualquer momento e o outro, um filhote de Pitbull brincalhão."
@@ -747,6 +1070,11 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
     "Faz tempo que não tenho uma amizade desse tipo. Depois que terminei o ensino médio, perdi o contato com os meus amigos de classe. "
     "Na faculdade eu só tenho um amigo na minha sala, se é que ele me vê da mesma forma."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny neutro2 at right:
         matrixcolor TintMatrix("#777")
@@ -759,7 +1087,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Não, provavelmente era porque eles achavam que uns drogados frequentavam aquele lugar."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul rindo2 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -769,6 +1103,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Tenho que admitir que foi uma aventura e tanto."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny preocupado2 at right:
         matrixcolor TintMatrix("#777")
@@ -785,7 +1125,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "A sua tia não suspeitou nada?"
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul pensativo1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -795,6 +1141,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Raul "Não, eu mostrei as fotos da gente lá em casa depois."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny pensativo1 at right:
         matrixcolor TintMatrix("#777")
@@ -807,7 +1159,13 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Nos safamos por pouco, mas aquilo foi realmente perigoso. A gente podia ter encontrado sei lá quem naquele barraco no meio do nada."
 
-    show raul at left:
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul neutro1 at left:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -819,6 +1177,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
     Raul "Eu sei, eu sei. Éramos uns moleques sem noção de perigo."
 
     Raul "Apesar de que você se envolveu em mais encrenca do que eu."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny rindo1 at right:
         matrixcolor TintMatrix("#777")
@@ -833,6 +1197,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     "Nossa… Vai saber o que esse maluco já fez."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny neutro1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -846,6 +1216,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Você não costumava visitar o Astolfo? Eu nunca te vi pela cidade."
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     Ren "Eu vinha bastante com os meus pais nos feriados."
 
     Ren "Eram bem divertidas as viagens de carro, como dizem, a diversão está na viagem não no destino."
@@ -858,6 +1234,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "Não o tio Astolfo, é um outro tio."
 
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
     show johnny triste1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -869,9 +1251,30 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Joh "Bom…"
 
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
+
+    show raul pensativo1 at left:
+        matrixcolor TintMatrix("#777")
+        yalign 1.0
+        zoom 0.5
+        linear 0.15 yalign 1.0
+        linear 0.15 yalign 0.85
+        linear 0.1 matrixcolor TintMatrix("#fff")
+        linear 0.15 yalign 1.0
+
     Raul "…"
 
     "Senti um clima estranho se formando. Será que toquei num assunto delicado para eles? Eu não deveria ter falado sobre essa piada do meu pai."
+
+    show raul at left:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     show johnny pensativo1 at right:
         matrixcolor TintMatrix("#777")
@@ -883,6 +1286,12 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
         linear 0.15 yalign 1.0
 
     Joh "Acho que já está ficando tarde."
+
+    show johnny at right:
+        matrixcolor TintMatrix("#fff")
+        yalign 1.0
+        zoom 0.5
+        linear 0.1 matrixcolor TintMatrix("#777")
 
     Ren "Vamos arrumando as coisas então…"
 
@@ -899,7 +1308,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "Oi!"
 
-    show alexandra happy at left:
+    show alexandra happy at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -912,7 +1321,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     "Por que de repente senti meu coração acelerar? Eu fiquei meio bobo sem conseguir falar. Ela não deixou passar despercebido."
 
-    show alexandra neutral at left:
+    show alexandra neutral at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -929,7 +1338,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "Eles pareciam chateados."
 
-    show alexandra neutral at left:
+    show alexandra neutral at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -944,7 +1353,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "No meio da conversa o clima ficou meio tenso, aí usei o lixo como desculpa para sair da sala."
 
-    show alexandra sigh at left:
+    show alexandra sigh at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -959,7 +1368,7 @@ label Dia3_RaulJohnny_Escolha_1_continuacao:
 
     Ren "Do quê?"
 
-    show alexandra sad at left:
+    show alexandra sad at center:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5

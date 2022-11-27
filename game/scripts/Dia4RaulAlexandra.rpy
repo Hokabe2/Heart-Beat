@@ -996,11 +996,6 @@ label Dia4_RaulAlexandra_Escolha_2_c:
     $ pointsRaul +=1
     Ren  "Podemos tocar Lulu Santos - Tempos Modernos."
 
-    show alexandra at left:
-        matrixcolor TintMatrix("#fff")
-        yalign 1.0
-        zoom 0.5
-        linear 0.1 matrixcolor TintMatrix("#777")
 
     show raul feliz1 at right:
         matrixcolor TintMatrix("#777")
@@ -1068,7 +1063,7 @@ label Dia4_RaulAlexandra_Escolha_2_c:
 
     Ale "Mas foi mais na minha fase de experimentar de tudo um pouco, quando eu tinha 13 para 14 anos."
 
-    show alexandra at right:
+    show alexandra at left:
         matrixcolor TintMatrix("#fff")
         yalign 1.0
         zoom 0.5
@@ -1112,12 +1107,6 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     Ren "É isso aí galerinha! Conseguimos fechar por hoje."
 
-    show alexandra at left:
-        matrixcolor TintMatrix("#fff")
-        yalign 1.0
-        zoom 0.5
-        linear 0.1 matrixcolor TintMatrix("#777")
-
     show raul sorrindo1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
@@ -1154,7 +1143,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
-    show raul feliz2 at right:
+    show raul surpreso2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1188,7 +1177,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
         zoom 0.5
         linear 0.1 matrixcolor TintMatrix("#777")
 
-    show raul feliz2 at right:
+    show raul feliz1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1324,7 +1313,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     Ale "Ugh, ainda não a perdoei por ter comido as minhas trufas."
 
-    show raul suspreso2 at right:
+    show raul neutro1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1441,7 +1430,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     "A Alexandra dá um pulo de susto e fica completamente vermelha."
 
-    show raul rindo2 at right:
+    show raul sorrindo1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1491,7 +1480,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     Pris "Minha orelha começou a coçar, aí suspeitei que estavam falando de mim seus falsos."
 
-    show raul feliz2 at right:
+    show raul feliz1 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1513,7 +1502,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     Pris "Que refrigerante?"
 
-    show raul feliz2 at right:
+    show raul rindo2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5
@@ -1556,7 +1545,7 @@ label Dia4_RaulAlexandra_Escolha_2_continuacao:
 
     Pris "..."
 
-    show raul feliz2 at right:
+    show raul surpreso2 at right:
         matrixcolor TintMatrix("#777")
         yalign 1.0
         zoom 0.5

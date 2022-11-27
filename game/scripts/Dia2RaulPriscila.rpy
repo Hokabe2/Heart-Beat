@@ -415,7 +415,7 @@ label Cena_Dia2RaulPriscila_Escolha_1_continuacao:
 
     Pris "Tá bommm! Eu vou, você me deve uma camiseta do Jão Cookie com uma capivara, Raul."
 
-    hide pris at right with dissolve
+    hide priscila at right with dissolve
 
     show raul pensativo1 at center:
         matrixcolor TintMatrix("#777")
